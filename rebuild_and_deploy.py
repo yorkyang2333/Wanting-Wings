@@ -161,8 +161,8 @@ def extract_rpa_for_android():
 
 def isolate_loose_assets(backup=True):
     # 这是最硬核的一步，临时移动散碎文件夹以优化 Android 打包
-    loose_dirs = ["images", "audio", "gui"]
-    backup_root = os.path.join(PROJECT_DIR, "_temp_assets_backup")
+    loose_dirs = ["images", "audio", "gui", "voice"]
+    backup_root = os.path.join(os.path.dirname(PROJECT_DIR), "Wanting.Wings.v2.0_assets_backup")
     
     if backup:
         print("\n=== [6a] Isolating 14,000+ loose assets to avoid Android IO penalty ===")
@@ -222,7 +222,7 @@ def build_android_apks():
         if f.endswith("_d.rpy") or f.endswith("_d.rpyc") or "dpatch" in f:
             dpatch_files.append(f)
             
-    dpatch_backup_dir = os.path.join(PROJECT_DIR, "_temp_dpatch_backup")
+    dpatch_backup_dir = os.path.join(os.path.dirname(PROJECT_DIR), "Wanting.Wings.v2.0_dpatch_backup")
     os.makedirs(dpatch_backup_dir, exist_ok=True)
     
     for df in dpatch_files:

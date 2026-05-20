@@ -1,0 +1,67 @@
+=== Resuming GitHub Release Asset Upload ===
+[2026-05-20 19:37:12] === GitHub Release Asset Upload Started (With Skip Checking) ===
+[2026-05-20 19:37:12] Found 11 local files in dist:
+[2026-05-20 19:37:12]  - WantingWings-2.0-dpatch.zip (83.93 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-linux.tar.bz2 (774.30 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-win.zip (786.93 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-mac.zip (795.64 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-pc.zip (801.04 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-market.zip (833.39 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-linux-patched.tar.bz2 (858.33 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-mac-patched.zip (879.57 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-pc-patched.zip (885.02 MB)
+[2026-05-20 19:37:12]  - WantingWings-2.0-android-patched.apk (1607.98 MB)
+[2026-05-20 19:37:12]  - com.wantingwings.game-2.0-release.apk (1608.29 MB)
+[2026-05-20 19:37:13] Already uploaded assets on GitHub: ['WantingWings-2.0-mac.zip', 'WantingWings-2.0-win.zip', 'WantingWings-2.0-linux.tar.bz2', 'WantingWings-2.0-dpatch.zip']
+[2026-05-20 19:37:13] 
+[1/11] Skipping WantingWings-2.0-dpatch.zip (Already uploaded and verified on GitHub Release).
+[2026-05-20 19:37:13] 
+[2/11] Skipping WantingWings-2.0-linux.tar.bz2 (Already uploaded and verified on GitHub Release).
+[2026-05-20 19:37:13] 
+[3/11] Skipping WantingWings-2.0-win.zip (Already uploaded and verified on GitHub Release).
+[2026-05-20 19:37:13] 
+[4/11] Skipping WantingWings-2.0-mac.zip (Already uploaded and verified on GitHub Release).
+[2026-05-20 19:37:13] 
+[5/11] Uploading WantingWings-2.0-pc.zip...
+[2026-05-20 19:37:13] Attempt 1 for WantingWings-2.0-pc.zip...
+[2026-05-20 19:37:13] Executing: gh release upload v2.0 /Applications/Wanting.Wings.v2.0/dist/WantingWings-2.0-pc.zip --clobber
+[2026-05-20 19:38:50] [SUCCESS] 
+[2026-05-20 19:38:50] Successfully uploaded WantingWings-2.0-pc.zip!
+[2026-05-20 19:38:50] 
+[6/11] Uploading WantingWings-2.0-market.zip...
+[2026-05-20 19:38:50] Attempt 1 for WantingWings-2.0-market.zip...
+[2026-05-20 19:38:50] Executing: gh release upload v2.0 /Applications/Wanting.Wings.v2.0/dist/WantingWings-2.0-market.zip --clobber
+[2026-05-20 19:40:30] [SUCCESS] 
+[2026-05-20 19:40:30] Successfully uploaded WantingWings-2.0-market.zip!
+[2026-05-20 19:40:30] 
+[7/11] Uploading WantingWings-2.0-linux-patched.tar.bz2...
+[2026-05-20 19:40:30] Attempt 1 for WantingWings-2.0-linux-patched.tar.bz2...
+[2026-05-20 19:40:30] Executing: gh release upload v2.0 /Applications/Wanting.Wings.v2.0/dist/WantingWings-2.0-linux-patched.tar.bz2 --clobber
+[2026-05-20 19:48:01] [SUCCESS] 
+[2026-05-20 19:48:01] Successfully uploaded WantingWings-2.0-linux-patched.tar.bz2!
+[2026-05-20 19:48:01] 
+[8/11] Uploading WantingWings-2.0-mac-patched.zip...
+[2026-05-20 19:48:01] Attempt 1 for WantingWings-2.0-mac-patched.zip...
+[2026-05-20 19:48:01] Executing: gh release upload v2.0 /Applications/Wanting.Wings.v2.0/dist/WantingWings-2.0-mac-patched.zip --clobber
+[2026-05-20 19:49:40] [SUCCESS] 
+[2026-05-20 19:49:40] Successfully uploaded WantingWings-2.0-mac-patched.zip!
+[2026-05-20 19:49:40] 
+[9/11] Uploading WantingWings-2.0-pc-patched.zip...
+[2026-05-20 19:49:40] Attempt 1 for WantingWings-2.0-pc-patched.zip...
+[2026-05-20 19:49:40] Executing: gh release upload v2.0 /Applications/Wanting.Wings.v2.0/dist/WantingWings-2.0-pc-patched.zip --clobber
+[2026-05-20 19:51:11] [SUCCESS] 
+[2026-05-20 19:51:11] Successfully uploaded WantingWings-2.0-pc-patched.zip!
+[2026-05-20 19:51:11] 
+[10/11] Uploading WantingWings-2.0-android-patched.apk...
+[2026-05-20 19:51:11] Attempt 1 for WantingWings-2.0-android-patched.apk...
+[2026-05-20 19:51:11] Executing: gh release upload v2.0 /Applications/Wanting.Wings.v2.0/dist/WantingWings-2.0-android-patched.apk --clobber
+[2026-05-20 19:53:55] [SUCCESS] 
+[2026-05-20 19:53:55] Successfully uploaded WantingWings-2.0-android-patched.apk!
+[2026-05-20 19:53:55] 
+[11/11] Uploading com.wantingwings.game-2.0-release.apk...
+[2026-05-20 19:53:55] Attempt 1 for com.wantingwings.game-2.0-release.apk...
+[2026-05-20 19:53:55] Executing: gh release upload v2.0 /Applications/Wanting.Wings.v2.0/dist/com.wantingwings.game-2.0-release.apk --clobber
+[2026-05-20 19:56:42] [SUCCESS] 
+[2026-05-20 19:56:42] Successfully uploaded com.wantingwings.game-2.0-release.apk!
+[2026-05-20 19:56:42] 
+=== ALL 11 ASSETS SUCCESSFULLY UPLOADED TO GITHUB RELEASE v2.0! ===

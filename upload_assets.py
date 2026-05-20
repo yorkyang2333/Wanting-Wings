@@ -2,6 +2,7 @@ import os
 import sys
 import subprocess
 import time
+import json
 
 DIST_DIR = "/Applications/Wanting.Wings.v2.0/dist"
 LOG_FILE = "/Applications/Wanting.Wings.v2.0/upload_log.txt"
@@ -24,40 +25,64 @@ def run_cmd(cmd):
     log(f"[SUCCESS] {res.stdout.strip()}")
     return True
 
+def get_uploaded_assets():
+    cmd = ["gh", "release", "view", "v2.0", "--json", "assets"]
+    res = subprocess.run(cmd, text=True, capture_output=True)
+    if res.returncode != 0:
+        log("[WARNING] Failed to fetch uploaded assets list from GitHub.")
+        return set()
+    try:
+        data = json.loads(res.stdout)
+        uploaded = set()
+        for asset in data.get("assets", []):
+            if asset.get("state") == "uploaded":
+                uploaded.add(asset.get("name"))
+        return uploaded
+    except Exception as e:
+        log(f"[WARNING] Failed to parse JSON of uploaded assets: {e}")
+        return set()
+
 def main():
-    log("=== GitHub Release Asset Upload Started ===")
+    log("=== GitHub Release Asset Upload Started (With Skip Checking) ===")
     
-    # 检查 dist 目录下有哪些合法的包
+    # Check what packages are available in dist directory
     assets = []
     for f in os.listdir(DIST_DIR):
         path = os.path.join(DIST_DIR, f)
         if os.path.isfile(path) and (f.endswith(".zip") or f.endswith(".apk") or f.endswith(".bz2")):
             assets.append(path)
             
-    assets.sort(key=lambda x: os.path.getsize(x)) # 从小到大排序，先上传小的，后上传大的
+    assets.sort(key=lambda x: os.path.getsize(x)) # Sort by size (ascending)
     
-    log(f"Found {len(assets)} files to upload:")
+    log(f"Found {len(assets)} local files in dist:")
     for a in assets:
         size_mb = os.path.getsize(a) / (1024 * 1024)
         log(f" - {os.path.basename(a)} ({size_mb:.2f} MB)")
         
+    uploaded_assets = get_uploaded_assets()
+    log(f"Already uploaded assets on GitHub: {list(uploaded_assets)}")
+    
     for i, a in enumerate(assets):
         filename = os.path.basename(a)
+        
+        if filename in uploaded_assets:
+            log(f"\n[{i+1}/{len(assets)}] Skipping {filename} (Already uploaded and verified on GitHub Release).")
+            continue
+            
         log(f"\n[{i+1}/{len(assets)}] Uploading {filename}...")
         
-        # 尝试最多 3 次
+        # Try up to 3 times
         success = False
         for attempt in range(1, 4):
             log(f"Attempt {attempt} for {filename}...")
-            # 使用 gh release upload --clobber 覆盖同名文件
             cmd = ["gh", "release", "upload", "v2.0", a, "--clobber"]
             if run_cmd(cmd):
                 success = True
                 log(f"Successfully uploaded {filename}!")
                 break
             else:
-                log(f"Failed attempt {attempt} for {filename}. Waiting 10s before retry...")
-                time.sleep(10)
+                log(f"Failed attempt {attempt} for {filename}. Waiting 15s before retry...")
+                time.sleep(15)
                 
         if not success:
             log(f"[FATAL] Failed to upload {filename} after 3 attempts.")

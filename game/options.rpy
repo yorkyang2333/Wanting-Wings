@@ -118,7 +118,7 @@ init python:
     build.classify('game/saves/**', None)
     build.classify('*.keystore', None)
     build.classify('android.json', None)
-    build.classify('android-icon.png', None)
+    build.classify('android-**.png', None)
     build.classify('log.txt', None)
     build.classify('traceback.txt', None)
     build.classify('upload_log.txt', None)

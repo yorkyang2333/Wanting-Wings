@@ -1,0 +1,31 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# 引擎生成的字节码与编译产物
+*.pyc
+*.pyo
+*.rpyc
+*.rpyb
+*.rpymc
+
+# 自动生成日志与缓存
+log.txt
+errors.txt
+traceback.txt
+/game/saves/
+/game/cache/
+
+# 备份的引擎运行库与本地打包输出
+/_engine_runtimes_backup/
+/dist/
+
+# 大资产压缩包（绕过 GitHub 100MB 限制且不使用 Git LFS）
+# 这些大资产文件将作为 Release 附件免费上传和存储
+*.rpa

@@ -32,3 +32,7 @@ traceback.txt
 # 大资产压缩包（绕过 GitHub 100MB 限制且不使用 Git LFS）
 # 这些大资产文件将作为 Release 附件免费上传和存储
 *.rpa
+
+# 本地上传脚本日志
+upload_log.txt
+

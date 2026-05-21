@@ -94,6 +94,7 @@ init python:
     build.package('pc-patched','zip',file_lists=['dpatch','all','renpy','windows','linux'])
     build.package('mac-patched','app-zip',file_lists=['dpatch','all','renpy','mac'])
     build.package('linux-patched','tar.bz2',file_lists=['dpatch','all','renpy','linux'])
+    build.package('android-patched','directory',file_lists=['dpatch','android','all'])
 
 
 

@@ -47,7 +47,7 @@ def compile_bytecode():
     print("-> Compilation complete.")
 
 
-def build_android_apk(label, exclude_dpatch=False):
+def build_android_apk(label, exclude_dpatch=False, package="android"):
     print(f"\n=== Building Android APK: {label} ===")
 
     dpatch_backup_dir = os.path.join(PROJECT_DIR, "_temp_dpatch_backup")
@@ -67,7 +67,8 @@ def build_android_apk(label, exclude_dpatch=False):
             LAUNCHER_SH,
             os.path.join(SDK_DIR, "launcher"),
             "android_build", PROJECT_DIR,
-            "--destination", DIST_DIR
+            "--destination", DIST_DIR,
+            "--package", package
         ])
     finally:
         if exclude_dpatch and dpatch_files:
@@ -114,8 +115,8 @@ def main():
         compile_bytecode()
 
         print("\n=== [2] Building Android APKs ===")
-        patched = build_android_apk("android-patched", exclude_dpatch=False)
-        standard = build_android_apk("android-release", exclude_dpatch=True)
+        patched = build_android_apk("android-patched", exclude_dpatch=False, package="android-patched")
+        standard = build_android_apk("android", exclude_dpatch=True)
 
         upload_to_github([patched, standard])
 

@@ -268,6 +268,7 @@ screen file_slots(title):
 
             hotspot ((0 if i < 6 else 516),133 + (((i if i < 6 else i - 5)-1) * 114),508,110):
                 action FileAction(i,newest=False)
+                alternate FileDelete(i)
                 sensitive not (renpy.get_screen("save") and FileCurrentPage() == auto_page)
                 focus_mask None
 

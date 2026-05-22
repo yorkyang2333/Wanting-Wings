@@ -55,30 +55,8 @@ def generate_icons():
     img.save(windows_icon_dst, format='ICO', sizes=[(16, 16), (32, 32), (48, 48), (64, 64)])
     print(f"-> Generated Windows icon at: {windows_icon_dst}")
 
-    # 生成 macOS 图标 (icon.icns)
-    macos_icon_dst = os.path.join(PROJECT_DIR, "icon.icns")
-    tmp_iconset = os.path.join(PROJECT_DIR, "tmp.iconset")
-    os.makedirs(tmp_iconset, exist_ok=True)
-    
-    sizes = [16, 32, 64, 128, 256, 512]
-    try:
-        for size in sizes:
-            out_img_normal = os.path.join(tmp_iconset, f"icon_{size}x{size}.png")
-            out_img_2x = os.path.join(tmp_iconset, f"icon_{size//2}x{size//2}@2x.png")
-            
-            # 使用 PIL 进行高清重采样缩放并保存
-            img.resize((size, size), Image.Resampling.LANCZOS).save(out_img_normal)
-            if size >= 32:
-                img.resize((size, size), Image.Resampling.LANCZOS).save(out_img_2x)
-        
-        # 编译为 icns
-        run_cmd(["iconutil", "-c", "icns", tmp_iconset, "-o", macos_icon_dst])
-        print(f"-> Generated macOS icon at: {macos_icon_dst}")
-    except Exception as e:
-        print(f"[WARNING] Failed to generate macOS .icns: {e}. Falling back to copying raw icon.")
-    finally:
-        if os.path.exists(tmp_iconset):
-            shutil.rmtree(tmp_iconset)
+    # macOS 图标保留原有用户提供的 icon.icns，支持液态玻璃图标，避免被脚本覆写
+    print("-> Skipping macOS icon generation to preserve the custom liquid glass icon.icns")
 
 def compile_bytecode():
     print("\n=== [3] Compiling python scripts to bytecode (*.rpyc) ===")

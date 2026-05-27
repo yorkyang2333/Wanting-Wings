@@ -11,7 +11,7 @@ label a07_cou2_03:
     $ side_image = "hina 1 side casual_scarf j"
 
     voice "2HI_0256"
-    hina "\"......\""
+    hina "\"......\"" id a07_cou2_03_c695b7e8
 
     "Hina had returned."
 
@@ -25,26 +25,26 @@ label a07_cou2_03:
     show rin z4 1 lg casual g with dict_dissolve_25
 
     voice "2RI_0240"
-    rin "\"Don't run off like that... You expect me to keep up with you?\""
+    rin "\"Don't run off like that... You expect me to keep up with you?\"" id a07_cou2_03_45d5dfbf
 
     "Hina didn't turn to face her."
 
     show rin z4 1 lg casual i with dict_dissolve_25
 
     voice "2RI_0241"
-    rin "\"Hina—\""
+    rin "\"Hina—\"" id a07_cou2_03_5f4a94eb
 
     $ side_image = "hina 1 side casual_scarf h"
 
     voice "2HI_0257"
-    hina "\"I don't care!\""
+    hina "\"I don't care!\"" id a07_cou2_03_6ad5a5c0
 
     "Hina shouted."
 
     show rin z4 1 lg casual e with dict_dissolve_25
 
     voice "2RI_0242"
-    rin "\"Huh? Hey... what are you mad about?\""
+    rin "\"Huh? Hey... what are you mad about?\"" id a07_cou2_03_3c5ca2f8
 
     "Rin finally noticed her mood."
 
@@ -61,20 +61,20 @@ label a07_cou2_03:
     with dict_dissolve_25
 
     voice "2RI_0243"
-    rin "\"...Did I do something?\""
+    rin "\"...Did I do something?\"" id a07_cou2_03_4b73503c
 
     voice "2HI_0258"
-    hina "\".........\""
+    hina "\".........\"" id a07_cou2_03_b6cf5635
 
     show rin z4 2 lg casual b with dict_dissolve_25
 
     voice "2RI_0244"
-    rin "\"...I won't know what I did unless you tell me.\""
+    rin "\"...I won't know what I did unless you tell me.\"" id a07_cou2_03_cda483de
 
     show hina z4 2 lg casual_scarf d with dict_dissolve_25
 
     voice "2HI_0259"
-    hina "\"...You really don't know?\""
+    hina "\"...You really don't know?\"" id a07_cou2_03_bafc788b
 
     "Rin nodded helplessly."
 
@@ -83,7 +83,7 @@ label a07_cou2_03:
         ShakeTameiki
 
     voice "2HI_0260"
-    hina "\"...Haahh...\""
+    hina "\"...Haahh...\"" id a07_cou2_03_9eb381f9
 
     show hina:
         xoffset 0 yoffset 0
@@ -94,31 +94,31 @@ label a07_cou2_03:
     show rin z4 1 lg casual i with dict_dissolve_25
 
     voice "2RI_0245"
-    rin "\"Huh? What is it...?\""
+    rin "\"Huh? What is it...?\"" id a07_cou2_03_eca7bc3c
 
     show hina z4 1 lg casual_scarf j with dict_dissolve_25
 
     voice "2HI_0261"
-    hina "\"When I clung to you, you pushed me away.\""
+    hina "\"When I clung to you, you pushed me away.\"" id a07_cou2_03_1fa5057b
 
     "That rang a bell for her."
 
     show rin z4 1 lg casual e with dict_dissolve_25
 
     voice "2RI_0246"
-    rin "\"Th-That's kind of an exaggeration, isn't it? I just pulled away a little.\""
+    rin "\"Th-That's kind of an exaggeration, isn't it? I just pulled away a little.\"" id a07_cou2_03_b21daaf9
 
     show hina z4 1 lg casual_scarf e with dict_dissolve_25
 
     voice "2HI_0262"
-    hina "\"Why?\""
+    hina "\"Why?\"" id a07_cou2_03_97563770
 
     show rin:
         "rin z4 1 lg casual g" with Dissolve(0.25)
         ShakeNo
 
     voice "2RI_0247"
-    rin "\"W-Well... I saw some girls from our class coming our way.\""
+    rin "\"W-Well... I saw some girls from our class coming our way.\"" id a07_cou2_03_9badebdc
 
     show rin z4 1 lg casual g:
         xoffset 0 yoffset 0
@@ -126,54 +126,54 @@ label a07_cou2_03:
     show hina z4 1 lg casual_scarf j with dict_dissolve_25
 
     voice "2HI_0263"
-    hina "\"I know. I saw them too. Is that why?\""
+    hina "\"I know. I saw them too. Is that why?\"" id a07_cou2_03_70ac4479
 
     show rin z4 1 lg casual i with dict_dissolve_25
 
     voice "2RI_0248"
-    rin "\"Well... it'd be embarrassing if they started spreading rumors, right?\""
+    rin "\"Well... it'd be embarrassing if they started spreading rumors, right?\"" id a07_cou2_03_083254ed
 
     show hina z4 2 lg casual_scarf h with dict_dissolve_25
 
     voice "2HI_0264"
-    hina "\"...Are you embarrassed to be with me?\""
+    hina "\"...Are you embarrassed to be with me?\"" id a07_cou2_03_5ceb667d
 
     show rin z4 2 lg casual d with dict_dissolve_25
 
     voice "2RI_0249"
-    rin "\"...Sorry.\""
+    rin "\"...Sorry.\"" id a07_cou2_03_2376590f
 
     "Realizing what she'd stepped in, Rin elected to simply apologize instead."
 
     show hina z4 2 lg casual_scarf e with dict_dissolve_25
 
     voice "2HI_0265"
-    hina "\"Fine, whatever. You didn't mean anything by it, you were just being insensitive. I should have known you're just like this.\""
+    hina "\"Fine, whatever. You didn't mean anything by it, you were just being insensitive. I should have known you're just like this.\"" id a07_cou2_03_742a62ea
 
     show rin z4 2 lg casual f with dict_dissolve_25
 
     voice "2RI_0250"
-    rin "\"Ugh...\""
+    rin "\"Ugh...\"" id a07_cou2_03_d8cb467f
 
     "She swallowed whatever retort she was thinking of making, sensing that now would be a bad time."
 
     show rin z4 2 lg casual e with dict_dissolve_25
 
     voice "2RI_0251"
-    rin "\"...What do you want to do now?\""
+    rin "\"...What do you want to do now?\"" id a07_cou2_03_7c71b558
 
     show hina z4 1 lg casual_scarf m with dict_dissolve_25
 
     voice "2HI_0266"
-    hina "\"Organize my pictures.\""
+    hina "\"Organize my pictures.\"" id a07_cou2_03_dc181b14
 
     show rin z4 1 lg casual e with dict_dissolve_25
 
     voice "2RI_0252"
-    rin "\"Huh? What am I supposed to do, then?\""
+    rin "\"Huh? What am I supposed to do, then?\"" id a07_cou2_03_117864f3
 
     voice "2HI_0267"
-    hina "\"Why don't you read one of your sex books?\""
+    hina "\"Why don't you read one of your sex books?\"" id a07_cou2_03_63b666a8
 
     "Cold as ice."
 
@@ -182,7 +182,7 @@ label a07_cou2_03:
         ShakeSide
 
     voice "2RI_0253"
-    rin "\"Asou was nice enough to give us time to be alone together! You're just going to waste it?!\""
+    rin "\"Asou was nice enough to give us time to be alone together! You're just going to waste it?!\"" id a07_cou2_03_83121edf
 
     show rin z4 1 lg casual j:
         xoffset 0 yoffset 0
@@ -192,14 +192,14 @@ label a07_cou2_03:
         ShakeJump
 
     voice "2HI_0268"
-    hina "\"I don't care! I'm not in the mood!\""
+    hina "\"I don't care! I'm not in the mood!\"" id a07_cou2_03_6647c6f9
 
     hide hina with Dissolve(0.5)
 
     show rin z4 1 lg casual g with dict_dissolve_25
 
     voice "2RI_0254"
-    rin "\"......\""
+    rin "\"......\"" id a07_cou2_03_946b9fa4
 
     "Hina turned her back, leaving Rin to flounder behind her."
 
@@ -211,7 +211,7 @@ label a07_cou2_03:
         ShakeSide
 
     voice "2RI_0255"
-    rin "\"Hiiinaaa!\""
+    rin "\"Hiiinaaa!\"" id a07_cou2_03_6448139e
 
 
     hide rin_1
@@ -225,7 +225,7 @@ label a07_cou2_03:
     $ persistent.layer_shaken = False
 
     voice "2HI_0269"
-    hina "\"Wah?!\""
+    hina "\"Wah?!\"" id a07_cou2_03_a28dcbd3
 
     show hina:
         xoffset 0 yoffset 0
@@ -237,7 +237,7 @@ label a07_cou2_03:
         ShakeNo_3_500
 
     voice "2RI_0256"
-    rin "\"Let's make up! I was looking forward to this!\""
+    rin "\"Let's make up! I was looking forward to this!\"" id a07_cou2_03_3b21994c
 
     show rin:
         xoffset 0 yoffset 0
@@ -247,7 +247,7 @@ label a07_cou2_03:
         ShakeJump
 
     voice "2HI_0270"
-    hina "\"I was too! But then you...!\""
+    hina "\"I was too! But then you...!\"" id a07_cou2_03_0497f92d
 
     show hina 1 lg casual_scarf f:
         xoffset 0 yoffset 0
@@ -256,7 +256,7 @@ label a07_cou2_03:
         ShakeNo_3_500
 
     voice "2RI_0257"
-    rin "\"But I apologized! And I'll apologize more if that wasn't enough! I'm sorry, I'm sorry!\""
+    rin "\"But I apologized! And I'll apologize more if that wasn't enough! I'm sorry, I'm sorry!\"" id a07_cou2_03_9e799baa
 
     show rin:
         xoffset 0 yoffset 0
@@ -267,14 +267,14 @@ label a07_cou2_03:
         ShakeJump
 
     voice "2HI_0271"
-    hina "\"L-Let me go! I hate this part of you, Rin!\""
+    hina "\"L-Let me go! I hate this part of you, Rin!\"" id a07_cou2_03_a072d8a9
 
     show hina 1 lg casual_scarf g:
         xoffset 0 yoffset 0
     with None
 
     voice "2RI_0258"
-    rin "\"Don't tell me you hate me! You'll really hurt me!\""
+    rin "\"Don't tell me you hate me! You'll really hurt me!\"" id a07_cou2_03_1e0e2caa
 
     "Hina struggled as Rin held her down."
 
@@ -285,7 +285,7 @@ label a07_cou2_03:
         ShakeNo_3_500
 
     voice "2RI_0259B2"
-    rin "\"Urrrgh... h-how 'bout this?!\""
+    rin "\"Urrrgh... h-how 'bout this?!\"" id a07_cou2_03_1009935c
 
     show rin:
         xoffset 0 yoffset 0
@@ -298,7 +298,7 @@ label a07_cou2_03:
         ShakeSide
 
     voice "2HI_0272"
-    hina "\"Nnh?!\""
+    hina "\"Nnh?!\"" id a07_cou2_03_2e9925cc
 
     show hina:
         xoffset 0 yoffset 0

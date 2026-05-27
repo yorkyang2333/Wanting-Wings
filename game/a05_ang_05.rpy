@@ -61,7 +61,7 @@ label a05_ang_05:
     play sound se009c
 
     voice "FUM_0065"
-    fumi "\"Here you are.\""
+    fumi "\"Here you are.\"" id a05_ang_05_93b9b7fe
 
     "Not only was I invisible to them, we also couldn't bump into each other."
 
@@ -77,29 +77,29 @@ label a05_ang_05:
     pause 0.5
 
     voice "FUM_0069"
-    fumi "\"You always look like you're having fun when you've got that camera in your hands, Natsume.\""
+    fumi "\"You always look like you're having fun when you've got that camera in your hands, Natsume.\"" id a05_ang_05_63de2792
 
     "She's right about that. Hina's eyes sparkle like a child with a favorite toy."
 
     scene ev01b_grayscale with Dissolve(0.5)
 
     voice "HIN_0090"
-    hina "\"Yeah. I've always felt relaxed holding it.\""
+    hina "\"Yeah. I've always felt relaxed holding it.\"" id a05_ang_05_a2ec9273
 
     voice "FUM_0070"
-    fumi "\"Your father's a photographer, right?\""
+    fumi "\"Your father's a photographer, right?\"" id a05_ang_05_1622a77b
 
     voice "HIN_0091"
-    hina "\"Yep. He's a nature photographer, so he takes pictures of flowers and trees and stuff.\""
+    hina "\"Yep. He's a nature photographer, so he takes pictures of flowers and trees and stuff.\"" id a05_ang_05_2b735fca
 
     voice "FUM_0071"
-    fumi "\"Do you like nature photography too?\""
+    fumi "\"Do you like nature photography too?\"" id a05_ang_05_c717f8a5
 
     voice "HIN_0092"
-    hina "\"I wouldn't say I've got a preference. I take pictures of whatever I feel like.\""
+    hina "\"I wouldn't say I've got a preference. I take pictures of whatever I feel like.\"" id a05_ang_05_e0fa088e
 
     voice "FUM_0072"
-    fumi "\"It does seem that way.\""
+    fumi "\"It does seem that way.\"" id a05_ang_05_40cc0b5f
 
     "Fumi looked over to Hina's desk."
 
@@ -108,20 +108,20 @@ label a05_ang_05:
     scene ev01c_grayscale with Dissolve(0.5)
 
     voice "HIN_0104"
-    hina "\"Rin, what's that?\""
+    hina "\"Rin, what's that?\"" id a05_ang_05_73c996ec
 
     "While I was looking at the pictures, Hina spoke up."
 
     "She was pointing at a package on Rin's desk—one she'd furtively accepted from Sachiko earlier."
 
     voice "RIN_0100"
-    rin "\"I'll give you three choices, then. If you get it right, I'll give it to you."
+    rin "\"I'll give you three choices, then. If you get it right, I'll give it to you." id a05_ang_05_1ba79980
 
     voice "HIN_0105"
-    hina "\"Huh? Seriously?\""
+    hina "\"Huh? Seriously?\"" id a05_ang_05_85a245a8
 
     voice "RIN_0101"
-    rin "\"1. My allowance.\n2. A super difficult book.\n3. A brick.\""
+    rin "\"1. My allowance.\n2. A super difficult book.\n3. A brick.\"" id a05_ang_05_ae8c1e9e
 
     "I picked up the package to see what was inside."
 
@@ -142,22 +142,22 @@ label a05_ang_05:
     scene ev01f_grayscale with Dissolve(0.5)
 
     voice "FUM_0076"
-    fumi "\"#3 would be pretty scary.\""
+    fumi "\"#3 would be pretty scary.\"" id a05_ang_05_0a5c43ea
 
     voice "RIN_0102"
-    rin "\"Is 3 your final answer, Asou?\""
+    rin "\"Is 3 your final answer, Asou?\"" id a05_ang_05_4eabb161
 
     voice "FUM_0077"
-    fumi "\"Huh? Huh?\""
+    fumi "\"Huh? Huh?\"" id a05_ang_05_fce65047
 
     voice "HIN_0106"
-    hina "\"What would I want a brick for?\""
+    hina "\"What would I want a brick for?\"" id a05_ang_05_56369e24
 
     voice "RIN_0103"
-    rin "\"Build your house with 'em and you'll be safe from wolves.\""
+    rin "\"Build your house with 'em and you'll be safe from wolves.\"" id a05_ang_05_f701ce14
 
     voice "HIN_0107"
-    hina "\"I won't have that problem!\""
+    hina "\"I won't have that problem!\"" id a05_ang_05_016996a8
 
     "The girls joked with each other. None of them cared what the correct answer was."
 

@@ -18,7 +18,7 @@ label a08_cou3_03:
         ShakeYes
 
     voice "2MI_0558"
-    miyako "\"Nn... mmh... rgh!\""
+    miyako "\"Nn... mmh... rgh!\"" id a08_cou3_03_0561210c
 
     show miyako:
         xoffset 0 yoffset 0
@@ -33,14 +33,14 @@ label a08_cou3_03:
     $ side_image = "hina 1 side pyjama_pjm a"
 
     voice "2HI_0722"
-    hina "\"Miyako, it's easier if you move the crab instead of the spoon. Be careful of the spikes on the shell, though.\""
+    hina "\"Miyako, it's easier if you move the crab instead of the spoon. Be careful of the spikes on the shell, though.\"" id a08_cou3_03_692270be
 
     show miyako:
         "miyako 1 lg pyjama_a b" with Dissolve(0.25)
         ShakeYes
 
     voice "2MI_0559"
-    miyako "\"Okay! Oh, you're right!\""
+    miyako "\"Okay! Oh, you're right!\"" id a08_cou3_03_384658b7
 
     show miyako 1 lg pyjama_a b:
         xoffset 0 yoffset 0
@@ -51,19 +51,19 @@ label a08_cou3_03:
     $ side_image = "sachiko 2 side outfit f"
 
     voice "2SA_0432"
-    sachiko "\"Sorry. Maybe we should have taken the shells off first.\""
+    sachiko "\"Sorry. Maybe we should have taken the shells off first.\"" id a08_cou3_03_c6e3aa70
 
     show miyako 1 lg pyjama_a d with dict_dissolve_25
 
     voice "2MI_0560"
-    miyako "\"No, this is fun! And it's delicious!\""
+    miyako "\"No, this is fun! And it's delicious!\"" id a08_cou3_03_fa73e3d4
 
     "She said, bringing the fruit of her effort to her mouth and starting in on another leg."
 
     $ side_image = "sachiko 2 side outfit e"
 
     voice "2SA_0433"
-    sachiko "\"Oh yeah? Well, good.\""
+    sachiko "\"Oh yeah? Well, good.\"" id a08_cou3_03_647ddcfd
 
     "Seeing Miyako innocently enjoying the process, Sachiko couldn't help smiling."
 
@@ -76,17 +76,17 @@ label a08_cou3_03:
     with Dissolve(0.25)
 
     voice "2HI_0723"
-    hina "\"Miyako really gives everything her all, doesn't she?\""
+    hina "\"Miyako really gives everything her all, doesn't she?\"" id a08_cou3_03_9b49a669
 
     voice "2SA_0434"
-    sachiko "\"Yeah. She's a good girl...\""
+    sachiko "\"Yeah. She's a good girl...\"" id a08_cou3_03_6a2c75aa
 
     show hina:
         "hina z4 1 lg pyjama_pjm h" with Dissolve(0.25)
         ShakeTameiki
 
     voice "2HI_0724"
-    hina "\"On the other hand...\""
+    hina "\"On the other hand...\"" id a08_cou3_03_0850f840
 
     show hina z4 1 lg pyjama_pjm h:
         xoffset 0 yoffset 0
@@ -103,14 +103,14 @@ label a08_cou3_03:
     with Dissolve(0.25)
 
     voice "2FU_0566"
-    fumi "\"Here, I got this crab meat out for you.\""
+    fumi "\"Here, I got this crab meat out for you.\"" id a08_cou3_03_5d8332f2
 
     show rin:
         "rin 1 lg pyjama glasses d" with Dissolve(0.25)
         ShakeYes
 
     voice "2RI_0737"
-    rin "\"Yay~, nice and easy~\""
+    rin "\"Yay~, nice and easy~\"" id a08_cou3_03_d42d7c88
 
     show rin 1 lg pyjama glasses d:
         xoffset 0 yoffset 0
@@ -118,34 +118,34 @@ label a08_cou3_03:
     show fumi 2 lg pyjama b with dict_dissolve_25
 
     voice "2FU_0567"
-    fumi "\"What would you like next?\""
+    fumi "\"What would you like next?\"" id a08_cou3_03_83b305ef
 
     show rin 1 lg pyjama glasses c with dict_dissolve_25
 
     voice "2RI_0738"
-    rin "\"More crab~\""
+    rin "\"More crab~\"" id a08_cou3_03_eac674dd
 
     show fumi 2 lg pyjama f with dict_dissolve_25
 
     voice "2FU_0568"
-    fumi "\"You need to eat your vegetables too, you know.\""
+    fumi "\"You need to eat your vegetables too, you know.\"" id a08_cou3_03_190b2b5a
 
     show rin 1 lg pyjama glasses f with dict_dissolve_25
 
     voice "2RI_0739"
-    rin "\"I'll eat a vegetable after the next crab~\""
+    rin "\"I'll eat a vegetable after the next crab~\"" id a08_cou3_03_0e860974
 
     show fumi 2 lg pyjama b with dict_dissolve_25
 
     voice "2FU_0569"
-    fumi "\"Really?\""
+    fumi "\"Really?\"" id a08_cou3_03_7e0e40c9
 
     show rin:
         "rin 1 lg pyjama glasses d" with Dissolve(0.25)
         ShakeYes
 
     voice "2RI_0740"
-    rin "\"Really~♪\""
+    rin "\"Really~♪\"" id a08_cou3_03_a1be1c79
 
     show rin 1 lg pyjama glasses d:
         xoffset 0 yoffset 0
@@ -155,7 +155,7 @@ label a08_cou3_03:
         ShakeTameiki
 
     voice "2FU_0570"
-    fumi "\"Well, alright...\""
+    fumi "\"Well, alright...\"" id a08_cou3_03_ec68cd8b
 
     show fumi 2 lg pyjama i:
         xoffset 0 yoffset 0
@@ -177,7 +177,7 @@ label a08_cou3_03:
         ShakeJump
 
     voice "2HI_0725"
-    hina "\"What is this?! Seriously?!\""
+    hina "\"What is this?! Seriously?!\"" id a08_cou3_03_162d9798
 
     show hina:
         xoffset 0 yoffset 0
@@ -185,29 +185,29 @@ label a08_cou3_03:
     show sachiko z4 1 lg outfit b with dict_dissolve_25
 
     voice "2SA_0435"
-    sachiko "\"Couldn't tell ya~\""
+    sachiko "\"Couldn't tell ya~\"" id a08_cou3_03_910ca78e
 
     $ side_image = "rin 1 side pyjama glasses i"
 
     voice "2RI_0741"
-    rin "\"Fumi, my glasses are all foggy.\""
+    rin "\"Fumi, my glasses are all foggy.\"" id a08_cou3_03_f73b156b
 
     $ side_image = "fumi 2 side pyjama g"
 
     voice "2FU_0571"
-    fumi "\"They are! You must have gotten steam on them. Here, let me wipe them off.\""
+    fumi "\"They are! You must have gotten steam on them. Here, let me wipe them off.\"" id a08_cou3_03_ad45a081
 
     $ side_image = "rin 2 side pyjama glasses c"
 
     voice "2RI_0742"
-    rin "\"I can't see~\""
+    rin "\"I can't see~\"" id a08_cou3_03_84fd24b3
 
     show hina:
         "hina z4 1 lg pyjama_pjm g" with Dissolve(0.25)
         ShakeJump
 
     voice "2HI_0726"
-    hina "\"Is this dorm a preschool?! Is Asou Rin's mother?!\""
+    hina "\"Is this dorm a preschool?! Is Asou Rin's mother?!\"" id a08_cou3_03_d9833355
 
     show hina z4 1 lg pyjama_pjm g:
         xoffset 0 yoffset 0
@@ -217,7 +217,7 @@ label a08_cou3_03:
         ShakeNo_4_500
 
     voice "2SA_0436"
-    sachiko "\"I told you, don't ask me!\""
+    sachiko "\"I told you, don't ask me!\"" id a08_cou3_03_6abb4d36
 
     show sachiko z4 1 lg outfit d:
         xoffset 0 yoffset 0
@@ -232,62 +232,62 @@ label a08_cou3_03:
     $ side_image = "rin 1 side pyjama glasses j"
 
     voice "2RI_0743"
-    rin "\"Hot!\""
+    rin "\"Hot!\"" id a08_cou3_03_0083ae02
 
     $ side_image = "fumi 1 side pyjama k"
 
     voice "2FU_0572"
-    fumi "\"Oh, is it too hot? I'll blow on it for you.\""
+    fumi "\"Oh, is it too hot? I'll blow on it for you.\"" id a08_cou3_03_e78eccbd
 
     "Fumi took the bowl from Rin and blew on the soup."
 
     show hina z4 1 lg pyjama_pjm n with dict_dissolve_25
 
     voice "2HI_0727"
-    hina "\"...I'm gonna take that hot soup and...\""
+    hina "\"...I'm gonna take that hot soup and...\"" id a08_cou3_03_45b1e3a5
 
     show sachiko z4 2 lg outfit e with dict_dissolve_25
 
     voice "2SA_0437"
-    sachiko "\"Settle down.\""
+    sachiko "\"Settle down.\"" id a08_cou3_03_44f55c49
 
     $ side_image = "fumi 2 side pyjama c"
 
     voice "2FU_0573"
-    fumi "\"Phoo... phoo... how's that? Say, 'ahh'~\""
+    fumi "\"Phoo... phoo... how's that? Say, 'ahh'~\"" id a08_cou3_03_1d2574fb
 
     $ side_image = "rin 1 side pyjama glasses d"
 
     voice "2RI_0744"
-    rin "\"Ahh~\""
+    rin "\"Ahh~\"" id a08_cou3_03_9be4b409
 
     voice "2HI_0728"
-    hina "\".........\""
+    hina "\".........\"" id a08_cou3_03_f8fb4b76
 
     show sachiko z4 2 lg outfit a with dict_dissolve_25
 
     voice "2SA_0438"
-    sachiko "\"She got quiet.\""
+    sachiko "\"She got quiet.\"" id a08_cou3_03_093c846d
 
     show hina z4 2 lg pyjama_pjm e with dict_dissolve_25
 
     voice "2HI_0729"
-    hina "\"This isn't just Rin being selfish. Asou's having fun babying her, too.\""
+    hina "\"This isn't just Rin being selfish. Asou's having fun babying her, too.\"" id a08_cou3_03_d42f1b75
 
     show sachiko z4 1 lg outfit i with dict_dissolve_25
 
     voice "2SA_0439"
-    sachiko "\"This that codependence thing?\""
+    sachiko "\"This that codependence thing?\"" id a08_cou3_03_d1a475c3
 
     show hina z4 2 lg pyjama_pjm d with dict_dissolve_25
 
     voice "2HI_0730"
-    hina "\"You think this is okay?\""
+    hina "\"You think this is okay?\"" id a08_cou3_03_a3480455
 
     show sachiko z4 1 lg outfit e with dict_dissolve_25
 
     voice "2SA_0440"
-    sachiko "\"Want me to blow on yours, Hinacchi? Say, 'ahh'!\""
+    sachiko "\"Want me to blow on yours, Hinacchi? Say, 'ahh'!\"" id a08_cou3_03_6a2b2b2b
 
     "Sachiko brought her chopsticks to Hina's mouth."
 
@@ -296,7 +296,7 @@ label a08_cou3_03:
         ShakeJump
 
     voice "2HI_0731"
-    hina "\"No!\""
+    hina "\"No!\"" id a08_cou3_03_6e153ecd
 
     show hina:
         xoffset 0 yoffset 0
@@ -304,7 +304,7 @@ label a08_cou3_03:
     show sachiko z4 1 lg outfit c with dict_dissolve_25
 
     voice "2SA_0441"
-    sachiko "\"Feh. You're no fun. What about you, Mikoyan?\""
+    sachiko "\"Feh. You're no fun. What about you, Mikoyan?\"" id a08_cou3_03_81106817
 
     hide hina with Dissolve(0.25)
 
@@ -313,14 +313,14 @@ label a08_cou3_03:
     with Dissolve(0.25)
 
     voice "2MI_0561"
-    miyako "\"Yes?\""
+    miyako "\"Yes?\"" id a08_cou3_03_f87d5c98
 
     show sachiko:
         "sachiko z4 1 lg outfit g" with Dissolve(0.25)
         ShakeTameiki
 
     voice "2SA_0442"
-    sachiko "\"'Ahh'~\""
+    sachiko "\"'Ahh'~\"" id a08_cou3_03_2f785fc4
 
     show sachiko z4 1 lg outfit g:
         xoffset 0 yoffset 0
@@ -330,7 +330,7 @@ label a08_cou3_03:
         ShakeTameiki
 
     voice "2MI_0562"
-    miyako "\"Ahh.\""
+    miyako "\"Ahh.\"" id a08_cou3_03_4c1bbac5
 
     show miyako z4 1 lg pyjama_a d:
         xoffset 0 yoffset 0

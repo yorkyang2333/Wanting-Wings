@@ -11,17 +11,17 @@ label a09_cou3_02:
     $ side_image = "hina 1 side school_scarf a"
 
     voice "2HI_1068"
-    hina "\"I'm back!\""
+    hina "\"I'm back!\"" id a09_cou3_02_fc3cbff7
 
     $ side_image = "fumi 2 side casual c"
 
     voice "2FU_0864"
-    fumi "\"Hello. Good work on the class rep stuff.\""
+    fumi "\"Hello. Good work on the class rep stuff.\"" id a09_cou3_02_7afa483f
 
     $ side_image = "miyako 1 side school_a_sei b"
 
     voice "2MI_0910"
-    miyako "\"Hello~\""
+    miyako "\"Hello~\"" id a09_cou3_02_e0931c26
 
     "Miyako came in after Hina."
 
@@ -32,24 +32,24 @@ label a09_cou3_02:
     with Dissolve(0.25)
 
     voice "2FU_0865"
-    fumi "\"Oh, hello. Welcome back. You two came together?\""
+    fumi "\"Oh, hello. Welcome back. You two came together?\"" id a09_cou3_02_6506ee25
 
     show hina z4 1 lg school_scarf a with dict_dissolve_25
 
     voice "2HI_1069"
-    hina "\"Yeah, we met up on the bus.\""
+    hina "\"Yeah, we met up on the bus.\"" id a09_cou3_02_ae06f2f4
 
     $ side_image = "miyako 1 side school_a_sei b"
 
     voice "2MI_0911"
-    miyako "\"Yep.\""
+    miyako "\"Yep.\"" id a09_cou3_02_1900173a
 
     show fumi:
         "fumi z4 2 lg casual i" with Dissolve(0.25)
         ShakeYes
 
     voice "2FU_0866"
-    fumi "\"Oh yeah? Thanks for running that errand for me, Miyako.\""
+    fumi "\"Oh yeah? Thanks for running that errand for me, Miyako.\"" id a09_cou3_02_4d2c22ba
 
     show fumi z4 2 lg casual i:
         xoffset 0 yoffset 0
@@ -60,12 +60,12 @@ label a09_cou3_02:
     $ side_image = "miyako 2 side school_sei c"
 
     voice "2MI_0912"
-    miyako "\"Here's your receipt, and here's your change.\""
+    miyako "\"Here's your receipt, and here's your change.\"" id a09_cou3_02_7af4758e
 
     show fumi z4 1 lg casual a with dict_dissolve_25
 
     voice "2FU_0867"
-    fumi "\"Got it, got it. Thanks~\""
+    fumi "\"Got it, got it. Thanks~\"" id a09_cou3_02_42a57da6
 
     hide fumi
     hide hina
@@ -76,7 +76,7 @@ label a09_cou3_02:
     $ side_image = "hina 2 side school f"
 
     voice "2HI_1070"
-    hina "\"You're going back home tonight, right? Sounds like it'd be real rough to run a bakery during Valentine's.\""
+    hina "\"You're going back home tonight, right? Sounds like it'd be real rough to run a bakery during Valentine's.\"" id a09_cou3_02_c12c49dd
 
     "Hina said, taking off her scarf."
 
@@ -85,19 +85,19 @@ label a09_cou3_02:
     $ side_image = "fumi 1 side casual h"
 
     voice "2FU_0868"
-    fumi "\"I'm sorry. I might not be able to do anything in the room on weekends for a while...\" "
+    fumi "\"I'm sorry. I might not be able to do anything in the room on weekends for a while...\" " id a09_cou3_02_5d90f543
 
     "Fumi apologized as she moved things from the bag Miyako had given her to the fridge."
 
     $ side_image = "hina 1 side school a"
 
     voice "2HI_1071"
-    hina "\"No, we should apologize for leaving everything to you until now. Don't worry about us and go help out the store.\""
+    hina "\"No, we should apologize for leaving everything to you until now. Don't worry about us and go help out the store.\"" id a09_cou3_02_00cfbc27
 
     $ side_image = "fumi 2 side casual c"
 
     voice "2FU_0869"
-    fumi "\"Thanks, Natsume. Oh, there's some side dishes in the tupperware in the fridge. Go ahead and heat them up in the microwave. You'll just have to cook the rice, okay?\""
+    fumi "\"Thanks, Natsume. Oh, there's some side dishes in the tupperware in the fridge. Go ahead and heat them up in the microwave. You'll just have to cook the rice, okay?\"" id a09_cou3_02_cd0a30d2
 
     show hina 1 lg school l at pos_r
     with Dissolve(0.25)
@@ -106,7 +106,7 @@ label a09_cou3_02:
         ShakeJump
 
     voice "2HI_1072"
-    hina "\"Whoa, you're way too well-prepared! There's basically nothing for us to do. You could have left a little more to us.\""
+    hina "\"Whoa, you're way too well-prepared! There's basically nothing for us to do. You could have left a little more to us.\"" id a09_cou3_02_3924e40f
 
     show hina:
         xoffset 0 yoffset 0
@@ -117,54 +117,54 @@ label a09_cou3_02:
     show hina 1 lg school e with dict_dissolve_25
 
     voice "2HI_1073"
-    hina "\"We're all just students living in the same dorm. It's not like we have set roles or anything. We really should probably be taking turns doing the cooking.\""
+    hina "\"We're all just students living in the same dorm. It's not like we have set roles or anything. We really should probably be taking turns doing the cooking.\"" id a09_cou3_02_509a5a8b
 
     show fumi 2 lg casual h at pos_l with dict_dissolve_25
 
     voice "2FU_0870"
-    fumi "\"...It's okay. I do it because I like it.\""
+    fumi "\"...It's okay. I do it because I like it.\"" id a09_cou3_02_43f1d763
 
     show hina 2 lg school d with dict_dissolve_25
 
     voice "2HI_1074"
-    hina "\"Yeah, and we all take advantage of that. I mean, it tastes great, but it can't be entirely your responsibility.\""
+    hina "\"Yeah, and we all take advantage of that. I mean, it tastes great, but it can't be entirely your responsibility.\"" id a09_cou3_02_addcf147
 
     show hina 2 lg school a with dict_dissolve_25
 
     voice "2HI_1075"
-    hina "\"Someone else can do it when you can't. That's only obvious, isn't it?\""
+    hina "\"Someone else can do it when you can't. That's only obvious, isn't it?\"" id a09_cou3_02_fc371253
 
     show hina 1 lg school p with dict_dissolve_25
 
     voice "2HI_1076"
-    hina "\"I can cook a little bit too, you know. It might not be as good, but you should let me help.\""
+    hina "\"I can cook a little bit too, you know. It might not be as good, but you should let me help.\"" id a09_cou3_02_36ee7929
 
     show fumi 2 lg casual c with dict_dissolve_25
 
     voice "2FU_0871"
-    fumi "\"Nonsense, I'm sure your cooking is wonderful. That would be great.\""
+    fumi "\"Nonsense, I'm sure your cooking is wonderful. That would be great.\"" id a09_cou3_02_61c7a81d
 
     show hina 1 lg school a with dict_dissolve_25
 
     voice "2HI_1077"
-    hina "\"Nah, it's not gonna taste or look as good as when you do it. I can only make the kinda stuff my dad taught me when we went camping, so curry and things like that. Oh, and I can start fires, too.\""
+    hina "\"Nah, it's not gonna taste or look as good as when you do it. I can only make the kinda stuff my dad taught me when we went camping, so curry and things like that. Oh, and I can start fires, too.\"" id a09_cou3_02_5ca81cb0
 
     show fumi 1 lg casual e with dict_dissolve_25
 
     voice "2FU_0872"
-    fumi "\"...That might be more impressive, actually.\""
+    fumi "\"...That might be more impressive, actually.\"" id a09_cou3_02_1ffc8c5a
 
     show hina 1 lg school p with dict_dissolve_25
 
     voice "2HI_1078"
-    hina "\"Anyway, Asou, we'll handle what we can handle. Don't push yourself too hard.\""
+    hina "\"Anyway, Asou, we'll handle what we can handle. Don't push yourself too hard.\"" id a09_cou3_02_0f84617b
 
     show fumi:
         "fumi 1 lg casual c" with Dissolve(0.25)
         ShakeYes
 
     voice "2FU_0873"
-    fumi "\"Thank you! I'll take you up on that until Valentine's is over.\""
+    fumi "\"Thank you! I'll take you up on that until Valentine's is over.\"" id a09_cou3_02_e039e062
 
     show fumi 1 lg casual c:
         xoffset 0 yoffset 0
@@ -172,29 +172,29 @@ label a09_cou3_02:
     show hina 1 lg school e with dict_dissolve_25
 
     voice "2HI_1079"
-    hina "\"Oh, but we won't spoil Rin. I'm not letting her be picky!\""
+    hina "\"Oh, but we won't spoil Rin. I'm not letting her be picky!\"" id a09_cou3_02_b937e41c
 
     show fumi 1 lg casual d with dict_dissolve_25
 
     voice "2FU_0874"
-    fumi "\"Ahaha.\""
+    fumi "\"Ahaha.\"" id a09_cou3_02_b0205c2c
 
     $ side_image = "miyako 1 side school_a g"
 
     voice "2MI_0913"
-    miyako "\"...?\""
+    miyako "\"...?\"" id a09_cou3_02_3599a99b
 
     "Miyako was glancing around."
 
     show hina 1 lg school k with dict_dissolve_25
 
     voice "2HI_1080"
-    hina "\"What's up?\""
+    hina "\"What's up?\"" id a09_cou3_02_844f8ef6
 
     $ side_image = "miyako 2 side school b"
 
     voice "2MI_0914"
-    miyako "\"Speaking of Rin, I don't see her.\""
+    miyako "\"Speaking of Rin, I don't see her.\"" id a09_cou3_02_79f8bb9c
 
     show fumi 1 lg casual i
     show hina 1 lg school j
@@ -212,33 +212,33 @@ label a09_cou3_02:
     show rin 3 lg light znd a with dict_dissolve_25
 
     voice "2RI_1117"
-    rin "\"M...Mmm...\""
+    rin "\"M...Mmm...\"" id a09_cou3_02_919925a3
 
     "Rin was in the middle of turning over on said bed."
 
     $ side_image = "miyako 2 side school a"
 
     voice "2MI_0915"
-    miyako "\"Oh, there she is.\""
+    miyako "\"Oh, there she is.\"" id a09_cou3_02_26a3dbd8
 
     "Her bare shoulder peeked out from the blankets."
 
     $ side_image = "hina 1 side school j"
 
     voice "2HI_1082"
-    hina "\"I'm sure she got tired and fell asleep, right?\""
+    hina "\"I'm sure she got tired and fell asleep, right?\"" id a09_cou3_02_b9ffce47
 
     $ side_image = "fumi 1 side casual d"
 
     voice "2FU_0876"
-    fumi "\"Well, umm... yes.\""
+    fumi "\"Well, umm... yes.\"" id a09_cou3_02_8b38054f
 
     "She'd gotten used to Hina catching on when they'd been intimate, so it didn't bother her anymore."
 
     show rin 3 lg light znd b with dict_dissolve_25
 
     voice "2RI_1118"
-    rin "\"Hmmn...?\""
+    rin "\"Hmmn...?\"" id a09_cou3_02_4e76fdf1
 
     "Looks like she's awake."
 
@@ -247,50 +247,50 @@ label a09_cou3_02:
     with dict_dissolve_25
 
     voice "2HI_1083"
-    hina "\"What do you mean 'hmmn'? Hurry up and get dressed.\""
+    hina "\"What do you mean 'hmmn'? Hurry up and get dressed.\"" id a09_cou3_02_60656b9d
 
     show rin 3 lg light znd d with dict_dissolve_25
 
     voice "2RI_1119"
-    rin "\"No... I can't get out of the bed, I'm naked and you guys are all clothed. What is this, CMNF? ...Oh, I guess it'd be CFNF.\""
+    rin "\"No... I can't get out of the bed, I'm naked and you guys are all clothed. What is this, CMNF? ...Oh, I guess it'd be CFNF.\"" id a09_cou3_02_e09a48b8
 
     show hina z4 1 lg school j with dict_dissolve_25
 
     voice "2HI_1084"
-    hina "\"What? Are you half-asleep?\""
+    hina "\"What? Are you half-asleep?\"" id a09_cou3_02_a9298e93
 
     voice "2RI_1120"
-    rin "\"Clothed Males and Naked Female. But we're all girls, so it'd be CFNF, clothed females and naked female.\""
+    rin "\"Clothed Males and Naked Female. But we're all girls, so it'd be CFNF, clothed females and naked female.\"" id a09_cou3_02_1e082d4f
 
     show rin 3 lg light znd c with dict_dissolve_25
 
     voice "2RI_1121"
-    rin "\"The argument in certain cultural circles is that this particular combination is meant to stimulate by way of humiliation and shame—\""
+    rin "\"The argument in certain cultural circles is that this particular combination is meant to stimulate by way of humiliation and shame—\"" id a09_cou3_02_986f1f8d
 
     $ side_image = "fumi 2 side casual h"
 
     voice "2FU_0877"
-    fumi "\"......\""
+    fumi "\"......\"" id a09_cou3_02_6f747b3c
 
     show rin 3 lg light znd f with dict_dissolve_25
 
     voice "2RI_1122"
-    rin "\"Fumi! You don't need to listen so intently! We're not doing that!\""
+    rin "\"Fumi! You don't need to listen so intently! We're not doing that!\"" id a09_cou3_02_26af30e6
 
     $ side_image = "fumi 2 side casual g"
 
     voice "2FU_0878"
-    fumi "\"Ah...\""
+    fumi "\"Ah...\"" id a09_cou3_02_836a3f33
 
     show hina z4 1 lg school f with dict_dissolve_25
 
     voice "2HI_1085"
-    hina "\"I get it, I get it, you can change later. But at least say goodbye to Asou.\""
+    hina "\"I get it, I get it, you can change later. But at least say goodbye to Asou.\"" id a09_cou3_02_853ad4b7
 
     show rin 3 lg light znd c with dict_dissolve_25
 
     voice "2RI_1123"
-    rin "\"See ya later~\""
+    rin "\"See ya later~\"" id a09_cou3_02_fc091bf0
 
     "She waved a hand from under the futon."
 
@@ -299,7 +299,7 @@ label a09_cou3_02:
         ShakeJump
 
     voice "2HI_1086"
-    hina "\"You're so lazy!\""
+    hina "\"You're so lazy!\"" id a09_cou3_02_63d7d8b9
 
     show hina z4 1 lg school g:
         xoffset 0 yoffset 0
@@ -320,24 +320,24 @@ label a09_cou3_02:
     $ side_image = "fumi 1 side casual d"
 
     voice "2FU_0879"
-    fumi "\"Don't be too hard on her. She's just waking up.\""
+    fumi "\"Don't be too hard on her. She's just waking up.\"" id a09_cou3_02_3970071b
 
     show hina z4 1 lg school e with dict_dissolve_25
 
     voice "2HI_1087"
-    hina "\"There you go again. If you spoil her too much, you'll ruin her, you know.\""
+    hina "\"There you go again. If you spoil her too much, you'll ruin her, you know.\"" id a09_cou3_02_2ee54d06
 
     show rin 3 lg light znd b with dict_dissolve_25
 
     voice "2RI_1124"
-    rin "\"Fumi practices positive reinforcement! Don't butt in on another family's parenting!\""
+    rin "\"Fumi practices positive reinforcement! Don't butt in on another family's parenting!\"" id a09_cou3_02_d765eacf
 
     show hina:
         "hina z4 1 lg school f" with Dissolve(0.25)
         ShakeJump
 
     voice "2HI_1088"
-    hina "\"Positive reinforcement doesn't work when it's not reinforcing anything!\""
+    hina "\"Positive reinforcement doesn't work when it's not reinforcing anything!\"" id a09_cou3_02_d4b54fd0
 
     show hina z4 1 lg school f:
         xoffset 0 yoffset 0
@@ -345,7 +345,7 @@ label a09_cou3_02:
     $ side_image = "fumi 2 side casual h"
 
     voice "2FU_0880"
-    fumi "\"......\""
+    fumi "\"......\"" id a09_cou3_02_dd482d8b
 
     "Fumi was taken aback by Hina's words. They must have rung true to her after what she'd been thinking about earlier."
 
@@ -355,7 +355,7 @@ label a09_cou3_02:
             ShakeTameiki
 
         voice "2HI_1089"
-        hina "\"Haahh... You should spank her again.\""
+        hina "\"Haahh... You should spank her again.\"" id a09_cou3_02_35709397
 
         show hina z4 1 lg school h:
             xoffset 0 yoffset 0
@@ -363,24 +363,24 @@ label a09_cou3_02:
         $ side_image = "fumi 2 side casual h"
 
         voice "2FU_0881"
-        fumi "\"But she likes it when I do that.\""
+        fumi "\"But she likes it when I do that.\"" id a09_cou3_02_2f3835ab
 
         show rin 3 lg light znd f with dict_dissolve_25
 
         voice "2RI_1125"
-        rin "\"FUMI!\""
+        rin "\"FUMI!\"" id a09_cou3_02_24c7a5d8
 
         "Rin went red at Fumi's blithe comment."
 
         show hina z4 1 lg school j with dict_dissolve_25
 
         voice "2HI_1090"
-        hina "\"This masochist is nothing but trouble.\""
+        hina "\"This masochist is nothing but trouble.\"" id a09_cou3_02_e87416b0
 
         show rin 3 lg light znd g with dict_dissolve_25
 
         voice "2RI_1126"
-        rin "\"Ungh...\""
+        rin "\"Ungh...\"" id a09_cou3_02_d0f7a290
 
     hide hina with Dissolve(0.25)
 
@@ -389,55 +389,55 @@ label a09_cou3_02:
     with Dissolve(0.25)
 
     voice "2FU_0882"
-    fumi "\"Well, I should get going.\""
+    fumi "\"Well, I should get going.\"" id a09_cou3_02_438dc1f8
 
     "Fumi stood up with her bag, looking distracted."
 
     show rin 3 lg light znd f with dict_dissolve_25
 
     voice "2RI_1127"
-    rin "\"Fumi, wait!\""
+    rin "\"Fumi, wait!\"" id a09_cou3_02_5fcdc16d
 
     show fumi z4 1 lg casual a with dict_dissolve_25
 
     voice "2FU_0883"
-    fumi "\"Yes?\""
+    fumi "\"Yes?\"" id a09_cou3_02_d2605fcb
 
     show rin 3 lg light znd a with dict_dissolve_25
 
     voice "2RI_1128"
-    rin "\"Mmm~\""
+    rin "\"Mmm~\"" id a09_cou3_02_30d8bd84
 
     "Rin stuck her lips out demandingly. After all this, she was past the point of being too embarrassed to ask for a goodbye kiss."
 
     show fumi z4 1 lg casual d with dict_dissolve_25
 
     voice "2FU_0884"
-    fumi "\"Oh... umm...\""
+    fumi "\"Oh... umm...\"" id a09_cou3_02_ba8decc5
 
     $ side_image = "hina 1 side school j"
 
     voice "2HI_1091"
-    hina "\"Do you see me, Rin~? I'm right here!\""
+    hina "\"Do you see me, Rin~? I'm right here!\"" id a09_cou3_02_c3d3faf4
 
     "Hina waved her hand. Her words were cheerful, but her face was dead serious."
 
     $ side_image = "miyako 1 side school_b d"
 
     voice "2MI_0916"
-    miyako "\"I'm here too~♪\""
+    miyako "\"I'm here too~♪\"" id a09_cou3_02_7f114403
 
     "Miyako waved her hand too, excitedly. This one must be misunderstanding something."
 
     show rin 3 lg light znd d with dict_dissolve_25
 
     voice "2RI_1129"
-    rin "\"Then move somewhere where you can't see.\""
+    rin "\"Then move somewhere where you can't see.\"" id a09_cou3_02_471f8a61
 
     $ side_image = "hina 1 side school d"
 
     voice "2HI_1092"
-    hina "\"Why do I have to?!\""
+    hina "\"Why do I have to?!\"" id a09_cou3_02_429002a9
 
     scene black with Dissolve(1.5)
     pause 0.5
@@ -453,7 +453,7 @@ label a09_cou3_02:
     show rin 3 lg light znd g with Dissolve(0.25)
 
     voice "2RI_1131"
-    rin "\"Ugh... cold.\""
+    rin "\"Ugh... cold.\"" id a09_cou3_02_73901cd9
 
     "When Fumi left, Rin curled up under the covers again."
 
@@ -462,18 +462,18 @@ label a09_cou3_02:
     with Dissolve(0.25)
 
     voice "2HI_1093"
-    hina "\"I'm gonna rip the blanket off you!\""
+    hina "\"I'm gonna rip the blanket off you!\"" id a09_cou3_02_dd06feaa
 
     show rin 3 lg light znd f with dict_dissolve_25
 
     voice "2RI_1132"
-    rin "\"Wait, wait, wait! I'm really not wearing anything!\""
+    rin "\"Wait, wait, wait! I'm really not wearing anything!\"" id a09_cou3_02_00ad2410
 
     show hina:
         ShakeJump
 
     voice "2HI_1094"
-    hina "\"Shut up! I've seen you naked in the bath!\""
+    hina "\"Shut up! I've seen you naked in the bath!\"" id a09_cou3_02_150c1e3d
 
     show hina:
         xoffset 0 yoffset 0
@@ -484,13 +484,13 @@ label a09_cou3_02:
     show rin 3 lg light znd h with dict_dissolve_25
 
     voice "2RI_1133"
-    rin "\"Gyaaa! My virtue's in danger!\""
+    rin "\"Gyaaa! My virtue's in danger!\"" id a09_cou3_02_36ec73ad
 
     show hina:
         ShakeJump
 
     voice "2HI_1095"
-    hina "\"No it's not!\""
+    hina "\"No it's not!\"" id a09_cou3_02_7f2b3aa4
 
     show hina:
         xoffset 0 yoffset 0
@@ -498,7 +498,7 @@ label a09_cou3_02:
     $ side_image = "miyako 1 side school_a d"
 
     voice "2MI_0917"
-    miyako "\"Ooh.\""
+    miyako "\"Ooh.\"" id a09_cou3_02_35e70fc5
 
     show hina:
         "hina z4 1 lg school d" with Dissolve(0.25)
@@ -506,7 +506,7 @@ label a09_cou3_02:
         ShakeJump
 
     voice "2HI_1096"
-    hina "\"It's not!\""
+    hina "\"It's not!\"" id a09_cou3_02_84ced6b9
 
     show hina z4 1 lg school d with None
 

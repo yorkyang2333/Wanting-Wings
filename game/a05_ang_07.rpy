@@ -28,7 +28,7 @@ label a05_ang_07:
         ShakeYes
 
     voice "HIN_0331"
-    hina "\"O Lord! I'll give you the best part of my lunch, so please give me a miracle!\""
+    hina "\"O Lord! I'll give you the best part of my lunch, so please give me a miracle!\"" id a05_ang_07_0f26f398
 
     show hina:
         xoffset 0 yoffset 0
@@ -36,12 +36,12 @@ label a05_ang_07:
     show rin z3 1 lg school g grayscale with dict_dissolve_25
 
     voice "RIN_0289"
-    rin "\"You resorted to that real quick.\""
+    rin "\"You resorted to that real quick.\"" id a05_ang_07_0d802525
 
     show fumi z3 1 lg school d grayscale with dict_dissolve_25
 
     voice "FUM_0259"
-    fumi "\"I don't think you're supposed to clap like that at a church...\""
+    fumi "\"I don't think you're supposed to clap like that at a church...\"" id a05_ang_07_30cc27f5
 
     hide rin
     hide fumi

@@ -12,23 +12,23 @@ label a03_comn_03:
     with Dissolve(0.25)
 
     voice "FUM_0487"
-    fumi "\".........\""
+    fumi "\".........\"" id a03_comn_03_257c81d7
 
     voice "HIN_0658"
-    hina "\"......\""
+    hina "\"......\"" id a03_comn_03_0b1b5660
 
     show rin z3 1 lg pyjama g with dict_dissolve_25
 
     voice "FUM_0488"
-    fumi "\".........\""
+    fumi "\".........\"" id a03_comn_03_858a9e85
 
     voice "RIN_0532"
-    rin "\"......\""
+    rin "\"......\"" id a03_comn_03_ad5081d7
 
     show fumi z3 2 lg pyjama g with dict_dissolve_25
 
     voice "FUM_0489"
-    fumi "\"Umm...\""
+    fumi "\"Umm...\"" id a03_comn_03_0c4282e6
 
     show hina z3 1 lg pyjama l
     show rin z3 2 lg pyjama c
@@ -42,7 +42,7 @@ label a03_comn_03:
         ShakeUji
 
     voice "FUM_0490"
-    fumi "\"Augh...\""
+    fumi "\"Augh...\"" id a03_comn_03_2ea21bea
 
     play music bgm01
 
@@ -52,36 +52,36 @@ label a03_comn_03:
     show hina z3 1 lg pyjama j with dict_dissolve_25
 
     voice "HIN_0660"
-    hina "\"We've seen each other's backs plenty of times changing clothes, right?\""
+    hina "\"We've seen each other's backs plenty of times changing clothes, right?\"" id a03_comn_03_67da94a4
 
     show fumi z3 1 lg pyjama d with dict_dissolve_25
 
     voice "FUM_0491"
-    fumi "\"I guess that's true.\""
+    fumi "\"I guess that's true.\"" id a03_comn_03_114ef42f
 
     "She still seemed unconvinced."
 
     show rin z3 1 lg pyjama e with dict_dissolve_25
 
     voice "RIN_0534"
-    rin "\"I know how we can find out.\""
+    rin "\"I know how we can find out.\"" id a03_comn_03_01becff0
 
     show fumi z3 1 lg pyjama e with dict_dissolve_25
 
     voice "FUM_0492"
-    fumi "\"Really?!\""
+    fumi "\"Really?!\"" id a03_comn_03_bf8764d8
 
     show hina z3 1 lg pyjama l with dict_dissolve_25
 
     voice "HIN_0661"
-    hina "\"What...?\""
+    hina "\"What...?\"" id a03_comn_03_5592cc3a
 
     "Fumi's eyes were sparkling, but Hina looked incredulous."
 
     show rin z3 1 lg pyjama f with dict_dissolve_25
 
     voice "RIN_0535"
-    rin "\"We'll just cut our fingers with a knife, put the blood on a Petri dish, and heat it up with a wire...\""
+    rin "\"We'll just cut our fingers with a knife, put the blood on a Petri dish, and heat it up with a wire...\"" id a03_comn_03_abce3c9e
 
     show hina z3 1 lg pyjama k with dict_dissolve_25
 
@@ -94,7 +94,7 @@ label a03_comn_03:
     show rin z3 1 lg pyjama g with dict_dissolve_25
 
     voice "RIN_0536"
-    rin "\"Sorry, never mind...\""
+    rin "\"Sorry, never mind...\"" id a03_comn_03_67e9ba2f
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

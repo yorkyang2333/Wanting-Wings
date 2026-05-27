@@ -26,17 +26,17 @@ label a11_cou4_06:
     show sachiko 1 lg outfit a with dict_dissolve_25
 
     voice "2SA_0239"
-    sachiko "\"Is it done snowing?\""
+    sachiko "\"Is it done snowing?\"" id a11_cou4_06_8a145185
 
     $ side_image = "miyako 1 side school_a b"
 
     voice "2MI_0389"
-    miyako "\"Yes, it was finished by the time I got back. It's clear out now.\""
+    miyako "\"Yes, it was finished by the time I got back. It's clear out now.\"" id a11_cou4_06_68cec110
 
     show sachiko 1 lg outfit i with dict_dissolve_25
 
     voice "2SA_0240"
-    sachiko "\"We won't need slickers, then. Let's see...\""
+    sachiko "\"We won't need slickers, then. Let's see...\"" id a11_cou4_06_b259614c
 
     show sachiko 2 lg outfit c with Dissolve(0.25)
 
@@ -46,7 +46,7 @@ label a11_cou4_06:
     show sachiko 2 lg outfit d with dict_dissolve_25
 
     voice "2SA_1019"
-    sachiko "\"......\""
+    sachiko "\"......\"" id a11_cou4_06_9a8feb45
 
     "She opened up a drawer and picked up a scarf that she found inside."
 
@@ -77,17 +77,17 @@ label a11_cou4_06:
     pause 1.0
 
     voice "2SA_1020"
-    sachiko "\"......\""
+    sachiko "\"......\"" id a11_cou4_06_ad9110f6
 
     $ side_image = "miyako 1 side school_a e"
 
     voice "2MI_0390"
-    miyako "\"Does the snow get deeper than this in this area?\""
+    miyako "\"Does the snow get deeper than this in this area?\"" id a11_cou4_06_8e71b6b4
 
     show sachiko 2 lg outfit d with Dissolve(0.5)
 
     voice "2SA_0127"
-    sachiko "\".........\""
+    sachiko "\".........\"" id a11_cou4_06_07ec276b
 
     show sachiko 2 lg outfit a with Dissolve(0.25)
 

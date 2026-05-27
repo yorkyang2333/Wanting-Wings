@@ -17,19 +17,19 @@ label a08_comn_02:
     with dict_dissolve_25
 
     voice "2HI_0425"
-    hina "\"Hm? What's going on over there?\""
+    hina "\"Hm? What's going on over there?\"" id a08_comn_02_d9dcc41e
 
     "Hina joined them after returning from the faculty room."
 
     voice "2RI_0458"
-    rin "\"Valentine chocolate recipe class.\""
+    rin "\"Valentine chocolate recipe class.\"" id a08_comn_02_6e91f754
 
     show hina:
         "hina 1 lg school a" with Dissolve(0.25)
         ShakeYes
 
     voice "2HI_0426"
-    hina "\"Ah, I see.\""
+    hina "\"Ah, I see.\"" id a08_comn_02_f909fc50
 
     show hina 1 lg school a:
         xoffset 0 yoffset 0
@@ -40,22 +40,22 @@ label a08_comn_02:
     show rin 2 lg school a with dict_dissolve_25
 
     voice "2RI_0459"
-    rin "\"Everyone knows she lives at a bakery, her dad's a patissier, and she's a great cook. Of course she's got students lining up.\""
+    rin "\"Everyone knows she lives at a bakery, her dad's a patissier, and she's a great cook. Of course she's got students lining up.\"" id a08_comn_02_015916aa
 
     show hina 2 lg school g with dict_dissolve_25
 
     voice "2HI_0427"
-    hina "\"Haha, she could charge tuition. Isn't it a little early, though? It's still January.\""
+    hina "\"Haha, she could charge tuition. Isn't it a little early, though? It's still January.\"" id a08_comn_02_e981de9c
 
     show rin 1 lg school b with dict_dissolve_25
 
     voice "2RI_0460"
-    rin "\"Well, it's the preparation that's fun with events like this... probably.\""
+    rin "\"Well, it's the preparation that's fun with events like this... probably.\"" id a08_comn_02_e433e580
 
     show hina 2 lg school f with dict_dissolve_25
 
     voice "2HI_0428"
-    hina "\"Hmm.\""
+    hina "\"Hmm.\"" id a08_comn_02_2001a0f3
 
     if persistent.dpatch:
         "The prelude to Valentine's Day. Even though it's a girls' school? Or maybe this is the sort of scene you'd {i}only{/i} see at a girls' school." id a08_comn_02_2269b5d9
@@ -72,68 +72,68 @@ label a08_comn_02_a:
     show rin 1 lg school a with dict_dissolve_25
 
     voice "2RI_0461"
-    rin "\"Come to think of it, what took you so long?\""
+    rin "\"Come to think of it, what took you so long?\"" id a08_comn_02_a_5746a586
 
     show hina 1 lg school k with dict_dissolve_25
 
     voice "2HI_0429"
-    hina "\"Ah, I just got asked to put away the mic from the auditorium.\""
+    hina "\"Ah, I just got asked to put away the mic from the auditorium.\"" id a08_comn_02_a_0c205110
 
     show rin 1 lg school b with dict_dissolve_25
 
     voice "2RI_0462"
-    rin "\"Hm? It didn't get put away after class?\""
+    rin "\"Hm? It didn't get put away after class?\"" id a08_comn_02_a_8ef9b6b4
 
     show hina 1 lg school e with dict_dissolve_25
 
     voice "2HI_0430"
-    hina "\"Actually, the mic in the auditorium wasn't working, so they had to grab one from the broadcasting room.\""
+    hina "\"Actually, the mic in the auditorium wasn't working, so they had to grab one from the broadcasting room.\"" id a08_comn_02_a_cdb25061
 
     show rin 1 lg school e with dict_dissolve_25
 
     voice "2RI_0463"
-    rin "\"And you had to put it back. So you swung by the broadcasting room?\""
+    rin "\"And you had to put it back. So you swung by the broadcasting room?\"" id a08_comn_02_a_e8187e06
 
     show hina 1 lg school n with dict_dissolve_25
 
     voice "2HI_0431"
-    hina "\"No... I haven't yet.\""
+    hina "\"No... I haven't yet.\"" id a08_comn_02_a_1b04088a
 
     "She was hesitating to say something."
 
     show hina 2 lg school h with dict_dissolve_25
 
     voice "2HI_0432"
-    hina "\"Once Fumi's class is over, do you want to go together?\""
+    hina "\"Once Fumi's class is over, do you want to go together?\"" id a08_comn_02_a_96633e9e
 
     show rin 1 lg school h with dict_dissolve_25
 
     voice "2RI_0464"
-    rin "\"I don't mind, but this looks like it's gonna take a while. You could go now and—\""
+    rin "\"I don't mind, but this looks like it's gonna take a while. You could go now and—\"" id a08_comn_02_a_b5f08953
 
     show hina 2 lg school b with dict_dissolve_25
 
     voice "2HI_0433"
-    hina "\"I'd be bored if I went by myself! Don't they say the more the merrier?\""
+    hina "\"I'd be bored if I went by myself! Don't they say the more the merrier?\"" id a08_comn_02_a_72025359
 
     show rin 2 lg school g with dict_dissolve_25
 
     voice "2RI_0465"
-    rin "\"For just taking a microphone back to the broadcasting... oh.\""
+    rin "\"For just taking a microphone back to the broadcasting... oh.\"" id a08_comn_02_a_f37ef343
 
     "Rin had a realization."
 
     show rin 1 lg school f with dict_dissolve_25
 
     voice "2RI_0466"
-    rin "\"Ahh, there was a rumor about the broadcasting room being haunted, wasn't there?\""
+    rin "\"Ahh, there was a rumor about the broadcasting room being haunted, wasn't there?\"" id a08_comn_02_a_1cf09f87
 
     show hina 1 lg school o with Dissolve(0.25)
     show hina:
         ShakeNo
 
     voice "2HI_0434"
-    hina "\"Waaah, don't say that~\""
+    hina "\"Waaah, don't say that~\"" id a08_comn_02_a_5f30f014
 
     show hina:
         xoffset 0 yoffset 0
@@ -144,7 +144,7 @@ label a08_comn_02_a:
     if persistent.dpatch:
         rin "\"People sometimes hear a voice from the broadcasting room trying to say something. And it goes out to the whole school through the speakers...\"" id a08_comn_02_a_128a8310
     else:
-        rin "\"People sometimes hear a voice from the broadcasting room trying to say something. And it goes out to the whole campus through the speakers...\""
+        rin "\"People sometimes hear a voice from the broadcasting room trying to say something. And it goes out to the whole campus through the speakers...\"" id a08_comn_02_a_d7ed80af
 
     show hina:
         "hina 1 lg school g" with Dissolve(0.25)
@@ -152,7 +152,7 @@ label a08_comn_02_a:
         ShakeJump
 
     voice "2HI_0435"
-    hina "\"Gyaaaaa!!\""
+    hina "\"Gyaaaaa!!\"" id a08_comn_02_a_9bd1fa7f
 
     show hina 1 lg school g:
         xoffset 0 yoffset 0
@@ -167,39 +167,39 @@ label a08_comn_02_b:
     show miyako 1 lg school_a b at pos_l with dict_dissolve_25
 
     voice "2MI_0305"
-    miyako "\"......\""
+    miyako "\"......\"" id a08_comn_02_b_a712c4db
 
     show rin 2 lg school a with dict_dissolve_25
 
     voice "2RI_0468"
-    rin "\"What's up, Mikoyan?\""
+    rin "\"What's up, Mikoyan?\"" id a08_comn_02_b_9bb51b27
 
     show miyako 1 lg school_a c with dict_dissolve_25
 
     voice "2MI_0306"
-    miyako "\"I kind of like this restless energy.\""
+    miyako "\"I kind of like this restless energy.\"" id a08_comn_02_b_f2913aba
 
     show rin 2 lg school g with dict_dissolve_25
 
     voice "2RI_0469"
-    rin "\"Y-You do?\""
+    rin "\"Y-You do?\"" id a08_comn_02_b_8fe588b3
 
     show miyako 1 lg school_a b with dict_dissolve_25
 
     voice "2MI_0307"
-    miyako "\"Doesn't it feel like it might start smelling sweet in here?\""
+    miyako "\"Doesn't it feel like it might start smelling sweet in here?\"" id a08_comn_02_b_1889bc81
 
     "Miyako took a deep breath."
 
     $ side_image = "hina 2 side school f"
 
     voice "2HI_0436"
-    hina "\"Like chocolate?\""
+    hina "\"Like chocolate?\"" id a08_comn_02_b_50bf448d
 
     show rin 1 lg school g with dict_dissolve_25
 
     voice "2RI_0470"
-    rin "\"Now that, it's a bit early for.\""
+    rin "\"Now that, it's a bit early for.\"" id a08_comn_02_b_8f470c2c
 
     "Miyako was sensing life in the pre-Valentine's classroom air."
 
@@ -208,42 +208,42 @@ label a08_comn_02_b:
     show rin 1 lg school c with dict_dissolve_25
 
     voice "2RI_0471"
-    rin "\"By the way, have you ever given or gotten chocolate, Mikoyan?\""
+    rin "\"By the way, have you ever given or gotten chocolate, Mikoyan?\"" id a08_comn_02_b_f807c9ac
 
     show miyako 2 lg school c with dict_dissolve_25
 
     voice "2MI_0308"
-    miyako "\"I haven't~ It's my first Valentine's.\""
+    miyako "\"I haven't~ It's my first Valentine's.\"" id a08_comn_02_b_0b3453a1
 
     $ side_image = "hina 2 side school e"
 
     voice "2HI_0437"
-    hina "\"Was she in a country that doesn't celebrate Valentine's Day?\""
+    hina "\"Was she in a country that doesn't celebrate Valentine's Day?\"" id a08_comn_02_b_0d27c8e1
 
     show rin 1 lg school h with dict_dissolve_25
 
     voice "2RI_0472"
-    rin "\"Like Saudi Arabia or something?\""
+    rin "\"Like Saudi Arabia or something?\"" id a08_comn_02_b_cdab7b2b
 
     $ side_image = "hina 2 side school f"
 
     voice "2HI_0438"
-    hina "\"Wait, really?\""
+    hina "\"Wait, really?\"" id a08_comn_02_b_a0a51de6
 
     show rin 1 lg school a with dict_dissolve_25
 
     voice "2RI_0473"
-    rin "\"They have capital punishment, too.\""
+    rin "\"They have capital punishment, too.\"" id a08_comn_02_b_e3b0dbe7
 
     $ side_image = "hina 1 side school d"
 
     voice "2HI_0439"
-    hina "\"Whaaat?!\""
+    hina "\"Whaaat?!\"" id a08_comn_02_b_9a9b6baa
 
     show miyako 2 lg school a with dict_dissolve_25
 
     voice "2MI_0309"
-    miyako "\"Hm?\""
+    miyako "\"Hm?\"" id a08_comn_02_b_05acf793
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

@@ -11,19 +11,19 @@ label a03_cou2_03:
     $ side_image = "hina 1 side pyjama h"
 
     voice "HIN_0853"
-    hina "\"Ugh, I'm hungry... Hurry up and come back from the store, Asou~\""
+    hina "\"Ugh, I'm hungry... Hurry up and come back from the store, Asou~\"" id a03_cou2_03_5c5e5d62
 
     "Hina lay on the floor in the living room, but there was no one to answer her."
 
     $ side_image = "hina 1 side pyjama j"
 
     voice "HIN_0854"
-    hina "\"And Rin's not coming back from Sachiko's... How long does it take to return a few books—\""
+    hina "\"And Rin's not coming back from Sachiko's... How long does it take to return a few books—\"" id a03_cou2_03_cb6787d7
 
     $ side_image = "hina 1 side pyjama d"
 
     voice "HIN_0855"
-    hina "\"Wait, is she borrowing more?!\""
+    hina "\"Wait, is she borrowing more?!\"" id a03_cou2_03_342e0d7c
 
     "She got it in one."
 
@@ -34,7 +34,7 @@ label a03_cou2_03:
     pause 0.5
 
     voice "HIN_0856"
-    hina "\"...There aren't more hidden around here, are there?\""
+    hina "\"...There aren't more hidden around here, are there?\"" id a03_cou2_03_c6e73377
 
     show hina 1 lg pyjama e:
         alpha 1.0 xcenter 512 ycenter 981
@@ -47,7 +47,7 @@ label a03_cou2_03:
     show hina 1 lg pyjama j with dict_dissolve_25
 
     voice "HIN_0857"
-    hina "\"This looks suspicious...\""
+    hina "\"This looks suspicious...\"" id a03_cou2_03_9e3f2d09
 
     "Plucking out a book with a cover around it, she flipped through the pages."
 
@@ -56,26 +56,26 @@ label a03_cou2_03:
     show hina 2 lg pyjama d with dict_dissolve_25
 
     voice "HIN_0858"
-    hina "\"'I couldn't tell whose lips were drawing closer first: hers or mine...'\""
+    hina "\"'I couldn't tell whose lips were drawing closer first: hers or mine...'\"" id a03_cou2_03_1a1b38aa
 
     show hina 1 lg pyjama j with dict_dissolve_25
 
     voice "HIN_0859"
-    hina "\"It starts right with a kiss...?\""
+    hina "\"It starts right with a kiss...?\"" id a03_cou2_03_b202c57b
 
     "Hina kept reading, a puzzled look on her face."
 
     show hina 2 lg pyjama h with dict_dissolve_25
 
     voice "HIN_0860"
-    hina "\"'The moment her tongue entered my mouth, my mind went completely blank—'\""
+    hina "\"'The moment her tongue entered my mouth, my mind went completely blank—'\"" id a03_cou2_03_b2573b0c
 
     show hina 1 lg pyjama d with Dissolve(0.25)
     show hina:
         ShakeTameiki
 
     voice "HIN_0861"
-    hina "\"It {i}is{/i} a dirty one!\""
+    hina "\"It {i}is{/i} a dirty one!\"" id a03_cou2_03_eba76871
 
     show hina:
         xoffset 0 yoffset 0
@@ -86,26 +86,26 @@ label a03_cou2_03:
     show hina 1 lg pyjama g with dict_dissolve_25
 
     voice "HIN_0862"
-    hina "\"I knew she was hiding more!\""
+    hina "\"I knew she was hiding more!\"" id a03_cou2_03_b3d14ea0
 
     "She was grumbling about it, but she also looked somehow excited, like she'd discovered a secret treasure."
 
     show hina 2 lg pyjama e with dict_dissolve_25
 
     voice "HIN_0863"
-    hina "\"I'll have to yell at her when she gets back...\""
+    hina "\"I'll have to yell at her when she gets back...\"" id a03_cou2_03_b9b343d7
 
     "Hina looked down to the book in her hands."
 
     show hina 2 lg pyjama f with dict_dissolve_25
 
     voice "HIN_0864"
-    hina "\"...If this was the only one that was covered, does it have something really crazy in it?\""
+    hina "\"...If this was the only one that was covered, does it have something really crazy in it?\"" id a03_cou2_03_d4256b1d
 
     show hina 2 lg pyjama h with dict_dissolve_25
 
     voice "HIN_0865"
-    hina "\"Maybe... I should check.\""
+    hina "\"Maybe... I should check.\"" id a03_cou2_03_14cd53f6
 
     "Hina went back to the page, eyeing the words."
 
@@ -118,14 +118,14 @@ label a03_cou2_03:
     show hina 1 lg pyjama k with dict_dissolve_25
 
     voice "HIN_0866"
-    hina "\"Huh? That's weird...\""
+    hina "\"Huh? That's weird...\"" id a03_cou2_03_82dba9d1
 
     "Hina cocked her head."
 
     show hina 1 lg pyjama d with dict_dissolve_25
 
     voice "HIN_0867"
-    hina "\"'Her' is Hanayo, right? And 'I' is Youko? Huh? They're both girls? Hwha? Hwha?\""
+    hina "\"'Her' is Hanayo, right? And 'I' is Youko? Huh? They're both girls? Hwha? Hwha?\"" id a03_cou2_03_c1cf0c2e
 
     play sound [se013a,se013a]
 
@@ -134,29 +134,29 @@ label a03_cou2_03:
     show hina 2 lg pyjama d with dict_dissolve_25
 
     voice "HIN_0868"
-    hina "\"'I'd never been attracted to another woman before.'\""
+    hina "\"'I'd never been attracted to another woman before.'\"" id a03_cou2_03_cbda6180
 
     show hina 2 lg pyjama f with dict_dissolve_25
 
     voice "HIN_0869"
-    hina "\"So... they {i}are{/i} both women.\""
+    hina "\"So... they {i}are{/i} both women.\"" id a03_cou2_03_0eb61ae1
 
     "Hina's face bobbed up from the page, confusion painted across it."
 
     show hina 1 lg pyjama d with dict_dissolve_25
 
     voice "HIN_0870"
-    hina "\"But they're doing dirty stuff, so... huh? Uh, wha?\""
+    hina "\"But they're doing dirty stuff, so... huh? Uh, wha?\"" id a03_cou2_03_ad3fbbc6
 
     show hina 2 lg pyjama e with dict_dissolve_25
 
     voice "HIN_0871"
-    hina "\"If this book is on Rin's bookshelf, does that mean Rin's also...?\""
+    hina "\"If this book is on Rin's bookshelf, does that mean Rin's also...?\"" id a03_cou2_03_55ca96f4
 
     show hina 2 lg pyjama f with dict_dissolve_25
 
     voice "HIN_0872"
-    hina "\"...Oh.\""
+    hina "\"...Oh.\"" id a03_cou2_03_bb438dba
 
     "Hina found herself touching her lips."
 
@@ -165,7 +165,7 @@ label a03_cou2_03:
     $ side_image = "rin 1 side pyjama f"
 
     voice "RIN_0666"
-    rin "\"So? You like that book?\""
+    rin "\"So? You like that book?\"" id a03_cou2_03_d435e638
 
     show hina:
         "hina 1 lg pyjama l" with Dissolve(0.25)
@@ -173,7 +173,7 @@ label a03_cou2_03:
     $ persistent.layer_shaken = False
 
     voice "HIN_0873"
-    hina "\"Hyaaaah?!\""
+    hina "\"Hyaaaah?!\"" id a03_cou2_03_756470c2
 
     show hina 1 lg pyjama l:
         xoffset 0 yoffset 0
@@ -193,7 +193,7 @@ label a03_cou2_03:
         easein 0.5 alpha 1.0 xcenter 772
 
     voice "HIN_0874"
-    hina "\"Wh-When did you get back?!\""
+    hina "\"Wh-When did you get back?!\"" id a03_cou2_03_a2daf5ff
 
     show hina 1 lg pyjama d:
         xcenter 252
@@ -204,12 +204,12 @@ label a03_cou2_03:
     show rin 1 lg pyjama f with dict_dissolve_25
 
     voice "RIN_0667"
-    rin "\"You were so into it you didn't notice me coming in the door, huh?\""
+    rin "\"You were so into it you didn't notice me coming in the door, huh?\"" id a03_cou2_03_690d5a80
 
     show hina 1 lg pyjama g with dict_dissolve_25
 
     voice "HIN_0875"
-    hina "\"H-H-H-Here! Hurry and give this back to Sachiko!\""
+    hina "\"H-H-H-Here! Hurry and give this back to Sachiko!\"" id a03_cou2_03_e4942922
 
     play sound se118c
 
@@ -218,31 +218,31 @@ label a03_cou2_03:
     show rin 2 lg pyjama g with dict_dissolve_25
 
     voice "RIN_0668"
-    rin "\"Oh, that one's mine. I like that one.\""
+    rin "\"Oh, that one's mine. I like that one.\"" id a03_cou2_03_e5edfbe9
 
     show hina 1 lg pyjama d with dict_dissolve_25
 
     voice "HIN_0876"
-    hina "\"Y-You like it? This dirty book?!\""
+    hina "\"Y-You like it? This dirty book?!\"" id a03_cou2_03_f451178b
 
     show rin 2 lg pyjama e with dict_dissolve_25
 
     voice "RIN_0669"
-    rin "\"It's really good.\""
+    rin "\"It's really good.\"" id a03_cou2_03_e9432e4e
 
     "Rin plucked the book nonchalantly from Hina's hands."
 
     show rin 2 lg pyjama c with dict_dissolve_25
 
     voice "RIN_0670"
-    rin "\"I suppose Hina the little baby wouldn't get it, though.\""
+    rin "\"I suppose Hina the little baby wouldn't get it, though.\"" id a03_cou2_03_1dd28e48
 
     show hina:
         "hina 2 lg pyjama h" with Dissolve(0.25)
         ShakeSide
 
     voice "HIN_0877"
-    hina "\"......\""
+    hina "\"......\"" id a03_cou2_03_b58ce1a2
 
     show hina 2 lg pyjama h:
         xoffset 0 yoffset 0
@@ -253,19 +253,19 @@ label a03_cou2_03:
     show hina 2 lg pyjama e with dict_dissolve_25
 
     voice "HIN_0878"
-    hina "\"...Are you...\""
+    hina "\"...Are you...\"" id a03_cou2_03_b6d240b4
 
     show rin 1 lg pyjama a with dict_dissolve_25
 
     voice "RIN_0671"
-    rin "\"Hm?\""
+    rin "\"Hm?\"" id a03_cou2_03_0fd1cf8d
 
     stop music fadeout 3.0
 
     show hina 2 lg pyjama h with dict_dissolve_25
 
     voice "HIN_0879"
-    hina "\"...Into girls, Rin?\""
+    hina "\"...Into girls, Rin?\"" id a03_cou2_03_4d3a1825
 
     play sound se521
 
@@ -276,7 +276,7 @@ label a03_cou2_03:
     $ side_image = "fumi 1 side school_scarf c"
 
     voice "FUM_0649"
-    fumi "\"I'm back!\""
+    fumi "\"I'm back!\"" id a03_cou2_03_caab6a21
 
     show hina 1 lg pyjama d:
         xoffset 0 yoffset 0
@@ -284,7 +284,7 @@ label a03_cou2_03:
     show rin 1 lg pyjama c with dict_dissolve_25
 
     voice "RIN_0672"
-    rin "\"Hey, Asou.\""
+    rin "\"Hey, Asou.\"" id a03_cou2_03_5fcac34f
 
     play music bgm01
 
@@ -303,7 +303,7 @@ label a03_cou2_03:
     pause 0.5
 
     voice "FUM_0650"
-    fumi "\"They had some good-looking sandwiches, so I bought some.\""
+    fumi "\"They had some good-looking sandwiches, so I bought some.\"" id a03_cou2_03_1cc1e3b1
 
     show fumi 1 sm school_scarf b:
         alpha 1.0 xcenter 852
@@ -312,43 +312,43 @@ label a03_cou2_03:
     show rin 1 sm pyjama d with dict_dissolve_25
 
     voice "RIN_0673"
-    rin "\"Great, I was just getting hungry~\""
+    rin "\"Great, I was just getting hungry~\"" id a03_cou2_03_2224c2d0
 
     show fumi 1 sm school_scarf c with dict_dissolve_25
 
     voice "FUM_0651"
-    fumi "\"They had the egg sandwiches you like too, Natsume.\""
+    fumi "\"They had the egg sandwiches you like too, Natsume.\"" id a03_cou2_03_4473c5ef
 
     show hina 1 sm pyjama g with dict_dissolve_25
 
     voice "HIN_0880"
-    hina "\"Y-Yay~\""
+    hina "\"Y-Yay~\"" id a03_cou2_03_63a6e34f
 
     show rin 1 sm pyjama e with dict_dissolve_25
 
     play sound se558a
 
     voice "RIN_0674"
-    rin "\"Oh, right. Were you saying something a minute ago, Hina?\""
+    rin "\"Oh, right. Were you saying something a minute ago, Hina?\"" id a03_cou2_03_e7491723
 
     "Rin asked, picking out a sandwich."
 
     show hina 1 sm pyjama d with dict_dissolve_25
 
     voice "HIN_0881"
-    hina "\"N-No, it was nothing.\""
+    hina "\"N-No, it was nothing.\"" id a03_cou2_03_3753d924
 
     show fumi 1 sm school_scarf e with dict_dissolve_25
 
     voice "FUM_0652"
-    fumi "\"...Natsume, your face is a little red.\""
+    fumi "\"...Natsume, your face is a little red.\"" id a03_cou2_03_7eeb621f
 
     show hina:
         "hina 1 sm pyjama l" with Dissolve(0.25)
         ShakeSide
 
     voice "HIN_0882"
-    hina "\"Huh? Huh? Huh? Huh? Is it?\""
+    hina "\"Huh? Huh? Huh? Huh? Is it?\"" id a03_cou2_03_1f411143
 
     hide rin
     hide fumi
@@ -361,7 +361,7 @@ label a03_cou2_03:
     with dict_dissolve_25
 
     voice "FUM_0653"
-    fumi "\"Yes. You don't have a fever, do you...?\""
+    fumi "\"Yes. You don't have a fever, do you...?\"" id a03_cou2_03_b94c753b
 
     play sound se116a
 
@@ -370,12 +370,12 @@ label a03_cou2_03:
     show fumi 1 lg school_scarf d with dict_dissolve_25
 
     voice "FUM_0654"
-    fumi "\"You're a little warm. I wonder if it's a cold.\""
+    fumi "\"You're a little warm. I wonder if it's a cold.\"" id a03_cou2_03_0a927be0
 
     show hina 1 lg pyjama g with dict_dissolve_25
 
     voice "HIN_0883"
-    hina "\"N-No, it's not.\""
+    hina "\"N-No, it's not.\"" id a03_cou2_03_5b88b16b
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

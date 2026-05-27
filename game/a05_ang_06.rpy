@@ -26,20 +26,20 @@ label a05_ang_06:
     if persistent.dpatch:
         rin "\"Every school has stupid rumors like that. There's no such thing as angels.\"" id a05_ang_06_b2caa84c
     else:
-        rin "\"Every campus has stupid rumors like that. There's no such thing as angels.\""
+        rin "\"Every campus has stupid rumors like that. There's no such thing as angels.\"" id a05_ang_06_be105e6f
 
     voice "RIN_0186"
-    rin "\"Okay, let's get out of here. Come on, Asou.\""
+    rin "\"Okay, let's get out of here. Come on, Asou.\"" id a05_ang_06_ebcdf9c4
 
     $ side_image = "side/sachiko_1_side_outfit_j_grayscale.webp"
 
     voice "SYO_0047"
-    sachiko "\"T-Twelve thousand!\""
+    sachiko "\"T-Twelve thousand!\"" id a05_ang_06_9edf3112
 
     show hina 1 sm school_scarf j grayscale with dict_dissolve_25
 
     voice "HIN_0205"
-    hina "\"Shoo, shoo! Back to hell with you, demon!\""
+    hina "\"Shoo, shoo! Back to hell with you, demon!\"" id a05_ang_06_d689d423
 
     hide rin
     hide fumi
@@ -56,7 +56,7 @@ label a05_ang_06:
 
     voice "SYO_0202"
 
-    sachiko "\"No such thing, she says.\""
+    sachiko "\"No such thing, she says.\"" id a05_ang_06_937fd6fa
 
     "Sachiko turned around pointedly. She was as shrewd as always."
 
@@ -68,7 +68,7 @@ label a05_ang_06:
 
     voice "SYO_0203"
 
-    sachiko "\"So, was that you?\""
+    sachiko "\"So, was that you?\"" id a05_ang_06_c08d91e7
 
     "—It was not."
 
@@ -81,7 +81,7 @@ label a05_ang_06:
     if persistent.dpatch:
         sachiko "\"No, it was at the school festival, which was before you came. Well, they do tend to pass through here pretty often.\"" id a05_ang_06_f067e3a4
     else:
-        sachiko "\"No, it was at the class festival, which was before you came. Well, they do tend to pass through here pretty often.\""
+        sachiko "\"No, it was at the class festival, which was before you came. Well, they do tend to pass through here pretty often.\"" id a05_ang_06_4259592a
 
     "Now that she mentioned it, I realized she was right. In just these few weeks, I'd seen several of my kind."
 
@@ -99,7 +99,7 @@ label a05_ang_06:
 
     voice "SYO_0205"
 
-    sachiko "\"It's rare they'd show up on film, though.\""
+    sachiko "\"It's rare they'd show up on film, though.\"" id a05_ang_06_6f10f96d
 
     "Sachiko mimed taking a picture."
 
@@ -112,14 +112,14 @@ label a05_ang_06:
     "And for them to appear on film, too..."
 
     voice "2SA_0015"
-    sachiko "\"Oh, it's not your fault. That girl's camera is special.\""
+    sachiko "\"Oh, it's not your fault. That girl's camera is special.\"" id a05_ang_06_99bc8b1d
 
     "Special? What does that mean?"
 
     show sachiko 1 grayscale lg outfit i with dict_dissolve_25
 
     voice "2SA_0016"
-    sachiko "\"It's a Device.\""
+    sachiko "\"It's a Device.\"" id a05_ang_06_1893d236
 
     "—I'm surprised."
 
@@ -132,14 +132,14 @@ label a05_ang_06:
     show sachiko 1 grayscale lg outfit g with dict_dissolve_25
 
     voice "2SA_0017"
-    sachiko "\"Are you surprised? I bet you thought all Devices are displayed in cathedrals or something.\""
+    sachiko "\"Are you surprised? I bet you thought all Devices are displayed in cathedrals or something.\"" id a05_ang_06_4875d1f3
 
     "She's right. I never thought I'd see one here. And being used so regularly..."
 
     "Most known Devices are used in name only by various religions to whatever purpose they deem convenient."
 
     voice "2SA_0018"
-    sachiko "\"Devices don't have to be holy relics or anything.\""
+    sachiko "\"Devices don't have to be holy relics or anything.\"" id a05_ang_06_6ea6fdac
 
     "I suppose not. It's not as if we angels are \"holy\" beings, either."
 
@@ -148,7 +148,7 @@ label a05_ang_06:
     show sachiko 1 grayscale lg outfit a with dict_dissolve_25
 
     voice "2SA_0019"
-    sachiko "\"It's not just Hina's camera. There's plenty of Devices in this world.\""
+    sachiko "\"It's not just Hina's camera. There's plenty of Devices in this world.\"" id a05_ang_06_16f21c29
 
     "It sounds as if she knows of at least one other."
 

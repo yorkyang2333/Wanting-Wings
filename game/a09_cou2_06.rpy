@@ -13,7 +13,7 @@ label a09_cou2_06:
     $ side_image = "hina 2 side school f"
 
     voice "2HI_1026"
-    hina "\"...?\""
+    hina "\"...?\"" id a09_cou2_06_f1ec1a77
 
     "The hallway in front of the classroom. Hina passed by a girl on her way back from the faculty room."
 
@@ -24,7 +24,7 @@ label a09_cou2_06:
     $ side_image = "hina 2 side school d"
 
     voice "2HI_1027"
-    hina "\"......\""
+    hina "\"......\"" id a09_cou2_06_7df1b526
 
     pause 0.5
 
@@ -47,92 +47,92 @@ label a09_cou2_06:
     show rin 1 sm school b with dict_dissolve_25
 
     voice "2RI_1009"
-    rin "\"Y-You're back. Asou and Mikoyan went to the bathroom—\""
+    rin "\"Y-You're back. Asou and Mikoyan went to the bathroom—\"" id a09_cou2_06_1137e3ea
 
     show hina 2 sm school f with dict_dissolve_25
 
     voice "2HI_1028"
-    hina "\"Honjou was just here. Were you talking about something?\""
+    hina "\"Honjou was just here. Were you talking about something?\"" id a09_cou2_06_f8e5d17a
 
     show rin 2 sm school e with dict_dissolve_25
 
     voice "2RI_1010"
-    rin "\"No... yeah. But it wasn't important.\""
+    rin "\"No... yeah. But it wasn't important.\"" id a09_cou2_06_5b4cd905
 
     show hina 2 sm school d with dict_dissolve_25
 
     voice "2HI_1029"
-    hina "\"......\""
+    hina "\"......\"" id a09_cou2_06_f89047d3
 
     "Rin tried to brush it off, but Hina merely waited for elaboration."
 
     show rin 2 sm school d with dict_dissolve_25
 
     voice "2RI_1011"
-    rin "\"Uhh... she said she was gonna give me chocolates for Valentine's.\""
+    rin "\"Uhh... she said she was gonna give me chocolates for Valentine's.\"" id a09_cou2_06_e06acd0c
 
     voice "2HI_1030"
-    hina "\"And what did you say?\""
+    hina "\"And what did you say?\"" id a09_cou2_06_a164462c
 
     show rin 1 sm school g with dict_dissolve_25
 
     voice "2RI_1012"
-    rin "\"Well... I said, 'Thanks.'\""
+    rin "\"Well... I said, 'Thanks.'\"" id a09_cou2_06_5c69a321
 
     show hina 2 sm school f with dict_dissolve_25
 
     voice "2HI_1031"
-    hina "\"You're gonna accept them?\""
+    hina "\"You're gonna accept them?\"" id a09_cou2_06_17b53544
 
     show rin 1 sm school i with dict_dissolve_25
 
     voice "2RI_1013"
-    rin "\"No, I wanted to turn them down...! But I couldn't think of a good excuse off the top of my head.\""
+    rin "\"No, I wanted to turn them down...! But I couldn't think of a good excuse off the top of my head.\"" id a09_cou2_06_cd0506e4
 
     "Rin was panicking just from Hina's continued eye contact."
 
     show rin 1 sm school g with dict_dissolve_25
 
     voice "2RI_1014"
-    rin "\"I-I told her I don't like sweets...!\""
+    rin "\"I-I told her I don't like sweets...!\"" id a09_cou2_06_15de7b8c
 
     show hina 2 sm school d with dict_dissolve_25
 
     voice "2HI_1032"
-    hina "\"......\""
+    hina "\"......\"" id a09_cou2_06_a590f7a3
 
     "Hina thought for a moment, then slowly started..."
 
     show hina 2 sm school h with dict_dissolve_25
 
     voice "2HI_1033"
-    hina "\"Listen—\""
+    hina "\"Listen—\"" id a09_cou2_06_ca73270f
 
     play sound se000c
 
     $ side_image = "miyako 1 side school_a b"
 
     voice "2MI_0878"
-    miyako "\"Sorry that took so long~\""
+    miyako "\"Sorry that took so long~\"" id a09_cou2_06_8076ac36
 
     $ side_image = "fumi 1 side school b"
 
     voice "2FU_0822"
-    fumi "\"Oh, Natsume's back.\""
+    fumi "\"Oh, Natsume's back.\"" id a09_cou2_06_306b2868
 
     "Fumi and Miyako had returned."
 
     show hina 1 sm school a with dict_dissolve_25
 
     voice "2HI_1034"
-    hina "\"Hey, guys.\""
+    hina "\"Hey, guys.\"" id a09_cou2_06_92655ed8
 
     "Letting her gaze drop for just a second, Hina turned to them. Her voice and her expression were those of the usual Hina."
 
     show hina 1 sm school p with dict_dissolve_25
 
     voice "2HI_1035"
-    hina "\"I'll get ready to go right away~\""
+    hina "\"I'll get ready to go right away~\"" id a09_cou2_06_83de0450
 
     hide hina with dict_dissolve_25
 
@@ -141,17 +141,17 @@ label a09_cou2_06:
     show rin 1 sm school h with dict_dissolve_25
 
     voice "2RI_1015"
-    rin "\"Umm, Hina—\""
+    rin "\"Umm, Hina—\"" id a09_cou2_06_ded7e465
 
     $ side_image = "hina 2 side school a"
 
     voice "2HI_1036"
-    hina "\"Oh, I'm gonna check the locks on the windows, so you can leave first~\""
+    hina "\"Oh, I'm gonna check the locks on the windows, so you can leave first~\"" id a09_cou2_06_8bca73ea
 
     show rin 2 sm school d with dict_dissolve_25
 
     voice "2RI_1016"
-    rin "\"Uhh... right.\""
+    rin "\"Uhh... right.\"" id a09_cou2_06_c2e4cb57
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

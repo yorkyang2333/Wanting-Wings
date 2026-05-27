@@ -21,7 +21,7 @@ label a09_comn_01_a:
     show fumi 1 lg school a with dict_dissolve_25
 
     voice "2FU_0574"
-    fumi "\"......\""
+    fumi "\"......\"" id a09_comn_01_b_5f4d5276
 
     "Fumi was checking over her answers."
 
@@ -30,7 +30,7 @@ label a09_comn_01_a:
     show hina 1 lg school j with dict_dissolve_25
 
     voice "2HI_0732"
-    hina "\"Nnh~\""
+    hina "\"Nnh~\"" id a09_comn_01_b_7f9507c8
 
     "Hina was busy writing and erasing. She seemed to be having a tough time."
 
@@ -39,7 +39,7 @@ label a09_comn_01_a:
     show rin 1 lg school b with dict_dissolve_25
 
     voice "2RI_0745"
-    rin "\".........\""
+    rin "\".........\"" id a09_comn_01_b_076a485f
 
     "Finishing quickly, Rin was absentmindedly spinning a pen."
 
@@ -48,7 +48,7 @@ label a09_comn_01_a:
     show rin 1 lg school e with dict_dissolve_25
 
     voice "2RI_0746"
-    rin "\"Ah...!\""
+    rin "\"Ah...!\"" id a09_comn_01_a_39cbbfd4
 
     hide rin with dict_dissolve_25
 
@@ -59,14 +59,14 @@ label a09_comn_01_a:
     show miyako 2 lg school i with dict_dissolve_25
 
     voice "2MI_0563a"
-    miyako "\"......\""
+    miyako "\"......\"" id a09_comn_01_a_8c4b847a
 
     show miyako:
         "miyako 1 lg school_a f" with Dissolve(0.25)
         ShakeSide
 
     voice "2MI_0563"
-    miyako "\"Ah!\""
+    miyako "\"Ah!\"" id a09_comn_01_a_5456ef4c
 
     show miyako 1 lg school_a f:
         xoffset 0 yoffset 0
@@ -77,7 +77,7 @@ label a09_comn_01_a:
     show miyako 1 lg school_a i with dict_dissolve_25
 
     voice "2MI_0564"
-    miyako "\"......\""
+    miyako "\"......\"" id a09_comn_01_a_fbf56e2e
 
     "She hurriedly looked down at her exam."
 
@@ -92,14 +92,14 @@ label a09_comn_01_b:
     show fumi 1 lg school a with dict_dissolve_25
 
     voice "2FU_0574"
-    fumi "\"......\""
+    fumi "\"......\"" id a09_comn_01_b_5f4d5276
 
     "Fumi was checking over her answers."
 
     show fumi 1 lg school e with dict_dissolve_25
 
     voice "2FU_0575"
-    fumi "\"...Oh.\""
+    fumi "\"...Oh.\"" id a09_comn_01_b_dceadd10
 
     "A careless mistake. She erased an answer with a small sound of recognition."
 
@@ -108,7 +108,7 @@ label a09_comn_01_b:
     show hina 1 lg school j with dict_dissolve_25
 
     voice "2HI_0732"
-    hina "\"Nnh~\""
+    hina "\"Nnh~\"" id a09_comn_01_b_7f9507c8
 
     "Hina was busy writing and erasing. "
 
@@ -117,7 +117,7 @@ label a09_comn_01_b:
     show hina 1 lg school c with dict_dissolve_25
 
     voice "2HI_0733"
-    hina "\"Oh!\""
+    hina "\"Oh!\"" id a09_comn_01_b_3808d3a3
 
     "Her expression lit up. She must have remembered something. She nodded a few times as she wrote an answer down."
 
@@ -126,7 +126,7 @@ label a09_comn_01_b:
     show rin 1 lg school b with dict_dissolve_25
 
     voice "2RI_0745"
-    rin "\".........\""
+    rin "\".........\"" id a09_comn_01_b_076a485f
 
     "Finishing quickly, Rin was absentmindedly spinning a pen."
 
@@ -139,7 +139,7 @@ label a09_comn_01_b:
         ShakeTameiki
 
     voice "2RI_0747"
-    rin "\"Whew...\""
+    rin "\"Whew...\"" id a09_comn_01_b_88ac4d0e
 
     show rin 1 lg school k:
         xoffset 0 yoffset 0
@@ -151,7 +151,7 @@ label a09_comn_01_b:
     show miyako 1 lg school_a l with dict_dissolve_25
 
     voice "2MI_0565"
-    miyako "\"Zzz, zzz...\""
+    miyako "\"Zzz, zzz...\"" id a09_comn_01_b_b0431618
 
     "She was snoozing even though only half of her answer sheet was filled in."
 
@@ -162,7 +162,7 @@ label a09_comn_01_b:
         ShakeJump
 
     voice "2MI_0566"
-    miyako "\"—!!\""
+    miyako "\"—!!\"" id a09_comn_01_b_8f9839b6
 
     show miyako 1 lg school_a k:
         xoffset 0 yoffset 0
@@ -175,7 +175,7 @@ label a09_comn_01_b:
     show miyako 2 lg school c with dict_dissolve_25
 
     voice "2MI_0567"
-    miyako "\"Hahaha...\""
+    miyako "\"Hahaha...\"" id a09_comn_01_b_7753fe01
 
     "She looked awkwardly at her answer sheet."
 

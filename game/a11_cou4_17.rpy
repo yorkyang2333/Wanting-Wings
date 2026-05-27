@@ -6,22 +6,22 @@ label a11_cou4_17:
     scene kimikara_10_v with Dissolve(2.0)
 
     voice "2SA_1201"
-    sachiko "\"Miyako, grab the viridian?\""
+    sachiko "\"Miyako, grab the viridian?\"" id a11_cou4_17_8134a8ce
 
     scene kimikara_10_w with Dissolve(0.5)
 
     voice "2MI_1303"
-    miyako "\"Here.\""
+    miyako "\"Here.\"" id a11_cou4_17_fb9caf0b
 
     scene kimikara_10_x with Dissolve(0.5)
 
     voice "2MI_1304a"
-    miyako "\"......\""
+    miyako "\"......\"" id a11_cou4_17_e636bd77
 
     scene kimikara_10_y with Dissolve(0.5)
 
     voice "2MI_1304"
-    miyako "\"I can't see you, but you're there, aren't you? I've been sensing you all this time.\""
+    miyako "\"I can't see you, but you're there, aren't you? I've been sensing you all this time.\"" id a11_cou4_17_bb721ac8
 
     window hide
 

@@ -8,7 +8,7 @@ label a01_cou3_02:
     show hina 3 sm dark pyjama a with Dissolve(0.25)
 
     voice "HIN_0292"
-    hina "\"Hnnh... mmh...\""
+    hina "\"Hnnh... mmh...\"" id a01_cou3_02_a4e5a5fe
 
     "Hina mumbled quietly in her sleep."
 
@@ -17,19 +17,19 @@ label a01_cou3_02:
     show rin 3 sm nightlight pyjama glasses_e with dict_dissolve_25
 
     voice "RIN_0248"
-    rin "\".........\""
+    rin "\".........\"" id a01_cou3_02_91a38e40
 
     show fumi 3 sm nightlight pyjama b with dict_dissolve_25
 
     voice "FUM_0220"
-    fumi "\"......\""
+    fumi "\"......\"" id a01_cou3_02_3e6ce8bb
 
     "Rin was reading with her bedside light on, and Fumi was writing in her diary."
 
     show fumi 3 sm nightlight pyjama c with dict_dissolve_25
 
     voice "FUM_0221"
-    fumi "\"...Okay.\""
+    fumi "\"...Okay.\"" id a01_cou3_02_6a964746
 
     hide rin
     hide fumi
@@ -48,75 +48,75 @@ label a01_cou3_02:
     with Dissolve(0.25)
 
     voice "RIN_0249"
-    rin "\"Oh, going to sleep? I can turn my light off if it's too bright.\""
+    rin "\"Oh, going to sleep? I can turn my light off if it's too bright.\"" id a01_cou3_02_30ebe194
 
     voice "FUM_0222"
-    fumi "\"No, that's fine.\""
+    fumi "\"No, that's fine.\"" id a01_cou3_02_aaf5be15
 
     show rin 3 sm nightlight pyjama glasses_b with dict_dissolve_25
 
     voice "RIN_0250"
-    rin "\"Is Hina sleeping?\""
+    rin "\"Is Hina sleeping?\"" id a01_cou3_02_3608043e
 
     show fumi 3 lg dark pyjama c with dict_dissolve_25
 
     voice "FUM_0223"
-    fumi "\"Yep. She looks comfortable.\""
+    fumi "\"Yep. She looks comfortable.\"" id a01_cou3_02_cc000c9e
 
     show rin 3 sm nightlight pyjama glasses_d with dict_dissolve_25
 
     voice "RIN_0251"
-    rin "\"She falls asleep so fast.\""
+    rin "\"She falls asleep so fast.\"" id a01_cou3_02_33b11f64
 
     show fumi 3 lg dark pyjama b with dict_dissolve_25
 
     voice "FUM_0224"
-    fumi "\"...Did you contact your family?\""
+    fumi "\"...Did you contact your family?\"" id a01_cou3_02_c1c710da
 
     show rin 3 sm nightlight pyjama glasses_e with dict_dissolve_25
 
     voice "RIN_0252"
-    rin "\"Ah... mhm. I called earlier.\""
+    rin "\"Ah... mhm. I called earlier.\"" id a01_cou3_02_fa3edf88
 
     show fumi 3 lg dark pyjama h with dict_dissolve_25
 
     voice "FUM_0225"
-    fumi "\"Good job.\""
+    fumi "\"Good job.\"" id a01_cou3_02_68eb8c7a
 
     show rin 3 sm nightlight pyjama glasses_d with dict_dissolve_25
 
     voice "RIN_0253"
-    rin "\"...Hahh.\""
+    rin "\"...Hahh.\"" id a01_cou3_02_91760ba8
 
     show fumi 3 lg dark pyjama b with dict_dissolve_25
 
     voice "FUM_0226"
-    fumi "\"Not going to sleep yet?\""
+    fumi "\"Not going to sleep yet?\"" id a01_cou3_02_1975431d
 
     show rin 3 sm nightlight pyjama glasses_d with dict_dissolve_25
 
     voice "RIN_0254"
-    rin "\"Mm, I will in a little bit.\""
+    rin "\"Mm, I will in a little bit.\"" id a01_cou3_02_1ed0f472
 
     show fumi 3 lg dark pyjama c with dict_dissolve_25
 
     voice "FUM_0227"
-    fumi "\"Okay. Good night.\""
+    fumi "\"Okay. Good night.\"" id a01_cou3_02_628143bd
 
     show rin 3 sm nightlight pyjama glasses_c with dict_dissolve_25
 
     voice "RIN_0255"
-    rin "\"Night.\""
+    rin "\"Night.\"" id a01_cou3_02_c9d2eaa4
 
     show fumi 3 lg dark pyjama b with dict_dissolve_25
 
     voice "FUM_0228"
-    fumi "\"...It'll be hard to get up in the morning if you stay up too late.\""
+    fumi "\"...It'll be hard to get up in the morning if you stay up too late.\"" id a01_cou3_02_9a258390
 
     show rin 3 sm nightlight pyjama glasses_d with dict_dissolve_25
 
     voice "RIN_0256"
-    rin "\"Ah... uh huh.\""
+    rin "\"Ah... uh huh.\"" id a01_cou3_02_d89242a9
 
     hide fumi
     with Dissolve(0.25)
@@ -126,7 +126,7 @@ label a01_cou3_02:
     show rin 3 sm nightlight pyjama glasses_b with dict_dissolve_25
 
     voice "RIN_0257"
-    rin "\"......\""
+    rin "\"......\"" id a01_cou3_02_702b5501
 
     play sound se530
 

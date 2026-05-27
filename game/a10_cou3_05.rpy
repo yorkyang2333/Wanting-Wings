@@ -19,38 +19,38 @@ label a10_cou3_05:
     show miyako 1 sm pyjama_a e with dict_dissolve_25
 
     voice "2MI_1052"
-    miyako "\"Can I leave the rest of the dishes here?\""
+    miyako "\"Can I leave the rest of the dishes here?\"" id a10_cou3_05_05524366
 
     "Miyako placed a stack of plates next to the sink."
 
     $ side_image = "rin 2 side pyjama glasses d"
 
     voice "2RI_1589"
-    rin "\"Mm.\""
+    rin "\"Mm.\"" id a10_cou3_05_16281a71
 
     "...came Rin's half-hearted reply."
 
     show miyako 1 sm pyjama_a g with dict_dissolve_25
 
     voice "2MI_1053"
-    miyako "\"Umm, do you need any help?\""
+    miyako "\"Umm, do you need any help?\"" id a10_cou3_05_0a4e758c
 
     $ side_image = "hina 2 side pyjama_pjm d"
 
     voice "2HI_1574"
-    hina "\"Miyako, just let her do it.\""
+    hina "\"Miyako, just let her do it.\"" id a10_cou3_05_fd37d31a
 
     "Hina stopped her."
 
     $ side_image = "hina 1 side pyjama_pjm a"
 
     voice "2HI_1575"
-    hina "\"We should go back to the living room.\""
+    hina "\"We should go back to the living room.\"" id a10_cou3_05_f393806a
 
     show miyako 2 sm pyjama a with dict_dissolve_25
 
     voice "2MI_1054"
-    miyako "\"Oh, okay.\""
+    miyako "\"Oh, okay.\"" id a10_cou3_05_fecaa798
 
     hide miyako with dict_dissolve_50
 
@@ -61,7 +61,7 @@ label a10_cou3_05:
     $ side_image = "rin 2 side pyjama glasses d"
 
     voice "2RI_1590"
-    rin "\"......\""
+    rin "\"......\"" id a10_cou3_05_c1610aaa
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

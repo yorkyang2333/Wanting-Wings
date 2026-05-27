@@ -20,12 +20,12 @@ label a05_ang_13:
     pause 1.625
 
     voice "SYO_0223"
-    sachiko "\"What'd you think of my three girls? Pretty cute, right?\""
+    sachiko "\"What'd you think of my three girls? Pretty cute, right?\"" id a05_ang_13_cb293f9c
 
     "Sachiko leaned against the fence and winked at me."
 
     voice "SYO_0224"
-    sachiko "\"Well, you ready to get rid of those wings?\""
+    sachiko "\"Well, you ready to get rid of those wings?\"" id a05_ang_13_ea01f171
 
     "She was full of confidence as she asked."
 
@@ -57,17 +57,17 @@ label a05_ang_13:
     "I alighted into a world of full color."
 
     voice "SYO_0225"
-    sachiko "\"Table for one, right this way~♪\""
+    sachiko "\"Table for one, right this way~♪\"" id a05_ang_13_f6f1bcbc
 
     "Sachiko welcomed me with wide-open arms like she was this world's representative."
 
     voice "SYO_0226"
-    sachiko "\"Oh, but I'm not giving you any of those girls.\""
+    sachiko "\"Oh, but I'm not giving you any of those girls.\"" id a05_ang_13_9bd86e1d
 
     "That's a little disappointing. But it's not as if they belong to you."
 
     voice "SYO_0227"
-    sachiko "\"Come on down. You're in heaven now.\""
+    sachiko "\"Come on down. You're in heaven now.\"" id a05_ang_13_8797cadc
 
     pause 1.0
 

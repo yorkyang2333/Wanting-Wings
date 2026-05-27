@@ -11,7 +11,7 @@ label a07_cou1_03:
     $ side_image = "fumi 1 side casual d"
 
     voice "2FU_0146"
-    fumi "\"Ugh~ The wind was so cold~ Are you okay, Hina?\""
+    fumi "\"Ugh~ The wind was so cold~ Are you okay, Hina?\"" id a07_cou1_03_dd94f98a
 
     "Fumi scrunched up her shoulders as she shut the door."
 
@@ -20,7 +20,7 @@ label a07_cou1_03:
     with dict_dissolve_25
 
     voice "2HI_0176"
-    hina "\"I'm invincible when I have your handmade scarf equipped♪\""
+    hina "\"I'm invincible when I have your handmade scarf equipped♪\"" id a07_cou1_03_ec736c26
 
     "Hina boasted. I doubt even the North Wind could rip the scarf from this traveler."
 
@@ -29,12 +29,12 @@ label a07_cou1_03:
     with dict_dissolve_25
 
     voice "2FU_0147"
-    fumi "\"I just knitted it for practice, so I'm really happy you're wearing it.\""
+    fumi "\"I just knitted it for practice, so I'm really happy you're wearing it.\"" id a07_cou1_03_bcadf3e0
 
     show hina z4 2 lg casual_scarf c with dict_dissolve_25
 
     voice "2HI_0177"
-    hina "\"Well, it's warm and cute. Thanks, Fumi♪\""
+    hina "\"Well, it's warm and cute. Thanks, Fumi♪\"" id a07_cou1_03_27e1127e
 
     "Hina had received the scarf in question at Fumi's house at the end of the year."
 
@@ -43,7 +43,7 @@ label a07_cou1_03:
     show fumi z4 2 lg casual b with dict_dissolve_25
 
     voice "2FU_0148"
-    fumi "\"I'll never let you catch cold again!\""
+    fumi "\"I'll never let you catch cold again!\"" id a07_cou1_03_15fd2aa7
 
     "This time, Fumi was the one boasting. Well, Hina {i}had{/i} given her cause to worry before."
 
@@ -58,22 +58,22 @@ label a07_cou1_03:
     with dict_dissolve_25
 
     voice "2HI_0178"
-    hina "\"Y-You think Rin's okay?\""
+    hina "\"Y-You think Rin's okay?\"" id a07_cou1_03_b083b2f6
 
     show fumi 2 lg casual a with dict_dissolve_25
 
     voice "2FU_0149"
-    fumi "\"Hopefully things aren't too awkward with them.\""
+    fumi "\"Hopefully things aren't too awkward with them.\"" id a07_cou1_03_f23e95b6
 
     show hina 2 lg casual_scarf h with dict_dissolve_25
 
     voice "2HI_0179"
-    hina "\"I think Takaoka will be fine, but...\""
+    hina "\"I think Takaoka will be fine, but...\"" id a07_cou1_03_01e2a889
 
     show fumi 1 lg casual h with dict_dissolve_25
 
     voice "2FU_0150"
-    fumi "\"...But Ogata might not. She did say not to worry about her.\""
+    fumi "\"...But Ogata might not. She did say not to worry about her.\"" id a07_cou1_03_9703318d
 
     "That's right. Fumi and Hina had made sure (perhaps too many times) that Rin would be alright on her own with Takaoka."
 
@@ -82,19 +82,19 @@ label a07_cou1_03:
     show hina 1 lg casual_scarf n with dict_dissolve_25
 
     voice "2HI_0180"
-    hina "\"I didn't get what she meant by rest and free time and stuff, though.\""
+    hina "\"I didn't get what she meant by rest and free time and stuff, though.\"" id a07_cou1_03_4029272f
 
     show fumi 2 lg casual h with dict_dissolve_25
 
     voice "2FU_0151"
-    fumi "\"Free time?\""
+    fumi "\"Free time?\"" id a07_cou1_03_dc415503
 
     "Fumi didn't seem to understand either... though, if she had, Hina probably would have sent her flying."
 
     show hina 2 lg casual_scarf a with dict_dissolve_25
 
     voice "2HI_0181"
-    hina "\"Well, worrying about her now won't do any good.\""
+    hina "\"Well, worrying about her now won't do any good.\"" id a07_cou1_03_d438fc6c
 
     "These two were always concerned about Rin. Perhaps even more than each other."
 
@@ -105,7 +105,7 @@ label a07_cou1_03:
         ShakeYes
 
     voice "2HI_0182"
-    hina "\"And since she gave us this time alone together, we should make the most of it and flirt our hearts out!\""
+    hina "\"And since she gave us this time alone together, we should make the most of it and flirt our hearts out!\"" id a07_cou1_03_d962a89f
 
     show hina 2 lg casual_scarf g:
         xoffset 0 yoffset 0
@@ -115,7 +115,7 @@ label a07_cou1_03:
         ShakeYes
 
     voice "2FU_0152"
-    fumi "\"Right. We can thank Ogata later.\""
+    fumi "\"Right. We can thank Ogata later.\"" id a07_cou1_03_5c9c9e9c
 
     show fumi 2 lg casual i:
         xoffset 0 yoffset 0
@@ -126,12 +126,12 @@ label a07_cou1_03:
     show hina 2 lg casual_scarf c with dict_dissolve_25
 
     voice "2HI_0183"
-    hina "\"Fumi... I love you.\""
+    hina "\"Fumi... I love you.\"" id a07_cou1_03_ecc67c59
 
     show fumi 2 lg casual b with dict_dissolve_25
 
     voice "2FU_0153"
-    fumi "\"Me too... I love you too, Hina.\""
+    fumi "\"Me too... I love you too, Hina.\"" id a07_cou1_03_ddf0dc25
 
     hide fumi
     hide hina
@@ -142,31 +142,31 @@ label a07_cou1_03:
     $ side_image = "hina 2 side casual_scarf g"
 
     voice "2HI_0184"
-    hina "\"You smell good.\""
+    hina "\"You smell good.\"" id a07_cou1_03_9f52b404
 
     "Hina had her face buried in Fumi's chest. Because of their height difference, it was inevitable when they hugged."
 
     $ side_image = "fumi 1 side casual b"
 
     voice "2FU_0154"
-    fumi "\"It's probably my fabric softener.\""
+    fumi "\"It's probably my fabric softener.\"" id a07_cou1_03_818a30ce
 
     $ side_image = "hina 2 side casual_scarf c"
 
     voice "2HI_0185"
-    hina "\"I could find you by following this scent.\""
+    hina "\"I could find you by following this scent.\"" id a07_cou1_03_e8fcec81
 
     $ side_image = "fumi 1 side casual i"
 
     voice "2FU_0155"
-    fumi "\"You think so? Lots of people use the same thing.\""
+    fumi "\"You think so? Lots of people use the same thing.\"" id a07_cou1_03_98324c9c
 
     "Hina should smell the same way, in fact. Their shampoo was different, but they used the same fabric softener."
 
     $ side_image = "hina 2 side casual_scarf c"
 
     voice "2HI_0186"
-    hina "\"It's different when it comes from you♪\""
+    hina "\"It's different when it comes from you♪\"" id a07_cou1_03_4afaf3d6
 
     "She gave her a toothy smile."
 
@@ -175,7 +175,7 @@ label a07_cou1_03:
     $ side_image = "hina 1 side casual_scarf m"
 
     voice "2HI_0187"
-    hina "\"Mm...\""
+    hina "\"Mm...\"" id a07_cou1_03_47ace026
 
     "Hina stretched up and stole Fumi's lips."
 
@@ -186,12 +186,12 @@ label a07_cou1_03:
     $ side_image = "hina 2 side casual_scarf c"
 
     voice "2HI_0188"
-    hina "\"Fumi...\""
+    hina "\"Fumi...\"" id a07_cou1_03_33d61e8f
 
     $ side_image = "fumi 1 side casual i"
 
     voice "2FU_0156"
-    fumi "\"Yes...\""
+    fumi "\"Yes...\"" id a07_cou1_03_e89b85a8
 
     "They gazed at each other with moist eyes, full of longing."
 

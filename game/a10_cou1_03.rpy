@@ -20,54 +20,54 @@ label a10_cou1_03:
     with dict_dissolve_25
 
     voice "2HI_1202"
-    hina "\"I'm sorry. I wasn't very good at it again.\""
+    hina "\"I'm sorry. I wasn't very good at it again.\"" id a10_cou1_03_3b7bc4b1
 
     "Hina mumbled, staring at her feet."
 
     show fumi 1 lg pyjama k with dict_dissolve_25
 
     voice "2FU_0951"
-    fumi "\"N-No... I should apologize...\""
+    fumi "\"N-No... I should apologize...\"" id a10_cou1_03_22f2cb0f
 
     "Fumi shook her head and assigned the blame to herself instead."
 
     "Usually she would just say she was happy to feel Hina's skin against hers, but that wouldn't work today."
 
     voice "2HI_1203"
-    hina "\"Am I not good at it because... it's unnatural?\""
+    hina "\"Am I not good at it because... it's unnatural?\"" id a10_cou1_03_1b5e02cd
 
     show fumi 1 lg pyjama h with dict_dissolve_25
 
     voice "2FU_0952"
-    fumi "\"Unnatural...?\""
+    fumi "\"Unnatural...?\"" id a10_cou1_03_f1fd9b93
 
     voice "2HI_1204"
-    hina "\"Because we're both girls...\""
+    hina "\"Because we're both girls...\"" id a10_cou1_03_338d06a9
 
     show fumi 2 lg pyjama f with dict_dissolve_25
 
     voice "2FU_0953"
-    fumi "\"That's got nothing to do with it!\""
+    fumi "\"That's got nothing to do with it!\"" id a10_cou1_03_38345653
 
     "Fumi shot that down immediately."
 
     voice "2HI_1205"
-    hina "\"...Fumi, I'm scared...\""
+    hina "\"...Fumi, I'm scared...\"" id a10_cou1_03_82ae73dd
 
     "Her expression was stiff."
 
     show fumi 2 lg pyjama h with dict_dissolve_25
 
     voice "2FU_0954"
-    fumi "\"What is it, Hina?\""
+    fumi "\"What is it, Hina?\"" id a10_cou1_03_af096deb
 
     voice "2HI_1206"
-    hina "\"I'm scared that we're doing something wrong...\""
+    hina "\"I'm scared that we're doing something wrong...\"" id a10_cou1_03_7777a2c7
 
     show fumi 2 lg pyjama f with dict_dissolve_25
 
     voice "2FU_0955"
-    fumi "\"W...\""
+    fumi "\"W...\"" id a10_cou1_03_bd2ff7c5
 
     "\"We're not!\" I'm guessing that's what she was about to say."
 
@@ -112,7 +112,7 @@ label a10_cou1_03:
     show hina 2 lg pyjama_pjm e with dict_dissolve_25
 
     voice "2HI_1209"
-    hina "\"Can we still be friends after we graduate?\""
+    hina "\"Can we still be friends after we graduate?\"" id a10_cou1_03_d4802878
 
     show fumi:
         ShakeYes
@@ -124,14 +124,14 @@ label a10_cou1_03:
     with dict_dissolve_25
 
     voice "2FU_0958"
-    fumi "\"Forever. I'll never forget you.\""
+    fumi "\"Forever. I'll never forget you.\"" id a10_cou1_03_e6d6e39c
 
     show hina:
         "hina 2 lg pyjama_pjm h" with Dissolve(0.25)
         ShakeYes
 
     voice "2HI_1210"
-    hina "\"Mm.\""
+    hina "\"Mm.\"" id a10_cou1_03_90a902f7
 
     show hina 2 lg pyjama_pjm h:
         xoffset 0 yoffset 0

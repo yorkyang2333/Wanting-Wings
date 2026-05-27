@@ -16,7 +16,7 @@ label a02_cou3_02:
         easein 0.5 alpha 1.0 ycenter 981
 
     voice "HIN_0621"
-    hina "\"Hwah?!\""
+    hina "\"Hwah?!\"" id a02_cou3_02_52ce88cf
 
     show hina 1 lg pyjama l:
         alpha 1.0 xcenter 512 ycenter 981
@@ -28,7 +28,7 @@ label a02_cou3_02:
     show hina 1 lg pyjama k with dict_dissolve_25
 
     voice "HIN_0622"
-    hina "\"Where'd they go...?\""
+    hina "\"Where'd they go...?\"" id a02_cou3_02_9c890a73
 
     "A blanket fell from her shoulders."
 
@@ -37,24 +37,24 @@ label a02_cou3_02:
     $ side_image = "rin 1 side casual a"
 
     voice "RIN_0482"
-    rin "\"Heeey.\""
+    rin "\"Heeey.\"" id a02_cou3_02_2d23fa49
 
     $ side_image = "fumi 1 side casual b"
 
     voice "FUM_0433"
-    fumi "\"We're back.\""
+    fumi "\"We're back.\"" id a02_cou3_02_312c40a1
 
     "The two of them returned just then, shopping bags in hand."
 
     show hina 1 lg pyjama d with dict_dissolve_25
 
     voice "HIN_0623"
-    hina "\"H... Hi.\""
+    hina "\"H... Hi.\"" id a02_cou3_02_fcfb8875
 
     $ side_image = "fumi 1 side casual d"
 
     voice "FUM_0434"
-    fumi "\"I went shopping with Ogata since you were sleeping, Natsume.\""
+    fumi "\"I went shopping with Ogata since you were sleeping, Natsume.\"" id a02_cou3_02_4f740088
 
     "Fumi opened the refrigerator and started putting the food away."
 
@@ -63,7 +63,7 @@ label a02_cou3_02:
         ShakeTameiki
 
     voice "HIN_0624"
-    hina "\"I dozed off, huh?\""
+    hina "\"I dozed off, huh?\"" id a02_cou3_02_3dfb0c1b
 
     show hina 1 lg pyjama h:
         xoffset 0 yoffset 0
@@ -72,7 +72,7 @@ label a02_cou3_02:
     $ side_image = "fumi 1 side casual a"
 
     voice "FUM_0435"
-    fumi "\"Well, we were up late last night.\""
+    fumi "\"Well, we were up late last night.\"" id a02_cou3_02_2c57bcff
 
     hide hina with Dissolve(0.25)
 
@@ -91,7 +91,7 @@ label a02_cou3_02:
         "rin 1 sm casual e" with Dissolve(0.25)
 
     voice "RIN_0483"
-    rin "\"Ahaha, and how'd your sleep-learning go... whoa!\""
+    rin "\"Ahaha, and how'd your sleep-learning go... whoa!\"" id a02_cou3_02_45a9551d
 
     show rin 1 sm casual e:
         alpha 1.0 xcenter 772
@@ -104,7 +104,7 @@ label a02_cou3_02:
         ShakeJump
 
     voice "HIN_0625"
-    hina "\"'Whoa!' what?\""
+    hina "\"'Whoa!' what?\"" id a02_cou3_02_76e80eb1
 
     show hina 1 sm pyjama f:
         xoffset 0 yoffset 0
@@ -133,7 +133,7 @@ label a02_cou3_02:
     with None
 
     voice "FUM_0436"
-    fumi "\"Oh my.\""
+    fumi "\"Oh my.\"" id a02_cou3_02_5a3d38d5
 
     "Fumi followed Rin in and noticed as well."
 
@@ -144,7 +144,7 @@ label a02_cou3_02:
         ShakeJump
 
     voice "HIN_0626"
-    hina "\"What? What is it?\""
+    hina "\"What? What is it?\"" id a02_cou3_02_0351f199
 
     show hina 1 sm pyjama d:
         xoffset 0 yoffset 0
@@ -152,14 +152,14 @@ label a02_cou3_02:
     show fumi 1 sm casual d with dict_dissolve_25
 
     voice "FUM_0437"
-    fumi "\"Your notes are on your forehead.\""
+    fumi "\"Your notes are on your forehead.\"" id a02_cou3_02_42167006
 
     show hina:
         "hina 1 sm pyjama l" with Dissolve(0.25)
         ShakeSide
 
     voice "HIN_0627"
-    hina "\"What?!\""
+    hina "\"What?!\"" id a02_cou3_02_2ddc99f6
 
     show hina 1 sm pyjama l:
         xoffset 0 yoffset 0
@@ -170,19 +170,19 @@ label a02_cou3_02:
     show rin 1 sm casual f with dict_dissolve_25
 
     voice "RIN_0484"
-    rin "\"You might get in trouble for cheating.\""
+    rin "\"You might get in trouble for cheating.\"" id a02_cou3_02_94194bb8
 
     show fumi 1 sm casual c with dict_dissolve_25
 
     voice "FUM_0438"
-    fumi "\"Ahaha, I'll go get a wet towel.\""
+    fumi "\"Ahaha, I'll go get a wet towel.\"" id a02_cou3_02_5f1c59be
 
     show hina:
         "hina 1 sm pyjama d" with Dissolve(0.25)
         ShakeNo
 
     voice "HIN_0628"
-    hina "\"Urrrgh...\""
+    hina "\"Urrrgh...\"" id a02_cou3_02_16e27ab2
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

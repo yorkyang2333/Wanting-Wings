@@ -24,7 +24,7 @@ label a07_comn_06:
     pause 0.75
 
     voice "2FU_0073"
-    fumi "\"Here we go...\""
+    fumi "\"Here we go...\"" id a07_comn_06_0906cab2
 
     "Setting down four mugs, Fumi took a seat."
 
@@ -35,7 +35,7 @@ label a07_comn_06:
     pause 0.6
 
     voice "2MI_0053"
-    miyako "\"...What's this?\""
+    miyako "\"...What's this?\"" id a07_comn_06_5001462c
 
     "Miyako sniffed the steam coming from the mug."
 
@@ -46,10 +46,10 @@ label a07_comn_06:
     pause 0.6
 
     voice "2FU_0074"
-    fumi "\"I made apple tea tonight. By boiling apple peels, not with tea bags.\""
+    fumi "\"I made apple tea tonight. By boiling apple peels, not with tea bags.\"" id a07_comn_06_e21aae9e
 
     voice "2MI_0054"
-    miyako "\"So this is apple tea. It's a beautiful color, too.\""
+    miyako "\"So this is apple tea. It's a beautiful color, too.\"" id a07_comn_06_333fa8d7
 
     "Her curious gaze was reflected in the liquid inside the mug."
 
@@ -60,10 +60,10 @@ label a07_comn_06:
     pause 0.6
 
     voice "2RI_0096"
-    rin "\"Takaoka, is this your first time having apple tea?\""
+    rin "\"Takaoka, is this your first time having apple tea?\"" id a07_comn_06_aa948095
 
     voice "2MI_0055"
-    miyako "\"Yes.\""
+    miyako "\"Yes.\"" id a07_comn_06_f0f7b6ac
 
     if rin_pyjama == "pyjama_a":
         scene kimikara_01_ai with Dissolve(0.2)
@@ -72,7 +72,7 @@ label a07_comn_06:
     pause 0.6
 
     voice "2FU_0075"
-    fumi "\"Try it. It's really good♪\""
+    fumi "\"Try it. It's really good♪\"" id a07_comn_06_ea7539fc
 
     if rin_pyjama == "pyjama_a":
         scene kimikara_01_ag with Dissolve(0.2)
@@ -81,24 +81,24 @@ label a07_comn_06:
     pause 0.6
 
     voice "2HI_0100"
-    hina "\"Apple tea's always kinda rubbed me the wrong way.\""
+    hina "\"Apple tea's always kinda rubbed me the wrong way.\"" id a07_comn_06_89242288
 
     "Hina piped up from under the table."
 
     voice "2HI_0101"
-    hina "\"I mean, apple tea doesn't taste like apples at all. It smells like them, though.\""
+    hina "\"I mean, apple tea doesn't taste like apples at all. It smells like them, though.\"" id a07_comn_06_ad7aac66
 
     voice "2RI_0097"
-    rin "\"Aha.\""
+    rin "\"Aha.\"" id a07_comn_06_4e6d6b81
 
     voice "2HI_0102"
-    hina "\"The first sip always fools me.\""
+    hina "\"The first sip always fools me.\"" id a07_comn_06_de248570
 
     voice "2FU_0076"
-    fumi "\"It does just taste like tea if you don't put sugar in it.\""
+    fumi "\"It does just taste like tea if you don't put sugar in it.\"" id a07_comn_06_a90cdfff
 
     voice "2RI_0098"
-    rin "\"Widdle baby Hina can have some apple juice.\""
+    rin "\"Widdle baby Hina can have some apple juice.\"" id a07_comn_06_ac09cd73
 
     if rin_pyjama == "pyjama_a":
         scene kimikara_01_ah with Dissolve(0.2)
@@ -107,14 +107,14 @@ label a07_comn_06:
     pause 0.6
 
     voice "2HI_0103"
-    hina "\"I'll drink it, okay?!\""
+    hina "\"I'll drink it, okay?!\"" id a07_comn_06_80d63667
 
     if route2 == 1:
         voice "2FU_0077"
-        fumi "\"I have this for you, Hina.\""
+        fumi "\"I have this for you, Hina.\"" id a07_comn_06_49752957
     else:
         voice "2FU_0078"
-        fumi "\"I have this for you, Natsume.\""
+        fumi "\"I have this for you, Natsume.\"" id a07_comn_06_2561ce56
 
     "Fumi held out..."
 
@@ -125,13 +125,13 @@ label a07_comn_06:
     pause 0.6
 
     voice "2HI_0104"
-    hina "\"An apple!\""
+    hina "\"An apple!\"" id a07_comn_06_621437a4
 
     voice "2FU_0079"
-    fumi "\"Since I only used the peel.\""
+    fumi "\"Since I only used the peel.\"" id a07_comn_06_9ca38ddf
 
     voice "2HI_0105"
-    hina "\"I'll eat it~\""
+    hina "\"I'll eat it~\"" id a07_comn_06_55a29611
 
     "This, Hina was happy to receive."
 
@@ -139,13 +139,13 @@ label a07_comn_06:
     pause 0.5
 
     voice "2HI_0106"
-    hina "\"Apples smell like apples and taste like apples!\""
+    hina "\"Apples smell like apples and taste like apples!\"" id a07_comn_06_492832a3
 
     voice "2RI_0099"
-    rin "\"I'll alert the media.\""
+    rin "\"I'll alert the media.\"" id a07_comn_06_71f94971
 
     voice "2MI_0056"
-    miyako "\"......\""
+    miyako "\"......\"" id a07_comn_06_209c5c9b
 
     "Miyako looked curiously at Hina."
 
@@ -154,7 +154,7 @@ label a07_comn_06:
     "But Miyako, tasting both apples and apple tea for the first time, had no such associations, so it {i}was{/i} news to her, in a way."
 
     voice "2FU_0080"
-    fumi "\"Would you like some apple too, Miyako?\""
+    fumi "\"Would you like some apple too, Miyako?\"" id a07_comn_06_8a6a5858
 
     "Fumi offered, noticing her staring."
 
@@ -165,7 +165,7 @@ label a07_comn_06:
     pause 0.6
 
     voice "2MI_0057"
-    miyako "\"Yes, please.\""
+    miyako "\"Yes, please.\"" id a07_comn_06_aec1ecd4
 
     "Miyako {i}knew{/i} that apple tea smelled like apples and that apples tasted like apples."
 
@@ -176,15 +176,15 @@ label a07_comn_06:
     "Having a sense of color now, she could distinguish between green and red apples, but learning the difference in their flavors would be a future experience for her."
 
     voice "2MI_0058"
-    miyako "\"I'll try the apple tea first.\""
+    miyako "\"I'll try the apple tea first.\"" id a07_comn_06_7a81ca36
 
     voice "2FU_0081"
-    fumi "\"It's still hot, so be—\""
+    fumi "\"It's still hot, so be—\"" id a07_comn_06_8f1b3f7d
 
     "Miyako put the mug to her lips before Fumi could warn her."
 
     voice "2MI_0059"
-    miyako "\"Augh?!\""
+    miyako "\"Augh?!\"" id a07_comn_06_7c633236
 
     "Ah, yes, that heat, too."
 

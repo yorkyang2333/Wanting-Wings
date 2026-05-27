@@ -32,7 +32,7 @@ label a01_comn_01:
     show hina at ShakeYes
 
     voice "HIN_0009"
-    hina "\"Get up, Rin!\"" (show_name="Short-haired Girl")
+    hina "\"Get up, Rin!\"" (show_name="Short-haired Girl") id a01_comn_01_acfbf8bf
 
     "The girl was small, but her voice carried."
 
@@ -41,12 +41,12 @@ label a01_comn_01:
     show hina at ShakeJump
 
     voice "HIN_0010"
-    hina "\"Who goes back to sleep after putting on her uniform?! And that's my bed!\"" (show_name="Short-haired Girl")
+    hina "\"Who goes back to sleep after putting on her uniform?! And that's my bed!\"" (show_name="Short-haired Girl") id a01_comn_01_be6c6ea6
 
     $ side_image = "rin 1 side school k"
 
     voice "RIN_0011"
-    rin "\"Nnuhh?\""
+    rin "\"Nnuhh?\"" id a01_comn_01_f82e1c7e
 
     play sound se120a
 
@@ -55,12 +55,12 @@ label a01_comn_01:
     $ side_image = "rin 1 side school k"
 
     voice "RIN_0012"
-    rin "\"Just three more hours.\""
+    rin "\"Just three more hours.\"" id a01_comn_01_19b2dbee
 
     show hina 1 lg school_scarf j with dict_dissolve_25
 
     voice "HIN_0011"
-    hina "\"It'll be lunch by then! This is 'cause you stay up so late reading books! Come on, just get out of bed already!\"" (show_name="Short-haired Girl")
+    hina "\"It'll be lunch by then! This is 'cause you stay up so late reading books! Come on, just get out of bed already!\"" (show_name="Short-haired Girl") id a01_comn_01_e6aed296
 
     "The short-haired girl reached into the bed and grabbed the wrists of the grumbling Rin."
 
@@ -71,7 +71,7 @@ label a01_comn_01:
         ShakeJump
 
     voice "HIN_0012"
-    hina "\"Come on!\"" (show_name="Short-haired Girl")
+    hina "\"Come on!\"" (show_name="Short-haired Girl") id a01_comn_01_0e93da58
 
 
     show hina 1 lg school_scarf e:
@@ -92,7 +92,7 @@ label a01_comn_01:
     $ side_image = "rin 1 side school j"
 
     voice "RIN_0013"
-    rin "\"Ugh?!\""
+    rin "\"Ugh?!\"" id a01_comn_01_87f97ef0
 
 
     camera
@@ -103,7 +103,7 @@ label a01_comn_01:
     show hina 1 lg school_scarf l with dict_dissolve_25
 
     voice "HIN_0013"
-    hina "\"Ah, sorr—\"" (show_name="Short-haired Girl")
+    hina "\"Ah, sorr—\"" (show_name="Short-haired Girl") id a01_comn_01_adf7e816
 
     hide hina with Dissolve(0.05)
     pause 0.2
@@ -118,7 +118,7 @@ label a01_comn_01:
         easein 0.5 alpha 1.0 xcenter 252
 
     voice "FUM_0011"
-    fumi "\"A-Are you okay? That was kind of a loud noise.\"" (show_name="Pigtailed Girl")
+    fumi "\"A-Are you okay? That was kind of a loud noise.\"" (show_name="Pigtailed Girl") id a01_comn_01_b739debe
 
 
     show fumi 1 lg school e:
@@ -130,14 +130,14 @@ label a01_comn_01:
     $ side_image = "rin 1 side school h"
 
     voice "RIN_0014"
-    rin "\"Uhh... who are you? I think the impact jumbled my memories...\""
+    rin "\"Uhh... who are you? I think the impact jumbled my memories...\"" id a01_comn_01_721a39ac
 
     show fumi 1 lg school j with Dissolve(0.25)
     show fumi:
         ShakeYes2
 
     voice "FUM_0012"
-    fumi "\"Fumi! I'm Fumi! Your roommate, Fumi Asou!\""
+    fumi "\"Fumi! I'm Fumi! Your roommate, Fumi Asou!\"" id a01_comn_01_78cbea05
 
     show fumi 1 lg school j:
         xoffset 0 yoffset 0
@@ -145,13 +145,13 @@ label a01_comn_01:
     $ side_image = "rin 1 side school k"
 
     voice "RIN_0015"
-    rin "\"Unh... my head hurts... I'm... taking the day off...\""
+    rin "\"Unh... my head hurts... I'm... taking the day off...\"" id a01_comn_01_b6e1f372
 
     show hina 1 lg school_scarf f with Dissolve(0.25)
     show hina at ShakeJump
 
     voice "HIN_0014"
-    hina "\"You are not!\"" (show_name="Short-haired Girl")
+    hina "\"You are not!\"" (show_name="Short-haired Girl") id a01_comn_01_771cb1cd
 
     show hina 1 lg school_scarf f:
         xoffset 0 yoffset 0
@@ -168,7 +168,7 @@ label a01_comn_01:
     $ side_image = "rin 1 side school j"
 
     voice "RIN_0016"
-    rin "\"Aaah!\""
+    rin "\"Aaah!\"" id a01_comn_01_999c9547
 
     camera
     with None
@@ -182,32 +182,32 @@ label a01_comn_01:
     $ side_image = "rin 1 side school i"
 
     voice "RIN_0017"
-    rin "\"That hurt, Hina! What are you doing?!\""
+    rin "\"That hurt, Hina! What are you doing?!\"" id a01_comn_01_3ce2e9e3
 
     show hina 2 lg school_scarf d with dict_dissolve_25
 
     voice "HIN_0015"
-    hina "\"Are you awake now?\""
+    hina "\"Are you awake now?\"" id a01_comn_01_879503ba
 
     $ side_image = "rin 1 side school i"
 
     voice "RIN_0018"
-    rin "\"I don't want such a violent wake-up call. I request a sweet wake-up kiss on the forehead from Asou.\""
+    rin "\"I don't want such a violent wake-up call. I request a sweet wake-up kiss on the forehead from Asou.\"" id a01_comn_01_b3be3a7f
 
     show fumi 1 lg school d with dict_dissolve_25
 
     voice "FUM_0013"
-    fumi "\"Uhh...\""
+    fumi "\"Uhh...\"" id a01_comn_01_88ad1713
 
     show hina 1 lg school_scarf f with dict_dissolve_25
 
     voice "HIN_0016"
-    hina "\"Enough outta you! Get up!\""
+    hina "\"Enough outta you! Get up!\"" id a01_comn_01_5248fdce
 
     $ side_image = "rin 1 side school i"
 
     voice "RIN_0019"
-    rin "\"U-Ungh...\""
+    rin "\"U-Ungh...\"" id a01_comn_01_aec37dc4
 
     play sound se116a
 
@@ -233,7 +233,7 @@ label a01_comn_01:
     show fumi 1 sm school d with dict_dissolve_25
 
     voice "FUM_0014"
-    fumi "\"Umm, we're really about to be late here.\""
+    fumi "\"Umm, we're really about to be late here.\"" id a01_comn_01_efe1aa67
 
     "Fumi pointed at the clock, and the other two focused on it."
 
@@ -243,7 +243,7 @@ label a01_comn_01:
         ShakeJump
 
     voice "HIN_0017"
-    hina "\"Aaah! The bus is gonna be here any minute!\""
+    hina "\"Aaah! The bus is gonna be here any minute!\"" id a01_comn_01_b4b9387b
 
     show hina:
         xoffset 0 yoffset 0
@@ -252,7 +252,7 @@ label a01_comn_01:
     show fumi 1 sm school b with dict_dissolve_25
 
     voice "FUM_0015"
-    fumi "\"Okay, Ogata, are you ready?\""
+    fumi "\"Okay, Ogata, are you ready?\"" id a01_comn_01_18754ef9
 
     "Fumi handed Rin her bag and stood prepared."
 
@@ -266,23 +266,23 @@ label a01_comn_01:
     with Dissolve(0.25)
 
     voice "RIN_0020"
-    rin "\"Ah, yeah.\""
+    rin "\"Ah, yeah.\"" id a01_comn_01_34e3f738
 
     show fumi at ShakeYes
 
     voice "FUM_0016"
-    fumi "\"Here's your lunch.\""
+    fumi "\"Here's your lunch.\"" id a01_comn_01_6172261e
 
     voice "RIN_0021"
-    rin "\"Yep.\""
+    rin "\"Yep.\"" id a01_comn_01_7fa2c13d
 
     show fumi at ShakeYes
 
     voice "FUM_0017"
-    fumi "\"And your commuter pass.\""
+    fumi "\"And your commuter pass.\"" id a01_comn_01_d1002389
 
     voice "RIN_0022"
-    rin "\"Yep.\""
+    rin "\"Yep.\"" id a01_comn_01_084f40f8
 
     show fumi:
         ShakeYes
@@ -290,14 +290,14 @@ label a01_comn_01:
         ShakeYes
 
     voice "FUM_0018"
-    fumi "\"Your wallet and your handkerchief.\""
+    fumi "\"Your wallet and your handkerchief.\"" id a01_comn_01_deb60940
 
     show fumi:
         xoffset 0 yoffset 0
     with None
 
     voice "RIN_0023"
-    rin "\"Yep. Yep.\""
+    rin "\"Yep. Yep.\"" id a01_comn_01_5609cb6f
 
     "Fumi rapidly handed over the items she had ready."
 
@@ -309,12 +309,12 @@ label a01_comn_01:
     with Dissolve(0.25)
 
     voice "HIN_0018"
-    hina "\"Here, your tie's crooked.\""
+    hina "\"Here, your tie's crooked.\"" id a01_comn_01_96391116
 
     show rin at ShakeUji
 
     voice "RIN_0024"
-    rin "\"Nnh~\""
+    rin "\"Nnh~\"" id a01_comn_01_6d5051cf
 
     show hina 2 lg school_scarf d with Dissolve(0.25)
     show hina:
@@ -323,7 +323,7 @@ label a01_comn_01:
         ShakeJump
 
     voice "HIN_0019"
-    hina "\"Hup... hup!\""
+    hina "\"Hup... hup!\"" id a01_comn_01_4df047b7
 
     show hina:
         xoffset 0 yoffset 0
@@ -334,12 +334,12 @@ label a01_comn_01:
     show hina 1 lg school_scarf f with Dissolve(0.25)
 
     voice "HIN_0020"
-    hina "\"Bend down!\""
+    hina "\"Bend down!\"" id a01_comn_01_8c433c56
 
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_0025"
-    rin "\"Fine...\""
+    rin "\"Fine...\"" id a01_comn_01_43c85328
 
     show rin:
         yoffset 0
@@ -350,7 +350,7 @@ label a01_comn_01:
     show hina 1 lg school_scarf j with dict_dissolve_25
 
     voice "HIN_0021"
-    hina "\"Tch, what a pain.\""
+    hina "\"Tch, what a pain.\"" id a01_comn_01_7a6602d9
 
     hide rin
     hide fumi
@@ -365,7 +365,7 @@ label a01_comn_01:
     with Dissolve(0.25)
 
     voice "FUM_0019"
-    fumi "\"Last one! Your scarf.\""
+    fumi "\"Last one! Your scarf.\"" id a01_comn_01_e934f51c
 
     show fumi:
         xoffset 0 yoffset 0
@@ -373,7 +373,7 @@ label a01_comn_01:
     show rin 1 lg school c with dict_dissolve_25
 
     voice "RIN_0026"
-    rin "\"Yep. Thanks as always.\""
+    rin "\"Yep. Thanks as always.\"" id a01_comn_01_25cff908
 
     hide fumi with Dissolve(0.25)
 
@@ -394,7 +394,7 @@ label a01_comn_01:
         easeout 1.0 alpha 0.0 xcenter 612
 
     voice "RIN_0027"
-    rin "\"Well—\""
+    rin "\"Well—\"" id a01_comn_01_c2d1a1f2
 
 
     hide rin with None
@@ -406,7 +406,7 @@ label a01_comn_01:
         ShakeJump
 
     voice "HIN_0022"
-    hina "\"Oh no you don't!\""
+    hina "\"Oh no you don't!\"" id a01_comn_01_572f5756
 
     show hina 1 sm school_scarf j at pos_r2:
         alpha 1.0 xcenter 852 xoffset 0 yoffset 0
@@ -432,7 +432,7 @@ label a01_comn_01:
             easeout 0.25 xcenter 912
 
     voice "RIN_0028"
-    rin "\"Gh—\""
+    rin "\"Gh—\"" id a01_comn_01_d1355203
 
 
     show hina:
@@ -451,7 +451,7 @@ label a01_comn_01:
         easeout 0.25 xcenter 812
 
     voice "HIN_0023"
-    hina "\"We don't have time to mess around anymore!\""
+    hina "\"We don't have time to mess around anymore!\"" id a01_comn_01_d5c6d448
 
     show rin 1 sm school_scarf j:
         alpha 1.0 xcenter 812
@@ -462,12 +462,12 @@ label a01_comn_01:
     show fumi 1 sm school b at pos_l with Dissolve(0.25)
 
     voice "FUM_0020"
-    fumi "\"Alright, let's go~\""
+    fumi "\"Alright, let's go~\"" id a01_comn_01_c211ded2
 
     show hina 1 sm school_scarf c with dict_dissolve_25
 
     voice "HIN_0024"
-    hina "\"Out the door!\""
+    hina "\"Out the door!\"" id a01_comn_01_b39e4449
 
     show rin at ShakeSide:
         0.25
@@ -476,7 +476,7 @@ label a01_comn_01:
     $ persistent.layer_shaken = False
 
     voice "RIN_0029"
-    rin "\"Y-You're... strangling... me~\""
+    rin "\"Y-You're... strangling... me~\"" id a01_comn_01_e816c55d
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

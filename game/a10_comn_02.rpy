@@ -6,7 +6,7 @@ label a10_comn_02:
     $ side_image = "sachiko 1 side outfit f"
 
     voice "2SA_0813"
-    sachiko "\"Here we go, happy Valentine's, happy Valentine's.\""
+    sachiko "\"Here we go, happy Valentine's, happy Valentine's.\"" id a10_comn_02_bf66ba91
 
     "Sachiko put chocolates in all the dorm students' shoe cubbies."
 
@@ -22,14 +22,14 @@ label a10_comn_02_a:
     $ side_image = "sachiko 1 side outfit i"
 
     voice "2SA_0814"
-    sachiko "\"...Hm?\""
+    sachiko "\"...Hm?\"" id a10_comn_02_a_1e957072
 
     "Sachiko stopped. She was at Miyako's cubby."
 
     show sachiko 1 sm outfit i with dict_dissolve_25
 
     voice "2SA_0815"
-    sachiko "\"School shoes...\""
+    sachiko "\"School shoes...\"" id a10_comn_02_a_fba1fc66
 
     "She stood and looked upward."
 

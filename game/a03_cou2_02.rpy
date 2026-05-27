@@ -15,7 +15,7 @@ label a03_cou2_02:
     play sound se013b
 
     voice "RIN_0660"
-    rin "\"......\""
+    rin "\"......\"" id a03_cou2_02_d70c3a88
 
     play sound se013b
 
@@ -37,7 +37,7 @@ label a03_cou2_02:
         ShakeJump
 
     voice "HIN_0846"
-    hina "\"Yah!\""
+    hina "\"Yah!\"" id a03_cou2_02_3f865530
 
     show hina:
         xoffset 0 yoffset 0
@@ -47,7 +47,7 @@ label a03_cou2_02:
         ShakeSide
 
     voice "RIN_0661"
-    rin "\"Wah?! What?!\""
+    rin "\"Wah?! What?!\"" id a03_cou2_02_aa7201ee
 
     show rin 1 lg pyjama glasses j:
         xoffset 0 yoffset 0
@@ -58,7 +58,7 @@ label a03_cou2_02:
     show hina 2 lg pyjama d with dict_dissolve_25
 
     voice "HIN_0847"
-    hina "\"...Yeah, I thought not.\""
+    hina "\"...Yeah, I thought not.\"" id a03_cou2_02_d8a75e5a
 
     "The culprit was Hina."
 
@@ -67,7 +67,7 @@ label a03_cou2_02:
         easein 0.25 xcenter 259
 
     voice "RIN_0662"
-    rin "\"Wh-What are you doing?!\""
+    rin "\"Wh-What are you doing?!\"" id a03_cou2_02_1a02c88a
 
     show rin 1 lg pyjama glasses j behind hina:
         xcenter 259
@@ -75,24 +75,24 @@ label a03_cou2_02:
     show hina 1 lg pyjama a with dict_dissolve_25
 
     voice "HIN_0848"
-    hina "\"Checking for wings.\""
+    hina "\"Checking for wings.\"" id a03_cou2_02_9699dd56
 
     show rin 1 lg pyjama glasses g with dict_dissolve_25
 
     voice "RIN_0663"
-    rin "\"This is stupid. Of course I don't have them.\""
+    rin "\"This is stupid. Of course I don't have them.\"" id a03_cou2_02_c6ee7e4d
 
     show hina 1 lg pyjama n with dict_dissolve_25
 
     voice "HIN_0849"
-    hina "\"...I just wanted to make sure.\""
+    hina "\"...I just wanted to make sure.\"" id a03_cou2_02_879d6488
 
     "Hina looked disappointed somehow."
 
     show rin 1 lg pyjama glasses d with dict_dissolve_25
 
     voice "RIN_0664"
-    rin "\"Fine, then... I'll check you, too!!\""
+    rin "\"Fine, then... I'll check you, too!!\"" id a03_cou2_02_7b258988
 
     play sound se118a
 
@@ -105,7 +105,7 @@ label a03_cou2_02:
         ShakeSide
 
     voice "HIN_0850"
-    hina "\"Waaah?!\""
+    hina "\"Waaah?!\"" id a03_cou2_02_07a22d42
 
     show hina 1 lg pyjama l:
         xoffset 0 yoffset 0
@@ -119,7 +119,7 @@ label a03_cou2_02:
     $ persistent.layer_shaken = False
 
     voice "HIN_0851"
-    hina "\"Aha, ahahahahaha! Hey, what do you think you're—You know I'm tickli...hahah!\""
+    hina "\"Aha, ahahahahaha! Hey, what do you think you're—You know I'm tickli...hahah!\"" id a03_cou2_02_9c3d2fb6
 
     show hina 1 lg pyjama c:
         xoffset 0 yoffset 0
@@ -128,7 +128,7 @@ label a03_cou2_02:
     show rin 1 lg pyjama glasses f with dict_dissolve_25
 
     voice "RIN_0665"
-    rin "\"Where are your wings~?\""
+    rin "\"Where are your wings~?\"" id a03_cou2_02_80a25210
 
     show hina:
         "hina 1 lg pyjama g" with Dissolve(0.25)
@@ -136,7 +136,7 @@ label a03_cou2_02:
         ShakeJump
 
     voice "HIN_0852"
-    hina "\"Yaaah, stop it! Ahahaha! Stop, stooop!\""
+    hina "\"Yaaah, stop it! Ahahaha! Stop, stooop!\"" id a03_cou2_02_d7138b03
 
     show hina 1 lg pyjama g:
         xoffset 0 yoffset 0
@@ -148,7 +148,7 @@ label a03_cou2_02:
 
     $ side_image = "fumi 1 side pyjama c"
     voice "FUM_0648"
-    fumi "\"You two get along so well~\""
+    fumi "\"You two get along so well~\"" id a03_cou2_02_8479f62b
 
     "It always ends like that, huh?"
 

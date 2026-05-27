@@ -8,7 +8,7 @@ label a10_cou3_01:
     $ side_image = "fumi 2 side pyjama d"
 
     voice "2FU_1151"
-    fumi "\"Yes, yes. No, I haven't heard. But, I'm trying to say, I... Yes, yes.\""
+    fumi "\"Yes, yes. No, I haven't heard. But, I'm trying to say, I... Yes, yes.\"" id a10_cou3_01_260a45ce
 
     "Fumi's phone call went on while the other four kept quiet, watching."
 
@@ -17,7 +17,7 @@ label a10_cou3_01:
     $ side_image = "fumi 1 side pyjama d"
 
     voice "2FU_1152"
-    fumi "\"I'll have to discuss it with my family. I have to go!\""
+    fumi "\"I'll have to discuss it with my family. I have to go!\"" id a10_cou3_01_a5c1756a
 
     "Fumi sighed after finally managing to end the conversation somewhat forcefully."
 
@@ -26,7 +26,7 @@ label a10_cou3_01:
         ShakeTameiki
 
     voice "2FU_1153"
-    fumi "\"I'm sorry, I had a hard time hanging up—\""
+    fumi "\"I'm sorry, I had a hard time hanging up—\"" id a10_cou3_01_71171670
 
     show fumi:
         xoffset 0 yoffset 0
@@ -34,24 +34,24 @@ label a10_cou3_01:
     $ side_image = "hina 1 side pyjama_pjm l"
 
     voice "2HI_1545"
-    hina "\"Wait, what's going on?! You're getting scouted, Asou?!\""
+    hina "\"Wait, what's going on?! You're getting scouted, Asou?!\"" id a10_cou3_01_bcc2e0e5
 
     $ side_image = "miyako 1 side pyjama_a g"
 
     voice "2MI_1048"
-    miyako "\"Are you going to be an idol, Fumi?\""
+    miyako "\"Are you going to be an idol, Fumi?\"" id a10_cou3_01_72ae256f
 
     $ side_image = "sachiko 1 side outfit f"
 
     voice "2SA_0852"
-    sachiko "\"Think they'll want to interview the beautiful dorm manager who's been taking care of you?\""
+    sachiko "\"Think they'll want to interview the beautiful dorm manager who's been taking care of you?\"" id a10_cou3_01_6ea41f97
 
     show fumi:
         "fumi 1 lg pyjama j" with Dissolve(0.25)
         ShakeJump
 
     voice "2FU_1154"
-    fumi "\"Wait, wait! One at a time!\""
+    fumi "\"Wait, wait! One at a time!\"" id a10_cou3_01_d1fabc11
 
     show fumi 1 lg pyjama j:
         xoffset 0 yoffset 0
@@ -62,59 +62,59 @@ label a10_cou3_01:
     show fumi 2 lg pyjama h with dict_dissolve_25
 
     voice "2FU_1155"
-    fumi "\"The call was from a talent agency, and the question was whether I wanted to audition for a movie.\""
+    fumi "\"The call was from a talent agency, and the question was whether I wanted to audition for a movie.\"" id a10_cou3_01_712284ca
 
     $ side_image = "miyako 1 side pyjama_b g"
 
     voice "2MI_1049"
-    miyako "\"Audition? So it's not for sure, then?\""
+    miyako "\"Audition? So it's not for sure, then?\"" id a10_cou3_01_0841b280
 
     show fumi 2 lg pyjama g with dict_dissolve_25
 
     voice "2FU_1156"
-    fumi "\"No, they did want to scout me, but they said it would be in the form of passing me through an audition.\""
+    fumi "\"No, they did want to scout me, but they said it would be in the form of passing me through an audition.\"" id a10_cou3_01_e4d012ab
 
     $ side_image = "sachiko 1 side outfit j"
 
     voice "2SA_0853"
-    sachiko "\"The darkness of the entertainment industry!\""
+    sachiko "\"The darkness of the entertainment industry!\"" id a10_cou3_01_bdb8b4c1
 
     show fumi 1 lg pyjama h with dict_dissolve_25
 
     voice "2FU_1157"
-    fumi "\"Anyway, I hadn't heard anything about it. And I don't know about a movie... I mean, I've never acted before.\""
+    fumi "\"Anyway, I hadn't heard anything about it. And I don't know about a movie... I mean, I've never acted before.\"" id a10_cou3_01_6312ecf2
 
     $ side_image = "hina 1 side pyjama_pjm k"
 
     voice "2HI_1546"
-    hina "\"Is it a starring role?\""
+    hina "\"Is it a starring role?\"" id a10_cou3_01_9a944bd2
 
     show fumi 1 lg pyjama d with dict_dissolve_25
 
     voice "2FU_1158"
-    fumi "\"It would be a co-starring role. And after that, they would want me to debut as an idol affiliated with their agency.\""
+    fumi "\"It would be a co-starring role. And after that, they would want me to debut as an idol affiliated with their agency.\"" id a10_cou3_01_a996b3c1
 
     $ side_image = "miyako 2 side pyjama a"
 
     voice "2MI_1050"
-    miyako "\"When is the audition?\""
+    miyako "\"When is the audition?\"" id a10_cou3_01_102e9b5c
 
     show fumi 1 lg pyjama h with dict_dissolve_25
 
     voice "2FU_1159"
-    fumi "\"It's on Valentine's... February 14th.\""
+    fumi "\"It's on Valentine's... February 14th.\"" id a10_cou3_01_4e002fa6
 
     $ side_image = "hina 2 side pyjama_pjm f"
 
     voice "2HI_1547"
-    hina "\"That's sooner than I expected.\""
+    hina "\"That's sooner than I expected.\"" id a10_cou3_01_c8891384
 
     show fumi:
         "fumi 1 lg pyjama d" with Dissolve(0.25)
         ShakeTameiki
 
     voice "2FU_1160"
-    fumi "\"Yes. It's too soon, really.\""
+    fumi "\"Yes. It's too soon, really.\"" id a10_cou3_01_5f227cff
 
     show fumi 1 lg pyjama d:
         xoffset 0 yoffset 0
@@ -122,7 +122,7 @@ label a10_cou3_01:
     $ side_image = "rin 1 side pyjama glasses g"
 
     voice "2RI_1543"
-    rin "\"So what are you gonna do? Are you gonna take the audition?\""
+    rin "\"So what are you gonna do? Are you gonna take the audition?\"" id a10_cou3_01_16cf9244
 
     "Surprisingly, Rin had remained silent until just now."
 
@@ -131,7 +131,7 @@ label a10_cou3_01:
         ShakeJump
 
     voice "2FU_1161"
-    fumi "\"Of course not!\""
+    fumi "\"Of course not!\"" id a10_cou3_01_1e742abd
 
     show fumi 1 lg pyjama e:
         xoffset 0 yoffset 0
@@ -142,27 +142,27 @@ label a10_cou3_01:
     show fumi 1 lg pyjama h with dict_dissolve_25
 
     voice "2FU_1162"
-    fumi "\"I wanted to say no right away, but it was the president of the agency who called me...\""
+    fumi "\"I wanted to say no right away, but it was the president of the agency who called me...\"" id a10_cou3_01_671ebeea
 
     $ side_image = "sachiko 1 side outfit h"
 
     voice "2SA_0854"
-    sachiko "\"Straight from the president! That's pretty serious.\""
+    sachiko "\"Straight from the president! That's pretty serious.\"" id a10_cou3_01_8484fc88
 
     show fumi 2 lg pyjama a with dict_dissolve_25
 
     voice "2FU_1163"
-    fumi "\"I'll call home first. I don't know what my dad talked to them about.\""
+    fumi "\"I'll call home first. I don't know what my dad talked to them about.\"" id a10_cou3_01_74079fc8
 
     $ side_image = "rin 1 side pyjama glasses b"
 
     voice "2RI_1544"
-    rin "\"Ah, okay...\""
+    rin "\"Ah, okay...\"" id a10_cou3_01_aa6f3e5e
 
     show fumi 2 lg pyjama f with dict_dissolve_25
 
     voice "2FU_1164"
-    fumi "\"Honestly, I can't believe him!\""
+    fumi "\"Honestly, I can't believe him!\"" id a10_cou3_01_ea5a1edb
 
     hide fumi with Dissolve(0.5)
 
@@ -178,7 +178,7 @@ label a10_cou3_01:
     with dict_dissolve_25
 
     voice "2RI_1545"
-    rin "\"W-Well, Fumi's dad can be scatterbrained~\""
+    rin "\"W-Well, Fumi's dad can be scatterbrained~\"" id a10_cou3_01_38009895
 
     "There still seemed to be something of an aftershock to the news after Fumi left the room."
 
@@ -187,7 +187,7 @@ label a10_cou3_01:
     show sachiko z4 1 lg outfit g with dict_dissolve_25
 
     voice "2SA_0855"
-    sachiko "\"You could be in trouble here, don't you think~?\""
+    sachiko "\"You could be in trouble here, don't you think~?\"" id a10_cou3_01_707f3e2d
 
     "Sachiko noticed right away and spared no time rubbing it in."
 
@@ -196,7 +196,7 @@ label a10_cou3_01:
         ShakeTameiki
 
     voice "2RI_1546"
-    rin "\"But she said she's not interested, so it's not like it's going to be a big deal.\""
+    rin "\"But she said she's not interested, so it's not like it's going to be a big deal.\"" id a10_cou3_01_5230eedf
 
     show rin z4 2 lg pyjama glasses c:
         xoffset 0 yoffset 0
@@ -204,17 +204,17 @@ label a10_cou3_01:
     show sachiko z4 1 lg outfit b with dict_dissolve_25
 
     voice "2SA_0856"
-    sachiko "\"Oh? Your girlfriend just got scouted to be an idol. Are you not happy about that?\""
+    sachiko "\"Oh? Your girlfriend just got scouted to be an idol. Are you not happy about that?\"" id a10_cou3_01_735c8ae7
 
     show rin z4 1 lg pyjama glasses i with dict_dissolve_25
 
     voice "2RI_1547"
-    rin "\"W-Well, she is super cute!\""
+    rin "\"W-Well, she is super cute!\"" id a10_cou3_01_63e179f3
 
     show rin z4 1 lg pyjama glasses g with dict_dissolve_25
 
     voice "2RI_1548"
-    rin "\"...But she's also mine.\""
+    rin "\"...But she's also mine.\"" id a10_cou3_01_141d33c1
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

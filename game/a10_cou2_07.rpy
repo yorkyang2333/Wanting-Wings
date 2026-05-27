@@ -12,7 +12,7 @@ label a10_cou2_07:
         easein 0.25 alpha 1.0 ycenter 1016
 
     voice "2RI_1364"
-    rin "\"We promised!\""
+    rin "\"We promised!\"" id a10_cou2_07_633e86ca
 
     show rin 1 lg school i:
         alpha 1.0 ycenter 1016
@@ -33,37 +33,37 @@ label a10_cou2_07:
     with dict_dissolve_25
 
     voice "2RI_1365"
-    rin "\"But she's not here!\""
+    rin "\"But she's not here!\"" id a10_cou2_07_5c84098b
 
     show miyako z4 1 lg school_b e with dict_dissolve_25
 
     voice "2MI_1038"
-    miyako "\"That's true, I haven't seen her since lunch.\""
+    miyako "\"That's true, I haven't seen her since lunch.\"" id a10_cou2_07_bbbb6acb
 
     show rin z4 2 lg school d with dict_dissolve_25
 
     voice "2RI_1366"
-    rin "\"She ran away again...\""
+    rin "\"She ran away again...\"" id a10_cou2_07_9326f389
 
     show miyako z4 1 lg school_b g with dict_dissolve_25
 
     voice "2MI_1039"
-    miyako "\"Huh? But why—\""
+    miyako "\"Huh? But why—\"" id a10_cou2_07_8d0da40c
 
     show rin z4 2 lg school a with dict_dissolve_25
 
     voice "2RI_1367"
-    rin "\"Mikoyan, can you tell the teacher I left early? I'm gonna go look for her.\""
+    rin "\"Mikoyan, can you tell the teacher I left early? I'm gonna go look for her.\"" id a10_cou2_07_b60c10cc
 
     show miyako z4 1 lg school_a e with dict_dissolve_25
 
     voice "2MI_1040"
-    miyako "\"Umm, sure, I don't mind, but...\""
+    miyako "\"Umm, sure, I don't mind, but...\"" id a10_cou2_07_8e8dd6f1
 
     show rin z4 1 lg school i with dict_dissolve_25
 
     voice "2RI_1368"
-    rin "\"...That dumb lost dog!\""
+    rin "\"...That dumb lost dog!\"" id a10_cou2_07_347aaed6
 
     hide rin with Dissolve(0.25)
     pause 1.0
@@ -82,7 +82,7 @@ label a10_cou2_07_a:
         ShakeYes
 
     voice "2MI_1041"
-    miyako "\"...Right.\""
+    miyako "\"...Right.\"" id a10_cou2_07_a_bf0064fd
 
     show miyako z4 1 lg school_a a:
         xoffset 0 yoffset 0
@@ -99,7 +99,7 @@ label a10_cou2_07_a:
     $ side_image = "miyako 1 side school_a j"
 
     voice "2MI_1042"
-    miyako "\"I'm sorry, but could you tell the teacher that Natsume, Ogata, and Takaoka all left early?\""
+    miyako "\"I'm sorry, but could you tell the teacher that Natsume, Ogata, and Takaoka all left early?\"" id a10_cou2_07_a_3635bdb4
 
 label a10_cou2_07_end:
 

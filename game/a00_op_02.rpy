@@ -14,25 +14,25 @@ label a00_op_02:
     pause 1.5
 
     voice "FUM_0001"
-    fumi "I saw the angel when I was six, on Christmas Eve. It was a white Christmas, which was a rarity in that area." (what_first_indent=24, show_name=False)
+    fumi "I saw the angel when I was six, on Christmas Eve. It was a white Christmas, which was a rarity in that area." (what_first_indent=24, show_name=False) id a00_op_02_c0d55098
 
     voice "FUM_0002"
-    fumi "That evening, I picked up a Christmas cake at the bakery where my father worked and headed home with it." (what_first_indent=24, show_name=False)
+    fumi "That evening, I picked up a Christmas cake at the bakery where my father worked and headed home with it." (what_first_indent=24, show_name=False) id a00_op_02_c238f260
 
     voice "FUM_0003"
-    fumi "I enjoyed the crunch of the snow underfoot with each step I took." (what_first_indent=24, show_name=False)
+    fumi "I enjoyed the crunch of the snow underfoot with each step I took." (what_first_indent=24, show_name=False) id a00_op_02_9b5d4290
 
     voice "FUM_0004"
-    fumi "But suddenly, I stopped. I was missing one shoe. It must have come off in the snow somewhere." (what_first_indent=24, show_name=False)
+    fumi "But suddenly, I stopped. I was missing one shoe. It must have come off in the snow somewhere." (what_first_indent=24, show_name=False) id a00_op_02_670c836a
 
     voice "FUM_0005"
-    fumi "I'd gotten these shoes for Christmas the year before, and they were my absolute favorite pair." (what_first_indent=24, show_name=False)
+    fumi "I'd gotten these shoes for Christmas the year before, and they were my absolute favorite pair." (what_first_indent=24, show_name=False) id a00_op_02_a2f9c34b
 
     voice "FUM_0006"
-    fumi "I probably shouldn't have worn such important shoes out in the snow, but at the time, going to my father's bakery felt like visiting a castle." (what_first_indent=24, show_name=False)
+    fumi "I probably shouldn't have worn such important shoes out in the snow, but at the time, going to my father's bakery felt like visiting a castle." (what_first_indent=24, show_name=False) id a00_op_02_0a1bac03
 
     voice "FUM_0007"
-    fumi "As my surroundings began to darken, I grew more and more anxious, tears threatening to spill from my eyes at any moment." (what_first_indent=24, show_name=False)
+    fumi "As my surroundings began to darken, I grew more and more anxious, tears threatening to spill from my eyes at any moment." (what_first_indent=24, show_name=False) id a00_op_02_bdd04a58
 
     window hide
     pause 0.5
@@ -53,7 +53,7 @@ label a00_op_02:
 
     window auto
     voice "FUM_0008"
-    fumi "I looked up at the voice—and there the angel was." (what_first_indent=24, show_name=False)
+    fumi "I looked up at the voice—and there the angel was." (what_first_indent=24, show_name=False) id a00_op_02_c999293f
 
     window hide
     pause 0.5
@@ -74,10 +74,10 @@ label a00_op_02:
 
     window auto
     voice "FUM_0009"
-    fumi "The angel was pointing down, where the heel of a red shoe was sticking up out of the snow. I ran to her and picked up my shoe." (what_first_indent=24, show_name=False)
+    fumi "The angel was pointing down, where the heel of a red shoe was sticking up out of the snow. I ran to her and picked up my shoe." (what_first_indent=24, show_name=False) id a00_op_02_3e22ea43
 
     voice "FUM_0010"
-    fumi "\"Thank you!\"—but when I looked back up at her, the angel was gone." (what_first_indent=24, show_name=False)
+    fumi "\"Thank you!\"—but when I looked back up at her, the angel was gone." (what_first_indent=24, show_name=False) id a00_op_02_1fff0d34
 
     stop music fadeout 2.0
     stop sound fadeout 1.0

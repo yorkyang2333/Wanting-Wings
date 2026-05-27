@@ -17,7 +17,7 @@ label a04_cou2_07:
     with dict_dissolve_25
 
     voice "HIN_1433"
-    hina "\"......\""
+    hina "\"......\"" id a04_cou2_07_90349947
 
     "Hina was tossing and turning."
 
@@ -28,7 +28,7 @@ label a04_cou2_07:
     $ side_image = "rin 1 side pyjama a"
 
     voice "RIN_1188"
-    rin "\"...You're sleeping by now, right?\""
+    rin "\"...You're sleeping by now, right?\"" id a04_cou2_07_413daadf
 
     "Rin kneeled by Hina's bed and peered down at her face."
 
@@ -37,14 +37,14 @@ label a04_cou2_07:
     $ side_image = "rin 1 side pyjama c"
 
     voice "RIN_1189"
-    rin "\".........\""
+    rin "\".........\"" id a04_cou2_07_7a301e7b
 
     "Rin smiled contentedly and reached out to stroke Hina's head as if to feel her warmth."
 
     $ side_image = "rin 1 side pyjama c"
 
     voice "RIN_1190"
-    rin "\"...Good night.\""
+    rin "\"...Good night.\"" id a04_cou2_07_c87b9f28
 
     play sound se120a
 
@@ -53,7 +53,7 @@ label a04_cou2_07:
     show hina 3 sm dark pyjama k with dict_dissolve_25
 
     voice "HIN_1434"
-    hina "\".........\""
+    hina "\".........\"" id a04_cou2_07_34ea8635
 
     play sound2 se116a
 
@@ -64,7 +64,7 @@ label a04_cou2_07:
     show hina 3 lg dark pyjama k with dict_dissolve_25
 
     voice "HIN_1435"
-    hina "\"She smelled like cigarettes...\""
+    hina "\"She smelled like cigarettes...\"" id a04_cou2_07_cf591113
 
     "Hina buried her face in her pillow."
 

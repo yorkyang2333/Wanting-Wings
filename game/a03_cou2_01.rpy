@@ -16,7 +16,7 @@ label a03_cou2_01:
         ShakeYes2
 
     voice "HIN_0829"
-    hina "\"♪Nya nya nya nya nyaaa nya nyaaa, nya nyaa nyaa nyaa, nyaaa nya nya!\""
+    hina "\"♪Nya nya nya nya nyaaa nya nyaaa, nya nyaa nyaa nyaa, nyaaa nya nya!\"" id a03_cou2_01_6e85897b
 
     show hina:
         xoffset 0 yoffset 0
@@ -43,48 +43,48 @@ label a03_cou2_01:
     pause 0.5
 
     voice "RIN_0640"
-    rin "\"Yeesh. Can't they do anything about how crowded the store gets at lunch?\""
+    rin "\"Yeesh. Can't they do anything about how crowded the store gets at lunch?\"" id a03_cou2_01_06b872d1
 
     "Rin returned, the straw of a juice box in her mouth, just as the hook of the song hit."
 
     show hina 1 sm school headphones c with dict_dissolve_25
 
     voice "HIN_0830"
-    hina "\"♪Nya nya nyaa, nyaaa nya nyaa!\""
+    hina "\"♪Nya nya nyaa, nyaaa nya nyaa!\"" id a03_cou2_01_c2a18aee
 
     show rin 1 sm school a with dict_dissolve_25
 
     voice "RIN_0641"
-    rin "\"She's doing it again.\""
+    rin "\"She's doing it again.\"" id a03_cou2_01_841823a8
 
     show fumi 1 sm school d with dict_dissolve_25
 
     voice "FUM_0645"
-    fumi "\"Ahahaha.\""
+    fumi "\"Ahahaha.\"" id a03_cou2_01_3e595ea1
 
     "Hina didn't appear to have even noticed Rin's return."
 
     show rin 1 sm school b with dict_dissolve_25
 
     voice "RIN_0642"
-    rin "\"How long's she been singing?\""
+    rin "\"How long's she been singing?\"" id a03_cou2_01_0a19663a
 
     show fumi 1 sm school b with dict_dissolve_25
 
     voice "FUM_0646"
-    fumi "\"She started right when you left, so probably about ten minutes.\""
+    fumi "\"She started right when you left, so probably about ten minutes.\"" id a03_cou2_01_eb04187f
 
     show rin 1 sm school a with dict_dissolve_25
 
     voice "RIN_0643"
-    rin "\"I'm worried we'll get noise complaints from the neighbors.\""
+    rin "\"I'm worried we'll get noise complaints from the neighbors.\"" id a03_cou2_01_91a986c4
 
     "Rin waved at the girls looking their way and laughing."
 
     show hina 1 sm school headphones h with dict_dissolve_25
 
     voice "HIN_0831"
-    hina "\"♪Nya nyaaa!\""
+    hina "\"♪Nya nyaaa!\"" id a03_cou2_01_bd7da6aa
 
     "The singing stopped. She must have gotten to the end of the song. Sensing the presence behind her, she took off her headphones and turned around."
 
@@ -95,7 +95,7 @@ label a03_cou2_01:
         ShakeYes
 
     voice "HIN_0832"
-    hina "\"Oh, Rin. When'd you get back?\""
+    hina "\"Oh, Rin. When'd you get back?\"" id a03_cou2_01_6a771eb3
 
     show hina 1 sm school -headphones k:
         xoffset 0 yoffset 0
@@ -103,22 +103,22 @@ label a03_cou2_01:
     show rin 1 sm school b with dict_dissolve_25
 
     voice "RIN_0644"
-    rin "\"A minute ago.\""
+    rin "\"A minute ago.\"" id a03_cou2_01_a246da0d
 
     voice "HIN_0833"
-    hina "\"You should have said something.\""
+    hina "\"You should have said something.\"" id a03_cou2_01_49df7fb4
 
     show rin 1 sm school a with dict_dissolve_25
 
     voice "RIN_0645"
-    rin "\"You wouldn't have heard me with those things on.\""
+    rin "\"You wouldn't have heard me with those things on.\"" id a03_cou2_01_1c826557
 
     show hina:
         "hina 1 sm school b" with Dissolve(0.25)
         ShakeYes
 
     voice "HIN_0834"
-    hina "\"Oh yeah, good timing.\""
+    hina "\"Oh yeah, good timing.\"" id a03_cou2_01_d459844f
 
     show hina 1 sm school b:
         xoffset 0 yoffset 0
@@ -126,39 +126,39 @@ label a03_cou2_01:
     show rin 1 sm school e with dict_dissolve_25
 
     voice "RIN_0646"
-    rin "\"Hmm?\""
+    rin "\"Hmm?\"" id a03_cou2_01_618a2ebf
 
     show hina 1 sm school k with dict_dissolve_25
 
     voice "HIN_0835"
-    hina "\"Can you tell me what that song's lyrics mean?\""
+    hina "\"Can you tell me what that song's lyrics mean?\"" id a03_cou2_01_6135c8b0
 
     show rin 1 sm school g with dict_dissolve_25
 
     voice "RIN_0647"
-    rin "\"Wh—How am I supposed to do that when you don't know what you're singing?\""
+    rin "\"Wh—How am I supposed to do that when you don't know what you're singing?\"" id a03_cou2_01_57e192a9
 
     show hina 1 sm school b with dict_dissolve_25
 
     voice "HIN_0836"
-    hina "\"No, no. With this.\""
+    hina "\"No, no. With this.\"" id a03_cou2_01_71b51773
 
     "Hina flipped one of the ear cups of her headphones outwards and put it to her ear."
 
     show rin 1 sm school e with dict_dissolve_25
 
     voice "RIN_0648"
-    rin "\"Oh, you want me to translate the lyrics?\""
+    rin "\"Oh, you want me to translate the lyrics?\"" id a03_cou2_01_ee0b71f9
 
     show hina 1 sm school a with dict_dissolve_25
 
     voice "HIN_0837"
-    hina "\"Yeah. You're good at English, right?\""
+    hina "\"Yeah. You're good at English, right?\"" id a03_cou2_01_67577ca1
 
     show rin 1 sm school a with dict_dissolve_25
 
     voice "RIN_0649"
-    rin "\"Well, better than you, at least.\""
+    rin "\"Well, better than you, at least.\"" id a03_cou2_01_62e01b4a
 
     hide rin
     hide fumi
@@ -174,80 +174,80 @@ label a03_cou2_01:
     "Rin bent down and put her ear to the headphones, and Hina went back to the start of the song on the player."
 
     voice "RIN_0650"
-    rin "\"Ah, this song.\""
+    rin "\"Ah, this song.\"" id a03_cou2_01_62d5140c
 
     "It must be a pretty famous song. Rin seemed to know what it was just from the intro."
 
     show hina 1 lg school c with dict_dissolve_25
 
     voice "HIN_0838"
-    hina "\"♪Nya nya nya nyaaa, nya nyaa!\""
+    hina "\"♪Nya nya nya nyaaa, nya nyaa!\"" id a03_cou2_01_e2c3c562
 
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_0651"
-    rin "\"Shut up. I can't hear the lyrics.\""
+    rin "\"Shut up. I can't hear the lyrics.\"" id a03_cou2_01_be433bb1
 
     show hina 1 lg school k with dict_dissolve_25
 
     voice "HIN_0839"
-    hina "\"Oh, sorry.\""
+    hina "\"Oh, sorry.\"" id a03_cou2_01_ba771ddb
 
     show rin 1 lg school a with dict_dissolve_25
 
     voice "RIN_0652"
-    rin "\"Is a rough translation okay? 'I treasure every moment I spend with you. So I want to stay in this moment forever.' Something like that. It's a love song, basically.\""
+    rin "\"Is a rough translation okay? 'I treasure every moment I spend with you. So I want to stay in this moment forever.' Something like that. It's a love song, basically.\"" id a03_cou2_01_fd0019bd
 
     show hina 1 lg school d with dict_dissolve_25
 
     voice "HIN_0840"
-    hina "\"Huh? It's that romantic? I thought it was like, 'Let's destroy the giant asteroid! Yeah!'\""
+    hina "\"Huh? It's that romantic? I thought it was like, 'Let's destroy the giant asteroid! Yeah!'\"" id a03_cou2_01_df30ff81
 
     show rin 1 lg school g with dict_dissolve_25
 
     voice "RIN_0653"
-    rin "\"That's just what the movie's about.\""
+    rin "\"That's just what the movie's about.\"" id a03_cou2_01_ca02c8b1
 
     show rin 1 lg school k with dict_dissolve_25
 
     voice "RIN_0654"
-    rin "\"'I don't want to close my eyes. I don't want to sleep. 'Cause I feel like I'd miss you. And I don't want to miss a thing'...\""
+    rin "\"'I don't want to close my eyes. I don't want to sleep. 'Cause I feel like I'd miss you. And I don't want to miss a thing'...\"" id a03_cou2_01_ae53954f
 
     show hina 1 lg school l with dict_dissolve_25
 
     voice "HIN_0841"
-    hina "\"Wow... that's really pretty.\""
+    hina "\"Wow... that's really pretty.\"" id a03_cou2_01_a2c12b13
 
     show rin 1 lg school c with dict_dissolve_25
 
     voice "RIN_0655"
-    rin "\"And this is the hook that you were nya-nya-ing before.\""
+    rin "\"And this is the hook that you were nya-nya-ing before.\"" id a03_cou2_01_6d2d92ac
 
     show hina 2 lg school c with dict_dissolve_25
 
     voice "HIN_0842"
-    hina "\"It sounds totally different now that I know what the lyrics are.\""
+    hina "\"It sounds totally different now that I know what the lyrics are.\"" id a03_cou2_01_36fbe91f
 
     "Hina nodded, touched."
 
     show rin 1 lg school k with dict_dissolve_25
 
     voice "RIN_0656"
-    rin "\"'I don't want to miss one smile. I don't want to miss one kiss. I only want to be with you'...\""
+    rin "\"'I don't want to miss one smile. I don't want to miss one kiss. I only want to be with you'...\"" id a03_cou2_01_d59dde1b
 
     stop music fadeout 1.0
 
     show hina 2 lg school f with dict_dissolve_25
 
     voice "HIN_0843"
-    hina "\"Thanks, Ri...\""
+    hina "\"Thanks, Ri...\"" id a03_cou2_01_e1796a55
 
     "Hina seemed to suddenly notice how close Rin's face was as they shared the headphones, and she stuttered to a halt."
 
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_0657"
-    rin "\"Then it's a refrain... Hm? What's up?\""
+    rin "\"Then it's a refrain... Hm? What's up?\"" id a03_cou2_01_6d984d25
 
     "Rin looked blankly at Hina when she noticed the latter's gaze."
 
@@ -258,7 +258,7 @@ label a03_cou2_01:
         ShakeSide
 
     voice "HIN_0844"
-    hina "\"Th-Thanks! I get it, that's good!\""
+    hina "\"Th-Thanks! I get it, that's good!\"" id a03_cou2_01_c21c794e
 
     show hina:
         xoffset 0 yoffset 0
@@ -266,7 +266,7 @@ label a03_cou2_01:
     show rin 1 lg school e with dict_dissolve_25
 
     voice "RIN_0658"
-    rin "\"Oh?\""
+    rin "\"Oh?\"" id a03_cou2_01_e22df795
 
     play sound se118c
 
@@ -283,21 +283,21 @@ label a03_cou2_01:
     $ side_image = "rin 1 side school i"
 
     voice "RIN_0659"
-    rin "\"That's pretty rude, and I was being so nice, too~\""
+    rin "\"That's pretty rude, and I was being so nice, too~\"" id a03_cou2_01_71a7849e
 
     "Rin pouted."
 
     show hina 2 lg school headphones c with dict_dissolve_25
 
     voice "HIN_0845"
-    hina "\"......\""
+    hina "\"......\"" id a03_cou2_01_aa450800
 
     "No one noticed the bashful look on Hina's face."
 
     $ side_image = "fumi 2 side school d"
 
     voice "FUM_0647"
-    fumi "\"Oh...?\""
+    fumi "\"Oh...?\"" id a03_cou2_01_4c8580d8
 
     "No one except Fumi, that is."
 

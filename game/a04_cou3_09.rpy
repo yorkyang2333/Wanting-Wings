@@ -28,45 +28,45 @@ label a04_cou3_09:
     pause 1.125
 
     voice "HIN_1539"
-    hina "\"I have one more present for both of you.\""
+    hina "\"I have one more present for both of you.\"" id a04_cou3_09_ee10e9da
 
     voice "FUM_1301"
-    fumi "\"Huh? What is it?\""
+    fumi "\"Huh? What is it?\"" id a04_cou3_09_639b26d2
 
     voice "RIN_1479"
-    rin "\"For us?\""
+    rin "\"For us?\"" id a04_cou3_09_9c397be1
 
     voice "HIN_1540"
-    hina "\"I'll close my eyes for a little while.\""
+    hina "\"I'll close my eyes for a little while.\"" id a04_cou3_09_1b8c6e44
 
     "Rin and Fumi exchanged a blank look."
 
     voice "HIN_1541"
-    hina "\"Ugh, god! I'm telling you I won't look!\""
+    hina "\"Ugh, god! I'm telling you I won't look!\"" id a04_cou3_09_72d6be2e
 
     $ voice2("rin","RIN_1480","fumi","FUM_1302")
     rin_fumi "\"Oh...\""
 
     voice "HIN_1542"
-    hina "\"I noticed you two holding hands under the table, you know.\""
+    hina "\"I noticed you two holding hands under the table, you know.\"" id a04_cou3_09_fd5663d1
 
     voice "FUM_1303"
-    fumi "\"...Natsume...\""
+    fumi "\"...Natsume...\"" id a04_cou3_09_7442ae22
 
     voice "RIN_1481"
-    rin "\"...Hina...\""
+    rin "\"...Hina...\"" id a04_cou3_09_901ced5d
 
     voice "HIN_1543"
-    hina "\"Ah, but a kiss is all you get, okay?!\""
+    hina "\"Ah, but a kiss is all you get, okay?!\"" id a04_cou3_09_6125e6bf
 
     voice "RIN_1482"
-    rin "\"Fumi...\""
+    rin "\"Fumi...\"" id a04_cou3_09_aa2c7f90
 
     voice "FUM_1304"
-    fumi "\"Rin...\""
+    fumi "\"Rin...\"" id a04_cou3_09_2db07c47
 
     voice "HIN_1544"
-    hina "\"Okay, Merry Christmas! Merry Christmas!\""
+    hina "\"Okay, Merry Christmas! Merry Christmas!\"" id a04_cou3_09_6ccacff5
 
     "So Rin and Fumi exchanged a blissful kiss."
 

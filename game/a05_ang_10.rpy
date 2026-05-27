@@ -29,7 +29,7 @@ label a05_ang_10:
         ShakeYes
 
     voice "SYO_0214"
-    sachiko "\"I'm guessing you've figured this out by now, but...\""
+    sachiko "\"I'm guessing you've figured this out by now, but...\"" id a05_ang_10_ab511655
 
     show sachiko 1 grayscale lg outfit cigarette i:
         xoffset 0 yoffset 0
@@ -40,7 +40,7 @@ label a05_ang_10:
     show sachiko 1 grayscale lg outfit cigarette a with dict_dissolve_25
 
     voice "SYO_0215"
-    sachiko "\"I was an angel, too.\""
+    sachiko "\"I was an angel, too.\"" id a05_ang_10_e73ee7b4
 
     "She confessed to me flatly, like it was the most obvious thing in the world."
 
@@ -51,14 +51,14 @@ label a05_ang_10:
     "Actually, I'd been waiting to hear those words, and was relieved to have my answer."
 
     voice "SYO_0216"
-    sachiko "\"The angel they saw as kids was me.\""
+    sachiko "\"The angel they saw as kids was me.\"" id a05_ang_10_7781ccd0
 
     "I still wasn't surprised. I had begun to suspect. The way Sachiko looked at those girls was special."
 
     show sachiko 1 grayscale lg outfit cigarette g with dict_dissolve_25
 
     voice "SYO_0217"
-    sachiko "\"I guess I've known them for a long time, come to think of it. It's just an instant for an angel, though.\""
+    sachiko "\"I guess I've known them for a long time, come to think of it. It's just an instant for an angel, though.\"" id a05_ang_10_26d3a6a4
 
     "Supposedly, innocent children can see angels. They usually forget about them by the time they grow up, though."
 
@@ -69,21 +69,21 @@ label a05_ang_10:
     show sachiko 1 grayscale lg outfit cigarette a with dict_dissolve_25
 
     voice "SYO_0218"
-    sachiko "\"They grew into good girls.\""
+    sachiko "\"They grew into good girls.\"" id a05_ang_10_3be54e58
 
     "I nodded."
 
     show sachiko 1 grayscale lg outfit cigarette i with dict_dissolve_25
 
     voice "SYO_0219"
-    sachiko "\"I wanted to see the things those girls saw, feel what they felt... so I got rid of my wings.\""
+    sachiko "\"I wanted to see the things those girls saw, feel what they felt... so I got rid of my wings.\"" id a05_ang_10_09ac7ba2
 
     show sachiko:
         "sachiko 1 grayscale lg outfit cigarette g" with Dissolve(0.25)
         ShakeYes
 
     voice "SYO_0220"
-    sachiko "\"Though that wasn't the only reason... But that's another story.\""
+    sachiko "\"Though that wasn't the only reason... But that's another story.\"" id a05_ang_10_1c5e6853
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

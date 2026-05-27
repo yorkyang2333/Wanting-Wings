@@ -8,10 +8,10 @@ label a10_cou1_10:
     scene kimikara_20_a with Dissolve(2.0)
 
     voice "2HI_1364"
-    hina "\"Taaah!\""
+    hina "\"Taaah!\"" id a10_cou1_10_83784967
 
     voice "2FU_1106"
-    fumi "\"To, to, tah♪\""
+    fumi "\"To, to, tah♪\"" id a10_cou1_10_497a4e53
 
     if persistent.dpatch:
         "Hina and Fumi ran up the stone steps that led to the school gate." id a10_cou1_10_9a2df169
@@ -21,38 +21,38 @@ label a10_cou1_10:
     $ side_image = "rin 1 side school_scarf j"
 
     voice "2RI_1303"
-    rin "\"Heeh... haah...\""
+    rin "\"Heeh... haah...\"" id a10_cou1_10_e7fef8c1
 
     $ side_image = "miyako 2 side school_sei a"
 
     voice "2MI_1030"
-    miyako "\"Are you okay?\""
+    miyako "\"Are you okay?\"" id a10_cou1_10_81643cc3
 
     "Then there was Rin, whose life had drained to zero after having to run full-speed first thing in the morning."
 
     $ side_image = "rin 1 side school_scarf j"
 
     voice "2RI_1304"
-    rin "\"We're not even gonna be late. Why are those two in such a hurry?\""
+    rin "\"We're not even gonna be late. Why are those two in such a hurry?\"" id a10_cou1_10_97e5a998
 
     $ side_image = "miyako 2 side school_sei c"
 
     voice "2MI_1031"
-    miyako "\"Eheheh. I wonder if they just can't keep their hearts or their feet still.\""
+    miyako "\"Eheheh. I wonder if they just can't keep their hearts or their feet still.\"" id a10_cou1_10_2ca43846
 
     "Miyako peered up at them as if they were too bright to look at."
 
     voice "2HI_1365"
-    hina "\"It's 'cause we've got wings on our shoes♪\""
+    hina "\"It's 'cause we've got wings on our shoes♪\"" id a10_cou1_10_925ae558
 
     voice "2FU_1107"
-    fumi "\"Yep♪\""
+    fumi "\"Yep♪\"" id a10_cou1_10_fed895c9
 
     voice "2HI_1366"
-    hina "These are our precious Christmas present shoes. But we don't mind anymore if they get dirty or worn down." (what_first_indent=24, show_name=False)
+    hina "These are our precious Christmas present shoes. But we don't mind anymore if they get dirty or worn down." (what_first_indent=24, show_name=False) id a10_cou1_10_210e5386
 
     voice "2FU_1108"
-    fumi "Now we know that we'll be able to make as many memories as we want from now on." (what_first_indent=24, show_name=False)
+    fumi "Now we know that we'll be able to make as many memories as we want from now on." (what_first_indent=24, show_name=False) id a10_cou1_10_df8f6abf
 
     $ voice2("hina","2HI_1367","fumi","2FU_1109")
     if persistent.dpatch:

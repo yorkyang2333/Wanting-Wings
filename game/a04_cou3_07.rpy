@@ -17,36 +17,36 @@ label a04_cou3_07:
     with Dissolve(0.25)
 
     voice "RIN_1392"
-    rin "\"Looks like it's raining a little harder now.\""
+    rin "\"Looks like it's raining a little harder now.\"" id a04_cou3_07_bc8d7073
 
     "Rin muttered, peering out through the window."
 
     show fumi 1 lg school d with dict_dissolve_25
 
     voice "FUM_1220"
-    fumi "\"I'm sorry you got dragged into this with me.\""
+    fumi "\"I'm sorry you got dragged into this with me.\"" id a04_cou3_07_75d043b4
 
     "Fumi apologized, picking up the score she'd forgotten from the organ's music stand."
 
     show rin 1 lg school c with dict_dissolve_25
 
     voice "RIN_1393"
-    rin "\"That's alright. It'll let up if we hang out here for a while.\""
+    rin "\"That's alright. It'll let up if we hang out here for a while.\"" id a04_cou3_07_3b05f0c7
 
     "Rin said, turning back around and heading over to the organ."
 
     voice "RIN_1394"
-    rin "\"Nice performance today. It was really good.\""
+    rin "\"Nice performance today. It was really good.\"" id a04_cou3_07_a8fe5163
 
     show fumi 1 lg school b with dict_dissolve_25
 
     voice "FUM_1221"
-    fumi "\"Thanks. All the practice is worth it to hear that from you, Rin.\""
+    fumi "\"Thanks. All the practice is worth it to hear that from you, Rin.\"" id a04_cou3_07_ac688fbb
 
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_1395"
-    rin "\"I wouldn't be able to do it even with practice.\""
+    rin "\"I wouldn't be able to do it even with practice.\"" id a04_cou3_07_4de16d50
 
     play sound organ01
 
@@ -59,12 +59,12 @@ label a04_cou3_07:
     show fumi 2 lg school d with dict_dissolve_25
 
     voice "FUM_1222"
-    fumi "\"That's not true. You have a good sense of pitch. I'm sure you'd be able to play in no time.\""
+    fumi "\"That's not true. You have a good sense of pitch. I'm sure you'd be able to play in no time.\"" id a04_cou3_07_520f8b18
 
     show rin 1 lg school a with dict_dissolve_25
 
     voice "RIN_1396"
-    rin "\"You think so?\""
+    rin "\"You think so?\"" id a04_cou3_07_f3f779bb
 
     play sound se115b
 
@@ -83,7 +83,7 @@ label a04_cou3_07:
         easein 0.25 xcenter 302
 
     voice "FUM_1223"
-    fumi "\"Mhm. Here, you start with your fingers here.\""
+    fumi "\"Mhm. Here, you start with your fingers here.\"" id a04_cou3_07_5ff27af9
 
     show fumi 2 lg school b:
         xcenter 302
@@ -91,24 +91,24 @@ label a04_cou3_07:
     show rin 1 lg school e with dict_dissolve_25
 
     voice "RIN_1397"
-    rin "\"Huh...? Okay...\""
+    rin "\"Huh...? Okay...\"" id a04_cou3_07_0741b70c
 
     "Rin put her fingers on the keyboard where Fumi told her to."
 
     show fumi 2 lg school d with dict_dissolve_25
 
     voice "FUM_1224"
-    fumi "\"Wow, your fingers are so long... You might be more suited to this than I am.\""
+    fumi "\"Wow, your fingers are so long... You might be more suited to this than I am.\"" id a04_cou3_07_3226258c
 
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_1398"
-    rin "\"O-Oh?\""
+    rin "\"O-Oh?\"" id a04_cou3_07_ad6fc598
 
     show fumi 1 lg school b with dict_dissolve_25
 
     voice "FUM_1225"
-    fumi "\"Here, follow after my fingers.\""
+    fumi "\"Here, follow after my fingers.\"" id a04_cou3_07_5c11bb24
 
     play sound organ02
 
@@ -119,7 +119,7 @@ label a04_cou3_07:
     show rin 1 lg school e with dict_dissolve_25
 
     voice "RIN_1399"
-    rin "\"...Like this?\""
+    rin "\"...Like this?\"" id a04_cou3_07_e9522bc5
 
     play sound organ02
 
@@ -128,7 +128,7 @@ label a04_cou3_07:
     show fumi 2 lg school i with dict_dissolve_25
 
     voice "FUM_1226"
-    fumi "\"Good, good♪\""
+    fumi "\"Good, good♪\"" id a04_cou3_07_917580e5
 
     "Fumi complimented her, her chin on Rin's shoulder."
 
@@ -140,7 +140,7 @@ label a04_cou3_07:
         easein 0.25 xcenter 412
 
     voice "FUM_1227"
-    fumi "\"Can you press the keys a little lighter?\""
+    fumi "\"Can you press the keys a little lighter?\"" id a04_cou3_07_378596bc
 
     show fumi 2 lg school g:
         xcenter 412
@@ -151,12 +151,12 @@ label a04_cou3_07:
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_1400"
-    rin "\"Hey, your chest is touching my back.\""
+    rin "\"Hey, your chest is touching my back.\"" id a04_cou3_07_f5794beb
 
     show fumi 2 lg school d with dict_dissolve_25
 
     voice "FUM_1228"
-    fumi "\"Oh, I'm sorry. Was I heavy?\""
+    fumi "\"Oh, I'm sorry. Was I heavy?\"" id a04_cou3_07_13c0ec86
 
     show rin:
         "rin 1 lg school c" with Dissolve(0.25)
@@ -164,7 +164,7 @@ label a04_cou3_07:
         easein 0.25 xcenter 722
 
     voice "RIN_1401"
-    rin "\"No, it felt good. Made me kinda horny, actually.\""
+    rin "\"No, it felt good. Made me kinda horny, actually.\"" id a04_cou3_07_e08e7eca
 
     show rin 1 lg school c:
         xcenter 722 ycenter 1084
@@ -175,17 +175,17 @@ label a04_cou3_07:
     show fumi 2 lg school f with dict_dissolve_25
 
     voice "FUM_1229"
-    fumi "\"Geez, you always have to make it sexual.\""
+    fumi "\"Geez, you always have to make it sexual.\"" id a04_cou3_07_4960dc71
 
     show rin 1 lg school k with dict_dissolve_25
 
     voice "RIN_1402"
-    rin "\"Sorry... mh.\""
+    rin "\"Sorry... mh.\"" id a04_cou3_07_24246ff3
 
     show fumi 2 lg school j with dict_dissolve_25
 
     voice "FUM_1230"
-    fumi "\"Mmh... hey... mch.\""
+    fumi "\"Mmh... hey... mch.\"" id a04_cou3_07_219b10e8
 
     "Rin apologized, this time stealing Fumi's lips."
 
@@ -198,36 +198,36 @@ label a04_cou3_07:
     with dict_dissolve_25
 
     voice "RIN_1403"
-    rin "\"Pretty blasphemous of us to be getting all excited in a place like this.\""
+    rin "\"Pretty blasphemous of us to be getting all excited in a place like this.\"" id a04_cou3_07_afd1f64a
 
     show fumi 2 lg school b with dict_dissolve_25
 
     voice "FUM_1231"
-    fumi "\"Honestly... The angels will be angry with us.\""
+    fumi "\"Honestly... The angels will be angry with us.\"" id a04_cou3_07_953fd9f7
 
     "......"
 
     show rin 1 lg school c with dict_dissolve_25
 
     voice "RIN_1404"
-    rin "\"Want to stop, then?\""
+    rin "\"Want to stop, then?\"" id a04_cou3_07_1a534c18
 
     show fumi 2 lg school d with dict_dissolve_25
 
     voice "FUM_1232"
-    fumi "\"Oh? Do you think you can?\""
+    fumi "\"Oh? Do you think you can?\"" id a04_cou3_07_5ef95569
 
     "They looked at each other, mischievous smiles on their faces."
 
     show rin 2 lg school e with dict_dissolve_25
 
     voice "RIN_1405"
-    rin "\"Of course I can't.\""
+    rin "\"Of course I can't.\"" id a04_cou3_07_567269f4
 
     show fumi 2 lg school b with dict_dissolve_25
 
     voice "FUM_1233"
-    fumi "\"Neither can I...\""
+    fumi "\"Neither can I...\"" id a04_cou3_07_23445198
 
     show fumi 2 lg school j
     show rin 1 lg school k
@@ -238,21 +238,21 @@ label a04_cou3_07:
     show rin 1 lg school h with dict_dissolve_25
 
     voice "RIN_1406"
-    rin "\"Fumi...\""
+    rin "\"Fumi...\"" id a04_cou3_07_23a43370
 
     "Rin made to turn around in her chair so that they were facing each other, but..."
 
     show fumi 2 lg school f with dict_dissolve_25
 
     voice "FUM_1234"
-    fumi "\"No.\""
+    fumi "\"No.\"" id a04_cou3_07_6991b59d
 
     "Fumi gently held Rin down."
 
     show rin 1 lg school e with dict_dissolve_25
 
     voice "RIN_1407"
-    rin "\"Huh?\""
+    rin "\"Huh?\"" id a04_cou3_07_57f32cc9
 
     play sound se103c
 
@@ -270,7 +270,7 @@ label a04_cou3_07:
         ShakeJump
 
     voice "RIN_1408"
-    rin "\"Wh-What? What are you doing, Fumi?\""
+    rin "\"Wh-What? What are you doing, Fumi?\"" id a04_cou3_07_30326120
 
     show rin:
         ycenter 1084 xoffset 0 yoffset 0
@@ -281,14 +281,14 @@ label a04_cou3_07:
     show fumi 2 lg school i with dict_dissolve_25
 
     voice "FUM_1235"
-    fumi "\"Eheheh, let's play a little game♪\""
+    fumi "\"Eheheh, let's play a little game♪\"" id a04_cou3_07_7901dc36
 
     "Fumi looked down at Rin, a strange smile on her face."
 
     show rin 1 lg school i with dict_dissolve_25
 
     voice "RIN_1409"
-    rin "\"...A-A game?\""
+    rin "\"...A-A game?\"" id a04_cou3_07_bf908ca3
 
     "There was a distinct note of apprehension in Rin's voice."
 
@@ -318,22 +318,22 @@ label rp_scene06_end:
     $ side_image = "hina 1 side school k"
 
     voice "HIN_1513"
-    hina "\"Rin? Asou? I brought you umbrellas!\""
+    hina "\"Rin? Asou? I brought you umbrellas!\"" id rp_scene06_end_d48e72a7
 
     $ side_image = "rin 1 side school e"
 
     voice "RIN_1460"
-    rin "\"Huh?\""
+    rin "\"Huh?\"" id rp_scene06_end_175d9f13
 
     $ side_image = "fumi 1 side school e"
 
     voice "FUM_1287"
-    fumi "\"Ah?\""
+    fumi "\"Ah?\"" id rp_scene06_end_9a174b4f
 
     $ side_image = "hina 1 side school l"
 
     voice "HIN_1514"
-    hina "\"Oh?\""
+    hina "\"Oh?\"" id rp_scene06_end_056dacdb
 
     $ voice3("hina","HIN_1515","rin","RIN_1461","fumi","FUM_1288")
     hina_rin_fumi "\"WHAAAAAA?!!\""

@@ -27,7 +27,7 @@ label a07_comn_01:
         ShakeYes
 
     voice "2HI_0038"
-    hina "\"Get up, Rin!\""
+    hina "\"Get up, Rin!\"" id a07_comn_01_61c78c14
 
     show hina:
         xoffset 0 yoffset 0
@@ -35,7 +35,7 @@ label a07_comn_01:
     $ side_image = "rin 1 side school k"
 
     voice "2RI_0034"
-    rin "\"Four more hours...\""
+    rin "\"Four more hours...\"" id a07_comn_01_9be24a25
 
     "It's getting longer."
 
@@ -43,7 +43,7 @@ label a07_comn_01:
     if persistent.dpatch:
         hina "\"It's the first day of school! I'm not letting you be late on the first day!\"" id a07_comn_01_3fd19e85
     else:
-        hina "\"It's the first day of classes! I'm not letting you be late on the first day!\""
+        hina "\"It's the first day of classes! I'm not letting you be late on the first day!\"" id a07_comn_01_e1839a59
 
     show hina:
         ShakeYes
@@ -55,12 +55,12 @@ label a07_comn_01:
     with dict_dissolve_50
 
     voice "2HI_0040"
-    hina "\"I'll wake you up with a {i}thunk{/i} again.\""
+    hina "\"I'll wake you up with a {i}thunk{/i} again.\"" id a07_comn_01_be5c36ff
 
     $ side_image = "rin 1 side school j"
 
     voice "2RI_0035"
-    rin "\"Wait!\""
+    rin "\"Wait!\"" id a07_comn_01_755267b6
 
     hide hina with Dissolve(0.25)
 
@@ -78,28 +78,28 @@ label a07_comn_01:
     $ side_image = "hina 1 side school_scarf e"
 
     voice "2HI_0041"
-    hina "\"Okay!\""
+    hina "\"Okay!\"" id a07_comn_01_678990f4
 
     $ side_image = "fumi 2 side school_scarf c"
 
     if route2 == 3:
         voice "2FU_0021"
-        fumi "\"Are you up, Rin?\""
+        fumi "\"Are you up, Rin?\"" id a07_comn_01_f2f6420d
     else:
         voice "2FU_0022"
-        fumi "\"Are you up, Ogata?\""
+        fumi "\"Are you up, Ogata?\"" id a07_comn_01_4082c4a3
 
     "Fumi came over after placing the mugs on the drying rack."
 
     $ side_image = "fumi 2 side school_scarf i"
 
     voice "2FU_0023"
-    fumi "\"Okay, are you ready?\""
+    fumi "\"Okay, are you ready?\"" id a07_comn_01_c80972ea
 
     show rin 2 sm school c with dict_dissolve_25
 
     voice "2RI_0036"
-    rin "\"Uh hunh...\""
+    rin "\"Uh hunh...\"" id a07_comn_01_79dfc1c6
 
     hide rin with Dissolve(0.25)
 
@@ -115,27 +115,27 @@ label a07_comn_01:
         ShakeYes
 
     voice "2FU_0024"
-    fumi "\"Your lunch.\""
+    fumi "\"Your lunch.\"" id a07_comn_01_e6067220
 
     show fumi:
         xoffset 0 yoffset 0
     with None
 
     voice "2RI_0037"
-    rin "\"Yep.\""
+    rin "\"Yep.\"" id a07_comn_01_bd8e15cb
 
     show fumi:
         ShakeYes
 
     voice "2FU_0025"
-    fumi "\"Your commuter pass.\""
+    fumi "\"Your commuter pass.\"" id a07_comn_01_c476a6f3
 
     show fumi:
         xoffset 0 yoffset 0
     with None
 
     voice "2RI_0038"
-    rin "\"Yep.\""
+    rin "\"Yep.\"" id a07_comn_01_30fc18cb
 
     show fumi:
         ShakeYes
@@ -143,25 +143,25 @@ label a07_comn_01:
         ShakeYes
 
     voice "2FU_0026"
-    fumi "\"Your wallet, your handkerchief.\""
+    fumi "\"Your wallet, your handkerchief.\"" id a07_comn_01_7ed88c19
 
     show fumi:
         xoffset 0 yoffset 0
     with None
 
     voice "2RI_0039"
-    rin "\"Yep, yep.\""
+    rin "\"Yep, yep.\"" id a07_comn_01_57481cd5
 
     $ side_image = "hina 2 side school_scarf a"
 
     voice "2HI_0042"
-    hina "\"Your tie... it's okay for once!\""
+    hina "\"Your tie... it's okay for once!\"" id a07_comn_01_0798a474
 
     show fumi:
         ShakeYes
 
     voice "2FU_0027"
-    fumi "\"Last one. Your scarf.\""
+    fumi "\"Last one. Your scarf.\"" id a07_comn_01_9d01db5a
 
     show fumi:
         xoffset 0 yoffset 0
@@ -169,7 +169,7 @@ label a07_comn_01:
     show rin 1 lg school c with dict_dissolve_25
 
     voice "2RI_0040"
-    rin "\"Thanks.\""
+    rin "\"Thanks.\"" id a07_comn_01_a5d2cee1
 
     hide fumi
     with Dissolve(0.25)
@@ -188,7 +188,7 @@ label a07_comn_01:
     show rin 1 sm school_scarf b with dict_dissolve_25
 
     voice "2RI_0041"
-    rin "\"Okay—\""
+    rin "\"Okay—\"" id a07_comn_01_e63bbdc6
 
     show hina behind rin:
         "hina 1 sm school_scarf j flat"
@@ -204,12 +204,12 @@ label a07_comn_01:
     show rin 1 sm school_scarf i with dict_dissolve_25
 
     voice "2RI_0042"
-    rin "\"I was gonna say 'let's go'!\""
+    rin "\"I was gonna say 'let's go'!\"" id a07_comn_01_cfc13edd
 
     show hina 1 sm school_scarf m with dict_dissolve_25
 
     voice "2HI_0043"
-    hina "\"Oh, were you? I was just going off of your usual behavior.\""
+    hina "\"Oh, were you? I was just going off of your usual behavior.\"" id a07_comn_01_1a6f97fc
 
     show rin 1 sm school_scarf g with dict_dissolve_25
 
@@ -217,7 +217,7 @@ label a07_comn_01:
     if persistent.dpatch:
         rin "\"Isn't that a little harsh on the first day of school?\"" id a07_comn_01_c32faa39
     else:
-        rin "\"Isn't that a little harsh on the first day of class?\""
+        rin "\"Isn't that a little harsh on the first day of class?\"" id a07_comn_01_4c7bba7b
 
     show hina 1 sm school_scarf f with dict_dissolve_25
 
@@ -225,35 +225,35 @@ label a07_comn_01:
     if persistent.dpatch:
         hina "\"And who was it who slept in until the last minute on the first day of school?!\"" id a07_comn_01_67305437
     else:
-        hina "\"And who was it who slept in until the last minute on the first day?!\""
+        hina "\"And who was it who slept in until the last minute on the first day?!\"" id a07_comn_01_a4e6b759
 
     show fumi 2 sm school_scarf c at pos_l with dict_dissolve_25
 
     voice "2FU_0028"
-    fumi "\"Alright, let's get going~\""
+    fumi "\"Alright, let's get going~\"" id a07_comn_01_ea843706
 
     show hina 1 sm school_scarf b with dict_dissolve_25
 
     voice "2HI_0045"
-    hina "\"Okay—\""
+    hina "\"Okay—\"" id a07_comn_01_822bc972
 
     voice "2MI_0001"
-    miyako "\"Hwahh...\"" (show_name="???")
+    miyako "\"Hwahh...\"" (show_name="???") id a07_comn_01_9017212a
 
     show rin 1 sm school_scarf e with dict_dissolve_25
 
     voice "2RI_0044"
-    rin "\"Ah...\""
+    rin "\"Ah...\"" id a07_comn_01_98cbff3b
 
     show fumi 2 sm school_scarf g with dict_dissolve_25
 
     voice "2FU_0029"
-    fumi "\"Huh...?\""
+    fumi "\"Huh...?\"" id a07_comn_01_8058b0b7
 
     show hina 1 sm school_scarf d with dict_dissolve_25
 
     voice "2HI_0046"
-    hina "\"Aaah!!\""
+    hina "\"Aaah!!\"" id a07_comn_01_c7f66da0
 
     hide rin
     hide fumi
@@ -265,7 +265,7 @@ label a07_comn_01:
     show miyako 2 lg pyjama_hood j with dict_dissolve_75
 
     voice "2MI_0002"
-    miyako "\"Good morning~\""
+    miyako "\"Good morning~\"" id a07_comn_01_b60fa2a8
 
     $ side_image = "side/hina_fumi_rin_school_scarf_sozai01.webp"
 
@@ -323,7 +323,7 @@ label a07_comn_01_g2:
     show sachiko 2 sm outfit g with Dissolve(0.25)
 
     voice "2SA_0041"
-    sachiko "\"Oh, I forgot...\""
+    sachiko "\"Oh, I forgot...\"" id a07_comn_01_g2_9357881d
 
 label a07_comn_01_end:
 

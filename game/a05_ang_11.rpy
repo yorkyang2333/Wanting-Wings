@@ -29,7 +29,7 @@ label a05_ang_11:
     scene kimikara_10_d with Dissolve(0.5)
 
     voice "2SA_0032"
-    sachiko "\"When you come down to the surface, you have to borrow a human's appearance to do it.\""
+    sachiko "\"When you come down to the surface, you have to borrow a human's appearance to do it.\"" id a05_ang_11_50436725
 
     "As always, she spoke as if she could see exactly where I was. And she was still assuming I would come down and join her."
 
@@ -40,7 +40,7 @@ label a05_ang_11:
     scene kimikara_10_f with Dissolve(0.5)
 
     voice "2SA_0033"
-    sachiko "\"Angels don't have faces, right?\""
+    sachiko "\"Angels don't have faces, right?\"" id a05_ang_11_812926bd
 
     "Right. We don't really have a distinct form."
 
@@ -51,26 +51,26 @@ label a05_ang_11:
     "What angels lack is \"individuality.\""
 
     voice "2SA_0034"
-    sachiko "\"So you've gotta borrow one, use it as a model. Like, Jirou Satsuma.\""
+    sachiko "\"So you've gotta borrow one, use it as a model. Like, Jirou Satsuma.\"" id a05_ang_11_7abb7ff0
 
     "Who?"
 
     voice "2SA_0035"
-    sachiko "\"You can pick whatever you like, but once you come down, you can't change it, just so you know.\""
+    sachiko "\"You can pick whatever you like, but once you come down, you can't change it, just so you know.\"" id a05_ang_11_6e6c8245
 
     "I see. An important decision, then."
 
     "Seems like it's a pretty good deal to be able to pick whatever face I want, though."
 
     voice "2SA_0036"
-    sachiko "\"Right, I'd suggest not picking someone who lives around here. That could cause all kinds of trouble.\""
+    sachiko "\"Right, I'd suggest not picking someone who lives around here. That could cause all kinds of trouble.\"" id a05_ang_11_3cbcf9ca
 
     "Sachiko gave me some pointers for becoming human."
 
     scene kimikara_10_e with Dissolve(0.5)
 
     voice "2SA_0037"
-    sachiko "\"Oh, and looks are important to me, so come down with a pretty face, eh?♪\""
+    sachiko "\"Oh, and looks are important to me, so come down with a pretty face, eh?♪\"" id a05_ang_11_f66b1ab3
 
     "How am I supposed to know what your type is?"
 

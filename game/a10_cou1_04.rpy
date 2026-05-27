@@ -22,7 +22,7 @@ label a10_cou1_04:
     with dict_dissolve_25
 
     voice "2HI_1211"
-    hina "\"Is that you, Fumi?\""
+    hina "\"Is that you, Fumi?\"" id a10_cou1_04_7fc04c93
 
     play music bgm01 fadein 1.0
 
@@ -38,41 +38,41 @@ label a10_cou1_04:
     show fumi z4 2 lg school g with dict_dissolve_25
 
     voice "2FU_0959"
-    fumi "\"You're right. It's my mom. I wonder what it is. Something about the store?\""
+    fumi "\"You're right. It's my mom. I wonder what it is. Something about the store?\"" id a10_cou1_04_7203daee
 
     show rin z4 1 lg school b with dict_dissolve_25
 
     voice "2RI_1244"
-    rin "\"Well, it's the big day tomorrow. Hm. But is it actually busy on Valentine's Day? You usually buy things before, right?\""
+    rin "\"Well, it's the big day tomorrow. Hm. But is it actually busy on Valentine's Day? You usually buy things before, right?\"" id a10_cou1_04_a908fbb9
 
     show fumi z4 1 lg school a with dict_dissolve_25
 
     voice "2FU_0960"
-    fumi "\"True, the peak day is the Sunday before, but it's still a lot more busy than usual on the day of.\""
+    fumi "\"True, the peak day is the Sunday before, but it's still a lot more busy than usual on the day of.\"" id a10_cou1_04_09d0e3d2
 
     show rin z4 1 lg school a with dict_dissolve_25
 
     voice "2RI_1245"
-    rin "\"I see. The last-minute rush—\""
+    rin "\"I see. The last-minute rush—\"" id a10_cou1_04_37e7396f
 
     show fumi z4 1 lg school k with dict_dissolve_25
 
     voice "2FU_0961"
-    fumi "\"Huh?\""
+    fumi "\"Huh?\"" id a10_cou1_04_efadf3eb
 
     "Fumi exclaimed, a grave look on her face."
 
     show hina z4 2 lg school f with dict_dissolve_25
 
     voice "2HI_1212"
-    hina "\"What is it?\""
+    hina "\"What is it?\"" id a10_cou1_04_5b311b33
 
     show fumi z4 1 lg school h with dict_dissolve_25
 
     stop music fadeout 1.0
 
     voice "2FU_0962"
-    fumi "\"My mother collapsed with a fever.\""
+    fumi "\"My mother collapsed with a fever.\"" id a10_cou1_04_93ba539c
 
     show miyako z4 1 lg school_a f
     show hina z4 1 lg school d
@@ -80,12 +80,12 @@ label a10_cou1_04:
     with dict_dissolve_25
 
     voice "2HI_1213"
-    hina "\"What?! Is she in the hospital?\""
+    hina "\"What?! Is she in the hospital?\"" id a10_cou1_04_3155fc1e
 
     show fumi z4 1 lg school d with dict_dissolve_25
 
     voice "2FU_0963"
-    fumi "\"No, I don't think it's that serious. I mean, she's sending me messages on LIME... haha.\""
+    fumi "\"No, I don't think it's that serious. I mean, she's sending me messages on LIME... haha.\"" id a10_cou1_04_e06b68ac
 
     "Her smile was strained. She must have been worried."
 
@@ -99,7 +99,7 @@ label a10_cou1_04:
         ShakeTameiki
 
     voice "2HI_1214"
-    hina "\"It must be overwork.\""
+    hina "\"It must be overwork.\"" id a10_cou1_04_db07c82c
 
     show hina z4 1 lg school n:
         xoffset 0 yoffset 0
@@ -107,21 +107,21 @@ label a10_cou1_04:
     show fumi z4 1 lg school h with dict_dissolve_25
 
     voice "2FU_0964"
-    fumi "\"I think so, too. They've been so busy all the time lately.\""
+    fumi "\"I think so, too. They've been so busy all the time lately.\"" id a10_cou1_04_e0a4619d
 
     "The two who had actually witnessed her mother working exchanged a glance."
 
     show rin z4 2 lg school a with dict_dissolve_25
 
     voice "2RI_1246"
-    rin "\"What are you gonna do about the store? You just said it'd be busy, right?\""
+    rin "\"What are you gonna do about the store? You just said it'd be busy, right?\"" id a10_cou1_04_a09125ef
 
     "Her father alone would definitely not be able to handle it."
 
     show fumi z4 2 lg school a with dict_dissolve_25
 
     voice "2FU_0965"
-    fumi "\"I... I think I'll go to the store tomorrow.\""
+    fumi "\"I... I think I'll go to the store tomorrow.\"" id a10_cou1_04_9622c7e4
 
     show miyako z4 1 lg school_a e
     show hina z4 1 lg school k
@@ -132,7 +132,7 @@ label a10_cou1_04:
     if persistent.dpatch:
         rin "\"You mean you'll skip school?\"" id a10_cou1_04_01973fed
     else:
-        rin "\"You mean you'll skip class?\""
+        rin "\"You mean you'll skip class?\"" id a10_cou1_04_fd27843f
 
     show fumi:
         ShakeYes
@@ -145,29 +145,29 @@ label a10_cou1_04:
     show miyako z4 1 lg school_a b with dict_dissolve_25
 
     voice "2MI_0992"
-    miyako "\"Would you like me to take notes for you?\""
+    miyako "\"Would you like me to take notes for you?\"" id a10_cou1_04_3c4efe2a
 
     show fumi z4 2 lg school g with dict_dissolve_25
 
     voice "2FU_0966"
-    fumi "\"Oh! You wouldn't mind, Miyako?\""
+    fumi "\"Oh! You wouldn't mind, Miyako?\"" id a10_cou1_04_deeffd77
 
     show miyako z4 2 lg school c with dict_dissolve_25
 
     voice "2MI_0993"
-    miyako "\"I don't think mine will be as helpful as yours, of course.\""
+    miyako "\"I don't think mine will be as helpful as yours, of course.\"" id a10_cou1_04_711f14fe
 
     show fumi z4 2 lg school c with dict_dissolve_25
 
     voice "2FU_0967"
-    fumi "\"That's not true!\""
+    fumi "\"That's not true!\"" id a10_cou1_04_96256bb5
 
     show hina:
         "hina z4 1 lg school a" with Dissolve(0.25)
         ShakeJump
 
     voice "2HI_1215"
-    hina "\"Oh, I'll go help out.\""
+    hina "\"Oh, I'll go help out.\"" id a10_cou1_04_9d15f7c4
 
     show hina z4 1 lg school a:
         xoffset 0 yoffset 0
@@ -175,28 +175,28 @@ label a10_cou1_04:
     show fumi z4 1 lg school e with dict_dissolve_25
 
     voice "2FU_0968"
-    fumi "\"Huh?\""
+    fumi "\"Huh?\"" id a10_cou1_04_6e5d33d1
 
     "Fumi turned around, surprised at Hina's sudden declaration."
 
     show hina z4 1 lg school p with dict_dissolve_25
 
     voice "2HI_1216"
-    hina "\"I just texted my dad, and he said it was okay.\""
+    hina "\"I just texted my dad, and he said it was okay.\"" id a10_cou1_04_484beb11
 
     "Hina said, holding up her phone."
 
     show rin z4 1 lg school e with dict_dissolve_25
 
     voice "2RI_1248"
-    rin "\"You act fast!\""
+    rin "\"You act fast!\"" id a10_cou1_04_e8bfebac
 
     show fumi:
         "fumi z4 1 lg school k" with Dissolve(0.25)
         ShakeNo
 
     voice "2FU_0969"
-    fumi "\"Well, but, I... That'll help... but...\""
+    fumi "\"Well, but, I... That'll help... but...\"" id a10_cou1_04_0456445e
 
     show fumi z4 1 lg school k:
         xoffset 0 yoffset 0
@@ -210,12 +210,12 @@ label a10_cou1_04:
     show hina z4 2 lg school d with dict_dissolve_25
 
     voice "2HI_1217"
-    hina "\"I know how busy you guys have been. You won't be able to handle it on your own, Fumi. And you can't close the store, right?\""
+    hina "\"I know how busy you guys have been. You won't be able to handle it on your own, Fumi. And you can't close the store, right?\"" id a10_cou1_04_86f9889c
 
     show fumi z4 1 lg school h with dict_dissolve_25
 
     voice "2FU_0970"
-    fumi "\"...Right.\""
+    fumi "\"...Right.\"" id a10_cou1_04_d031aecc
 
     "Partly for business reasons, of course, but also because they knew how girls felt on Valentine's."
 
@@ -225,12 +225,12 @@ label a10_cou1_04:
     if persistent.dpatch:
         hina "\"It's okay. I got permission from a parent. He said he didn't care if I skipped a day of school and that I should go and help.\"" id a10_cou1_04_85d7ed0a
     else:
-        hina "\"It's okay. I got permission from a parent. He said he didn't care if I skipped a day of class and that I should go and help.\""
+        hina "\"It's okay. I got permission from a parent. He said he didn't care if I skipped a day of class and that I should go and help.\"" id a10_cou1_04_933a36ee
 
     show fumi z4 1 lg school k with dict_dissolve_25
 
     voice "2FU_0971"
-    fumi "\"......\""
+    fumi "\"......\"" id a10_cou1_04_1c316160
 
     "Fumi's face clouded over when she heard what Hina's father had told her."
 
@@ -239,26 +239,26 @@ label a10_cou1_04:
     show hina z4 1 lg school p with dict_dissolve_25
 
     voice "2HI_1219"
-    hina "\"He'd be mad at me if he knew someone important to me was in trouble and I didn't do anything about it.\""
+    hina "\"He'd be mad at me if he knew someone important to me was in trouble and I didn't do anything about it.\"" id a10_cou1_04_facac34e
 
     "Maybe Hina gets her chivalry from her father."
 
     show rin z4 1 lg school h with dict_dissolve_25
 
     voice "2RI_1249"
-    rin "\"Okay, I'll go too.\""
+    rin "\"Okay, I'll go too.\"" id a10_cou1_04_034f0aae
 
     show hina z4 1 lg school j with dict_dissolve_25
 
     voice "2HI_1220"
-    hina "\"You wouldn't be any help, so you don't need to come.\""
+    hina "\"You wouldn't be any help, so you don't need to come.\"" id a10_cou1_04_12ee2a30
 
     show rin:
         "rin z4 1 lg school j" with Dissolve(0.25)
         ShakeSide
 
     voice "2RI_1250"
-    rin "\"Rude!\""
+    rin "\"Rude!\"" id a10_cou1_04_9c131786
 
     show rin z4 1 lg school j with None
 

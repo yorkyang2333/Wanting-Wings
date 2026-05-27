@@ -18,7 +18,7 @@ label a10_comn_01:
     $ persistent.layer_shaken = False
 
     voice "2HI_1186"
-    hina "\"Gwaaah!\""
+    hina "\"Gwaaah!\"" id a10_comn_01_75dd3c9f
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

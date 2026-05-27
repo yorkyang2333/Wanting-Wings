@@ -30,17 +30,17 @@ label a05_ang_09:
     with Dissolve(0.25)
 
     voice "SYO_0099"
-    sachiko "\"Hmm...\""
+    sachiko "\"Hmm...\"" id a05_ang_09_94075671
 
     show fumi 1 sm school h grayscale with dict_dissolve_25
 
     voice "FUM_0482"
-    fumi "\"...Do you know what it is?\""
+    fumi "\"...Do you know what it is?\"" id a05_ang_09_985db5c6
 
     show sachiko 1 grayscale sm outfit g with dict_dissolve_25
 
     voice "SYO_0100"
-    sachiko "\"Nope~ Teehee!\""
+    sachiko "\"Nope~ Teehee!\"" id a05_ang_09_49b84b25
 
     "Sachiko spun the feather around so that I could see it."
 
@@ -65,7 +65,7 @@ label a05_ang_09:
     with Dissolve(0.25)
 
     voice "SYO_0104"
-    sachiko "\"If there are no signs of infiltration from outside, then that means... the culprit is among us! Bam!\""
+    sachiko "\"If there are no signs of infiltration from outside, then that means... the culprit is among us! Bam!\"" id a05_ang_09_8bd01df8
 
     "Eep."
 
@@ -80,7 +80,7 @@ label a05_ang_09:
     $ side_image = "side/hina_1_side_school_g_grayscale.webp"
 
     voice "HIN_0657"
-    hina "\"We are not! Get lost already!!\""
+    hina "\"We are not! Get lost already!!\"" id a05_ang_09_8fbe07c8
 
     play sound se118c
 
@@ -106,7 +106,7 @@ label a05_ang_09:
         ShakeYes
 
     voice "SYO_0207"
-    sachiko "\"Ta-dah♪\""
+    sachiko "\"Ta-dah♪\"" id a05_ang_09_cb4ec7e4
 
     show sachiko 1 grayscale lg outfit cigarette g:
         xoffset 0 yoffset 0
@@ -117,22 +117,22 @@ label a05_ang_09:
     show sachiko 1 grayscale lg outfit cigarette a with dict_dissolve_25
 
     voice "SYO_0208"
-    sachiko "\"I switched it.\""
+    sachiko "\"I switched it.\"" id a05_ang_09_e8fb6d9c
 
     "Sachiko took my feather out of her pocket in the hallway."
 
     voice "SYO_0209"
-    sachiko "\"They've got a goose feather in there now. I snatched one from Hina's down jacket.\""
+    sachiko "\"They've got a goose feather in there now. I snatched one from Hina's down jacket.\"" id a05_ang_09_e50d7467
 
     voice "2SA_0027"
-    sachiko "\"So you lost a feather... Think that means you're getting closer to being human?\""
+    sachiko "\"So you lost a feather... Think that means you're getting closer to being human?\"" id a05_ang_09_5c0b3f35
 
     show sachiko:
         "sachiko 1 grayscale lg outfit cigarette d" with Dissolve(0.25)
         ShakeTameiki
 
     voice "SYO_0210"
-    sachiko "\"You should be careful from now on... Not that anyone should be able to see you.\""
+    sachiko "\"You should be careful from now on... Not that anyone should be able to see you.\"" id a05_ang_09_b8e3f6a8
 
     show sachiko 1 grayscale lg outfit cigarette d:
         xoffset 0 yoffset 0
@@ -143,19 +143,19 @@ label a05_ang_09:
     show sachiko 1 grayscale lg outfit cigarette a with dict_dissolve_25
 
     voice "SYO_0211"
-    sachiko "\"Those girls are the only ones who can see this feather.\""
+    sachiko "\"Those girls are the only ones who can see this feather.\"" id a05_ang_09_fb19515f
 
     "And you."
 
     show sachiko 1 grayscale lg outfit cigarette b with dict_dissolve_25
 
     voice "SYO_0212"
-    sachiko "\"They're special.\""
+    sachiko "\"They're special.\"" id a05_ang_09_d9077a61
 
     "Special?"
 
     voice "SYO_0213"
-    sachiko "\"They even remember me...\""
+    sachiko "\"They even remember me...\"" id a05_ang_09_e947fdf8
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

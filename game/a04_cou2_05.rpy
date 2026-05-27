@@ -14,7 +14,7 @@ label a04_cou2_05:
         easein 0.5 alpha 1.0 xcenter 512
 
     voice "HIN_1414"
-    hina "\"Hey, Rin—\""
+    hina "\"Hey, Rin—\"" id a04_cou2_05_fc569bc5
 
     show hina 2 lg pyjama g:
         alpha 1.0 xcenter 512
@@ -39,7 +39,7 @@ label a04_cou2_05:
         ShakeSide
 
     voice "HIN_1415"
-    hina "\"Ngyah!\""
+    hina "\"Ngyah!\"" id a04_cou2_05_ab7953ee
 
     show hina:
         "hina 1 lg pyjama l flat"
@@ -56,7 +56,7 @@ label a04_cou2_05:
     show rin 1 lg pyjama e with dict_dissolve_25
 
     voice "RIN_1179"
-    rin "\"Oh, sorry. You okay?\""
+    rin "\"Oh, sorry. You okay?\"" id a04_cou2_05_9f58d50b
 
     "It was because Rin had suddenly stood up."
 
@@ -66,7 +66,7 @@ label a04_cou2_05:
         easein 0.5 alpha 1.0 ycenter 981
 
     voice "HIN_1416"
-    hina "\"Ngh, I'm good.\""
+    hina "\"Ngh, I'm good.\"" id a04_cou2_05_c382833c
 
     show hina 1 lg pyjama h:
         alpha 1.0 xcenter 772 ycenter 981
@@ -77,32 +77,32 @@ label a04_cou2_05:
     show rin 1 lg pyjama a with dict_dissolve_25
 
     voice "RIN_1180"
-    rin "\"Uh, I'm going out.\""
+    rin "\"Uh, I'm going out.\"" id a04_cou2_05_1b322cf1
 
     show hina 1 lg pyjama k with dict_dissolve_25
 
     voice "HIN_1417"
-    hina "\"Huh? Now? Where?\""
+    hina "\"Huh? Now? Where?\"" id a04_cou2_05_4466836a
 
     show rin 1 lg pyjama b with dict_dissolve_25
 
     voice "RIN_1181"
-    rin "\"Just, out...\""
+    rin "\"Just, out...\"" id a04_cou2_05_927aa0d9
 
     show hina 2 lg pyjama b with dict_dissolve_25
 
     voice "HIN_1418"
-    hina "\"I have a question about the English homework—\""
+    hina "\"I have a question about the English homework—\"" id a04_cou2_05_08c694c3
 
     show rin 1 lg pyjama a with dict_dissolve_25
 
     voice "RIN_1182"
-    rin "\"Sorry, not today. I'll look at it later.\""
+    rin "\"Sorry, not today. I'll look at it later.\"" id a04_cou2_05_5b1f3123
 
     show hina 1 lg pyjama h with dict_dissolve_25
 
     voice "HIN_1419"
-    hina "\"Whaaat?\""
+    hina "\"Whaaat?\"" id a04_cou2_05_c3143b2d
 
     show rin:
         "rin 1 lg pyjama a flat"
@@ -120,7 +120,7 @@ label a04_cou2_05:
         easein 0.25 xcenter 512
 
     voice "HIN_1420"
-    hina "\"......\""
+    hina "\"......\"" id a04_cou2_05_f8e2aed4
 
     show hina 2 lg pyjama f:
         xcenter 512
@@ -131,26 +131,26 @@ label a04_cou2_05:
     $ side_image = "rin 2 side pyjama a"
 
     voice "RIN_1183"
-    rin "\"See you.\""
+    rin "\"See you.\"" id a04_cou2_05_cdda3484
 
     play sound se522
 
     show hina 2 lg pyjama h with dict_dissolve_25
 
     voice "HIN_1421"
-    hina "\"Rin... My homework...\""
+    hina "\"Rin... My homework...\"" id a04_cou2_05_233f8339
 
     $ side_image = "fumi 1 side pyjama i"
 
     voice "FUM_1066"
-    fumi "\"Oh, I can help you with the homework after I'm done with the dishes.\""
+    fumi "\"Oh, I can help you with the homework after I'm done with the dishes.\"" id a04_cou2_05_fe12d185
 
     "Fumi said from the kitchen."
 
     show hina 1 lg pyjama n with dict_dissolve_25
 
     voice "HIN_1422"
-    hina "\"...Okay. Thanks.\""
+    hina "\"...Okay. Thanks.\"" id a04_cou2_05_ee865889
 
     "Hina was left staring at the door Rin had gone out through."
 

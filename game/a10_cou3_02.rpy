@@ -26,17 +26,17 @@ label a10_cou3_02:
     with Dissolve(0.25)
 
     voice "2HI_1548"
-    hina "\"That wasn't good, Rin. What you did at lunch.\""
+    hina "\"That wasn't good, Rin. What you did at lunch.\"" id a10_cou3_02_090594ca
 
     voice "2RI_1549"
-    rin "\"How many times are you gonna say that? I get it already.\""
+    rin "\"How many times are you gonna say that? I get it already.\"" id a10_cou3_02_bf466fd5
 
     show hina:
         "hina z4 1 lg school f" with Dissolve(0.25)
         ShakeJump
 
     voice "2HI_1549"
-    hina "\"I'm saying it because I know you don't get it.\""
+    hina "\"I'm saying it because I know you don't get it.\"" id a10_cou3_02_3860447f
 
     show hina z4 1 lg school f:
         xoffset 0 yoffset 0
@@ -51,7 +51,7 @@ label a10_cou3_02:
     show fumi z4 1 lg school k with dict_dissolve_25
 
     voice "2FU_1165"
-    fumi "\"I'm sorry. This is all because I couldn't figure out how to end the conversation.\""
+    fumi "\"I'm sorry. This is all because I couldn't figure out how to end the conversation.\"" id a10_cou3_02_e6773bcd
 
     show hina z4 1 lg school e
     show rin z4 1 lg school h
@@ -72,7 +72,7 @@ label a10_cou3_02:
     show fumi z4 2 lg school h with dict_dissolve_25
 
     voice "2FU_1166"
-    fumi "\"Anyway, we're going to see what they have to say tonight.\""
+    fumi "\"Anyway, we're going to see what they have to say tonight.\"" id a10_cou3_02_7cf3e226
 
     "Today was the day. People from the talent agency were coming to Fumi's house."
 
@@ -81,19 +81,19 @@ label a10_cou3_02:
     show fumi z4 2 lg school g with dict_dissolve_25
 
     voice "2FU_1167"
-    fumi "\"Umm, for dinner tonight—\""
+    fumi "\"Umm, for dinner tonight—\"" id a10_cou3_02_5251774a
 
     show hina z4 1 lg school d with dict_dissolve_25
 
     voice "2HI_1552"
-    hina "\"Oh, come on, you don't need to worry about that. We'll figure it out. Now, hurry. You're gonna miss your bus.\""
+    hina "\"Oh, come on, you don't need to worry about that. We'll figure it out. Now, hurry. You're gonna miss your bus.\"" id a10_cou3_02_f591411d
 
     show fumi z4 1 lg school d with Dissolve(0.25)
     show fumi:
         ShakeYes
 
     voice "2FU_1168"
-    fumi "\"Th-Thank you.\""
+    fumi "\"Th-Thank you.\"" id a10_cou3_02_dfd97a67
 
     show fumi:
         xoffset 0 yoffset 0
@@ -104,19 +104,19 @@ label a10_cou3_02:
     show hina z4 1 lg school a with dict_dissolve_25
 
     voice "2HI_1553"
-    hina "\"I've gotta go to the faculty room, so I'll come with you partway.\""
+    hina "\"I've gotta go to the faculty room, so I'll come with you partway.\"" id a10_cou3_02_1636ad56
 
     show rin z4 1 lg school e with dict_dissolve_25
 
     voice "2RI_1552"
-    rin "\"Oh, me too—\""
+    rin "\"Oh, me too—\"" id a10_cou3_02_03418251
 
     show hina:
         "hina z4 1 lg school f" with Dissolve(0.25)
         ShakeJump
 
     voice "2HI_1554"
-    hina "\"You've got cleaning duty, Rin! Don't blow it off!\""
+    hina "\"You've got cleaning duty, Rin! Don't blow it off!\"" id a10_cou3_02_98332057
 
     show hina z4 1 lg school f with None
     hide hina
@@ -130,7 +130,7 @@ label a10_cou3_02:
         ShakeNo_2_250
 
     voice "2RI_1553"
-    rin "\"Ah... ngh...\""
+    rin "\"Ah... ngh...\"" id a10_cou3_02_246ffffa
 
     show rin z4 1 lg school g:
         xoffset 0 yoffset 0
@@ -143,12 +143,12 @@ label a10_cou3_02:
     $ side_image = "miyako 2 side school c"
 
     voice "2MI_1051"
-    miyako "\"I'll help you with the cleaning.\""
+    miyako "\"I'll help you with the cleaning.\"" id a10_cou3_02_86c4755e
 
     show rin z4 2 lg school d with dict_dissolve_25
 
     voice "2RI_1554"
-    rin "\"...Thanks.\""
+    rin "\"...Thanks.\"" id a10_cou3_02_9a5de164
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

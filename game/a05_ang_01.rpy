@@ -18,15 +18,15 @@ label a05_ang_01:
     scene ev03a with bg_effect_25_1000
 
     voice "SYO_0184"
-    sachiko "\"Phew...\""
+    sachiko "\"Phew...\"" id a05_ang_01_b502b6de
 
     scene ev03b with bg_effect_25_1000
 
     voice "SYO_0185"
-    sachiko "\"...?\""
+    sachiko "\"...?\"" id a05_ang_01_df52b495
 
     voice "SYO_0186"
-    sachiko "\"Welcome back. It's a nice Eve, isn't it?\""
+    sachiko "\"Welcome back. It's a nice Eve, isn't it?\"" id a05_ang_01_8b5c43f1
 
     scene ev03c with Dissolve(0.75)
     pause 3.75

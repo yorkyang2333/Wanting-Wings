@@ -7,7 +7,7 @@ label a05_ang_14:
     pause 2.125
 
     voice "SYO_0228"
-    sachiko "\"Come on, come to my room. I've got cake. It's my birthday today, too.\""
+    sachiko "\"Come on, come to my room. I've got cake. It's my birthday today, too.\"" id a05_ang_14_b0b74a89
 
     window hide
 

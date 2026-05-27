@@ -16,49 +16,49 @@ label a03_comn_06:
     with Dissolve(0.25)
 
     voice "FUM_0500"
-    fumi "\"Okay, I'm going home. I should be back by dinnertime.\""
+    fumi "\"Okay, I'm going home. I should be back by dinnertime.\"" id a03_comn_06_a348112b
 
     show hina 1 sm pyjama b with dict_dissolve_25
 
     voice "HIN_0679"
-    hina "\"Seems like a lot of work to go back every other week.\""
+    hina "\"Seems like a lot of work to go back every other week.\"" id a03_comn_06_d19b72ce
 
     show fumi 1 sm school_scarf d with dict_dissolve_25
 
     voice "FUM_0501"
-    fumi "\"Well, it's not far, and this way, my mom won't worry.\""
+    fumi "\"Well, it's not far, and this way, my mom won't worry.\"" id a03_comn_06_11e0d876
 
     "Fumi gave a bit of a strained smile."
 
     show fumi 1 sm school_scarf b with dict_dissolve_25
 
     voice "FUM_0502"
-    fumi "\"I'll order a Christmas cake, too.\""
+    fumi "\"I'll order a Christmas cake, too.\"" id a03_comn_06_b7e9d6ff
 
     show hina 1 sm pyjama a with dict_dissolve_25
 
     voice "HIN_0680"
-    hina "\"Sounds good.\""
+    hina "\"Sounds good.\"" id a03_comn_06_304ec16c
 
     show fumi 1 sm school_scarf a with dict_dissolve_25
 
     voice "FUM_0503"
-    fumi "\"And this time, I'll make sure my dad doesn't mess it up.\""
+    fumi "\"And this time, I'll make sure my dad doesn't mess it up.\"" id a03_comn_06_be1d4587
 
     show rin 1 sm pyjama d with dict_dissolve_25
 
     voice "RIN_0554"
-    rin "\"Ahaha. What if we get a wedding cake this time?\""
+    rin "\"Ahaha. What if we get a wedding cake this time?\"" id a03_comn_06_d73baecd
 
     show fumi 1 sm school_scarf d with dict_dissolve_25
 
     voice "FUM_0504"
-    fumi "\"Even he wouldn't make that mistake! ...I wish I could be 100%% sure about that~\""
+    fumi "\"Even he wouldn't make that mistake! ...I wish I could be 100%% sure about that~\"" id a03_comn_06_fc221fe6
 
     show fumi 1 sm school_scarf a with dict_dissolve_25
 
     voice "FUM_0505"
-    fumi "\"Anyway, I'll be back later.\""
+    fumi "\"Anyway, I'll be back later.\"" id a03_comn_06_bdd8f4d5
 
     show hina 1 sm pyjama c
     show rin 1 sm pyjama c

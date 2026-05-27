@@ -30,21 +30,21 @@ label a11_cou4_14:
     show fumi 3 sm nightlight pyjama h with dict_dissolve_25
 
     voice "2FU_1315"
-    fumi "\"'It was another great day today.'\""
+    fumi "\"'It was another great day today.'\"" id a11_cou4_14_01fcf6af
 
     "Fumi quietly closed her diary in her bed."
 
     show rin 3 sm light pyjama glasses b with dict_dissolve_25
 
     voice "2RI_1722"
-    rin "\"Especially for a certain pair.\""
+    rin "\"Especially for a certain pair.\"" id a11_cou4_14_4eeff306
 
     "Rin closed her book as well, eyeing the bed beside hers."
 
     show hina 3 sm light pyjama_pjm e with dict_dissolve_25
 
     voice "2HI_1624"
-    hina "\"Think she's gonna stay over there tonight?\""
+    hina "\"Think she's gonna stay over there tonight?\"" id a11_cou4_14_4b0ed23b
 
     "Miyako's bed was empty, but they all had an idea where she was sleeping."
 
@@ -53,12 +53,12 @@ label a11_cou4_14:
     show rin 3 sm light pyjama glasses c with dict_dissolve_25
 
     voice "2RI_1723"
-    rin "\"You think Mikoyan will be able to get up tomorrow morning~?\""
+    rin "\"You think Mikoyan will be able to get up tomorrow morning~?\"" id a11_cou4_14_dcea7feb
 
     show hina 3 sm light pyjama_pjm h with dict_dissolve_25
 
     voice "2HI_1625"
-    hina "\"Hey.\""
+    hina "\"Hey.\"" id a11_cou4_14_d19b2fd7
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

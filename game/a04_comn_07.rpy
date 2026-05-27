@@ -6,14 +6,14 @@ label a04_comn_07:
     $ side_image = "sachiko 1 side outfit cigarette b"
 
     voice "SYO_0145"
-    sachiko "\"I thought it was cold...\""
+    sachiko "\"I thought it was cold...\"" id a04_comn_07_d3981e9b
 
     "The manager's room. Sachiko wiped away the condensation on the window and looked up at the sky."
 
     $ side_image = "sachiko 1 side outfit cigarette a"
 
     voice "SYO_0146"
-    sachiko "\"It's snowing.\""
+    sachiko "\"It's snowing.\"" id a04_comn_07_d1cb78f3
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

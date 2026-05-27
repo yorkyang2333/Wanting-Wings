@@ -16,7 +16,7 @@ label a11_cou4_01:
     pause 0.5
 
     voice "2SA_0947"
-    sachiko "\"N-Noe—?!\""
+    sachiko "\"N-Noe—?!\"" id a11_cou4_01_ef56cd9f
 
     pause 0.5
 
@@ -41,7 +41,7 @@ label a11_cou4_01:
     $ side_image = "miyako 1 side school_a d"
 
     voice "2MI_1117"
-    miyako "\"Nice to meet you!\""
+    miyako "\"Nice to meet you!\"" id a11_cou4_01_72c0fd8a
 
     pause 0.5
 

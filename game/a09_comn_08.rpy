@@ -36,7 +36,7 @@ label a09_comn_08:
     $ persistent.layer_shaken = False
 
     voice "2FU_0636"
-    fumi "\"We're ba—aaah!\""
+    fumi "\"We're ba—aaah!\"" id a09_comn_08_cf776797
 
     show miyako 1 sm school_a_sei f:
         alpha 1.0 xcenter 452
@@ -61,7 +61,7 @@ label a09_comn_08:
     $ persistent.layer_shaken = False
 
     voice "2SA_0589"
-    namahage_sachiko "\"Any naughty kids around?!\""
+    namahage_sachiko "\"Any naughty kids around?!\"" id a09_comn_08_19b995e3
 
     camera
     with None
@@ -69,14 +69,14 @@ label a09_comn_08:
     $ side_image = "rin 1 side school_scarf e"
 
     voice "2RI_0785"
-    rin "\"A namahage...?\""
+    rin "\"A namahage...?\"" id a09_comn_08_908a92cc
 
     camera:
         function LayerShake(20,20,0.3)
     $ persistent.layer_shaken = False
 
     voice "2SA_0590"
-    namahage_sachiko "\"Any naughty girls with naughty bodies around?!\""
+    namahage_sachiko "\"Any naughty girls with naughty bodies around?!\"" id a09_comn_08_3a94875a
 
     camera
     with None
@@ -90,7 +90,7 @@ label a09_comn_08:
     $ persistent.layer_shaken = False
 
     voice "2SA_0591"
-    namahage_sachiko "\"Gyaaa! H-Hard! What did you throw at me?!\""
+    namahage_sachiko "\"Gyaaa! H-Hard! What did you throw at me?!\"" id a09_comn_08_90c4649a
 
     show namahage:
         xoffset 0 yoffset 0
@@ -98,15 +98,15 @@ label a09_comn_08:
     $ side_image = "hina 1 side school_scarf j"
 
     voice "2HI_0776"
-    hina "\"Canned sardines.\""
+    hina "\"Canned sardines.\"" id a09_comn_08_7ed0c1cd
 
     voice "2SA_0592"
-    namahage_sachiko "\"Hey, canned stuff is a bit much, no?! At least make it beans!\""
+    namahage_sachiko "\"Hey, canned stuff is a bit much, no?! At least make it beans!\"" id a09_comn_08_4fc31e0f
 
     $ side_image = "hina 1 side school_scarf c"
 
     voice "2HI_0777"
-    hina "\"They were on sale, so I've got plenty more~\""
+    hina "\"They were on sale, so I've got plenty more~\"" id a09_comn_08_6c544d0f
 
     "Hina wound up with another can."
 
@@ -117,17 +117,17 @@ label a09_comn_08:
     with dict_dissolve_25
 
     voice "2SA_0593"
-    sachiko "\"Waaaah!\""
+    sachiko "\"Waaaah!\"" id a09_comn_08_16077548
 
     $ side_image = "rin 1 side school_scarf g"
 
     voice "2RI_0786"
-    rin "\"Thus, the namahage becomes the crybaby.\""
+    rin "\"Thus, the namahage becomes the crybaby.\"" id a09_comn_08_426821a4
 
     $ side_image = "hina 1 side school_scarf f"
 
     voice "2HI_0778"
-    hina "\"Everything about this is wrong!\""
+    hina "\"Everything about this is wrong!\"" id a09_comn_08_39e45a77
 
     pause 0.5
 
@@ -148,7 +148,7 @@ label a09_comn_08:
     with dict_dissolve_25
 
     voice "2MI_0705"
-    miyako "\"This is very well-made. Where did you get it?\""
+    miyako "\"This is very well-made. Where did you get it?\"" id a09_comn_08_00972c0b
 
     "Miyako looked over the namahage costume, impressed."
 
@@ -157,14 +157,14 @@ label a09_comn_08:
     with dict_dissolve_25
 
     voice "2SA_0594"
-    sachiko "\"...Akita.\""
+    sachiko "\"...Akita.\"" id a09_comn_08_40c052c5
 
     show rin:
         "rin 1 sm school_scarf j" with Dissolve(0.25)
         ShakeSide
 
     voice "2RI_0787"
-    rin "\"That's pretty authentic! Why would you go that far?!\""
+    rin "\"That's pretty authentic! Why would you go that far?!\"" id a09_comn_08_c4f39080
 
     show rin 1 sm school_scarf j:
         xoffset 0 yoffset 0
@@ -172,14 +172,14 @@ label a09_comn_08:
     show sachiko 1 sm outfit b with dict_dissolve_25
 
     voice "2SA_0595"
-    sachiko "\"I thought it'd surprise you...\""
+    sachiko "\"I thought it'd surprise you...\"" id a09_comn_08_1cf78db9
 
     show fumi:
         "fumi 1 sm school_scarf j" with Dissolve(0.25)
         ShakeJump
 
     voice "2FU_0637"
-    fumi "\"It did surprise me!\""
+    fumi "\"It did surprise me!\"" id a09_comn_08_f938754a
 
     show fumi 1 sm school_scarf j:
         xoffset 0 yoffset 0
@@ -189,7 +189,7 @@ label a09_comn_08:
         ShakeYes
 
     voice "2SA_0596"
-    sachiko "\"Yay!\""
+    sachiko "\"Yay!\"" id a09_comn_08_514d2849
 
     show sachiko 1 sm outfit g:
         xoffset 0 yoffset 0
@@ -200,45 +200,45 @@ label a09_comn_08:
     show hina 1 sm school_scarf j with dict_dissolve_25
 
     voice "2HI_0779"
-    hina "\"But why was there a namahage at home waiting for us in the first place?\""
+    hina "\"But why was there a namahage at home waiting for us in the first place?\"" id a09_comn_08_e971b58e
 
     "Typically, namahage were supposed to visit homes, not wait inside them."
 
     show sachiko 1 sm outfit a with dict_dissolve_25
 
     voice "2SA_0597"
-    sachiko "\"'Cause it's setsubun.\""
+    sachiko "\"'Cause it's setsubun.\"" id a09_comn_08_b2d15d7f
 
     show fumi 1 sm school_scarf e with dict_dissolve_25
 
     voice "2FU_0638"
-    fumi "\"Wait, is a namahage a demon?\""
+    fumi "\"Wait, is a namahage a demon?\"" id a09_comn_08_d11b354a
 
     show hina 1 sm school_scarf d with dict_dissolve_25
 
     voice "2HI_0780"
-    hina "\"Then it's even more wrong! The demon's not supposed to be inside!\""
+    hina "\"Then it's even more wrong! The demon's not supposed to be inside!\"" id a09_comn_08_2c7623d2
 
     "I'm pretty sure namahage are supposed to be visiting gods, not demons, but whatever."
 
     show miyako 1 sm school_a_sei b with dict_dissolve_25
 
     voice "2MI_0706"
-    miyako "\"Ah, here we go.\""
+    miyako "\"Ah, here we go.\"" id a09_comn_08_b2449a21
 
     "Miyako pulled a cardboard demon mask out of their shopping bag. It was something the store had been giving away for free."
 
     show rin 1 sm school_scarf a with dict_dissolve_25
 
     voice "2RI_0788"
-    rin "\"This is definitely good enough, isn't it?\""
+    rin "\"This is definitely good enough, isn't it?\"" id a09_comn_08_695b55dd
 
     show sachiko:
         "sachiko 1 sm outfit e" with Dissolve(0.25)
         ShakeYes
 
     voice "2SA_0598"
-    sachiko "\"Let's celebrate setsubun! Any bean-throwing kids around?! Any makizushi-eating kids around?!\""
+    sachiko "\"Let's celebrate setsubun! Any bean-throwing kids around?! Any makizushi-eating kids around?!\"" id a09_comn_08_ce726bfc
 
     show sachiko 1 sm outfit e:
         xoffset 0 yoffset 0
@@ -246,17 +246,17 @@ label a09_comn_08:
     show hina 1 sm school_scarf j with dict_dissolve_25
 
     voice "2HI_0781"
-    hina "\"What is wrong with her...?\""
+    hina "\"What is wrong with her...?\"" id a09_comn_08_518f54f2
 
     show miyako 1 sm school_a_sei d with dict_dissolve_25
 
     voice "2MI_0707"
-    miyako "\"Yay! Setsubun!\""
+    miyako "\"Yay! Setsubun!\"" id a09_comn_08_607ea7a3
 
     show rin 1 sm school_scarf g with dict_dissolve_25
 
     voice "2RI_0789"
-    rin "\"We got another one over here...\""
+    rin "\"We got another one over here...\"" id a09_comn_08_d93b4c16
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

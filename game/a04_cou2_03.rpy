@@ -21,7 +21,7 @@ label a04_cou2_03:
     with None
 
     voice "RIN_1052"
-    rin "\"Ah~ It's cold outsi—\""
+    rin "\"Ah~ It's cold outsi—\"" id a04_cou2_03_9133cb5b
 
     show hina behind rin:
         "hina 1 sm school_scarf c flat"
@@ -31,7 +31,7 @@ label a04_cou2_03:
     play sound se118a
 
     voice "HIN_1261"
-    hina "\"Nyaaa!\""
+    hina "\"Nyaaa!\"" id a04_cou2_03_bbbd5d1b
 
     show hina 1 sm school_scarf c:
         alpha 1.0 xcenter 302
@@ -42,36 +42,36 @@ label a04_cou2_03:
     show rin 1 sm school_scarf g with dict_dissolve_25
 
     voice "RIN_1053"
-    rin "\"Hey, let me take my shoes off at least.\""
+    rin "\"Hey, let me take my shoes off at least.\"" id a04_cou2_03_9a5fc35d
 
     show hina 1 sm school_scarf a with dict_dissolve_25
 
     voice "HIN_1262"
-    hina "\"No! I had to resist hugging you all day!\""
+    hina "\"No! I had to resist hugging you all day!\"" id a04_cou2_03_958519e0
 
     "Hina said, clinging even harder to her."
 
     show rin 1 sm school_scarf i with dict_dissolve_25
 
     voice "RIN_1054"
-    rin "\"Haah...\""
+    rin "\"Haah...\"" id a04_cou2_03_b3bb6f00
 
     "Rin kicked her loafers off with Hina wrapped around her waist."
 
     show hina 1 sm school_scarf j with dict_dissolve_25
 
     voice "HIN_1263"
-    hina "\"Hey, that's bad manners.\""
+    hina "\"Hey, that's bad manners.\"" id a04_cou2_03_3453c1b1
 
     show rin 1 sm school_scarf b with dict_dissolve_25
 
     voice "RIN_1055"
-    rin "\"And whose fault is that? Come on, put your bag down and take your scarf off. I'm not gonna pat your head if you act all spoiled.\""
+    rin "\"And whose fault is that? Come on, put your bag down and take your scarf off. I'm not gonna pat your head if you act all spoiled.\"" id a04_cou2_03_909bb1fa
 
     show hina 1 sm school_scarf d with dict_dissolve_25
 
     voice "HIN_1264"
-    hina "\"Oh, I don't want that...\""
+    hina "\"Oh, I don't want that...\"" id a04_cou2_03_9b7035bc
 
     scene black with bg_effect_05
     pause 0.5
@@ -84,7 +84,7 @@ label a04_cou2_03:
     with Dissolve(0.25)
 
     voice "HIN_1265"
-    hina "\"Hey, thanks for this. It was really good!\""
+    hina "\"Hey, thanks for this. It was really good!\"" id a04_cou2_03_5857fffa
 
     "Hina handed Rin a paperback. It was the book Rin had said she liked."
 
@@ -93,14 +93,14 @@ label a04_cou2_03:
     show rin 1 sm school c with dict_dissolve_25
 
     voice "RIN_1056"
-    rin "\"Good job. You read the whole thing even though there's no pictures.\""
+    rin "\"Good job. You read the whole thing even though there's no pictures.\"" id a04_cou2_03_f9e8a4ca
 
     show hina:
         "hina 1 sm school d" with Dissolve(0.25)
         ShakeJump
 
     voice "HIN_1266"
-    hina "\"Hey, don't make fun of me!\""
+    hina "\"Hey, don't make fun of me!\"" id a04_cou2_03_af228109
 
     show hina 1 sm school d:
         xoffset 0 yoffset 0
@@ -108,34 +108,34 @@ label a04_cou2_03:
     show rin 1 sm school d with dict_dissolve_25
 
     voice "RIN_1057"
-    rin "\"Ahaha. It wasn't really dirty, right?\""
+    rin "\"Ahaha. It wasn't really dirty, right?\"" id a04_cou2_03_a808d503
 
     show hina 1 sm school j with dict_dissolve_25
 
     voice "HIN_1267"
-    hina "\"Not as much as I thought it would be. They did some weird stuff at some points, though.\""
+    hina "\"Not as much as I thought it would be. They did some weird stuff at some points, though.\"" id a04_cou2_03_5e191de2
 
     show rin 1 sm school e with dict_dissolve_25
 
     voice "RIN_1058"
-    rin "\"Weird stuff?\""
+    rin "\"Weird stuff?\"" id a04_cou2_03_20409fe6
 
     show hina 1 sm school k with dict_dissolve_25
 
     voice "HIN_1268"
-    hina "\"Yeah, like trying to put a headphone plug into your butt or using a vacuum nozzle...\""
+    hina "\"Yeah, like trying to put a headphone plug into your butt or using a vacuum nozzle...\"" id a04_cou2_03_36a60d34
 
     show rin 1 sm school c with dict_dissolve_25
 
     voice "RIN_1059"
-    rin "\"Ah, like squeezing a lemon in your crotch or putting out a cigarette with your tongue?\""
+    rin "\"Ah, like squeezing a lemon in your crotch or putting out a cigarette with your tongue?\"" id a04_cou2_03_51003b77
 
     show hina:
         "hina 1 sm school h" with Dissolve(0.25)
         ShakeTameiki
 
     voice "HIN_1269"
-    hina "\"That's perverted!\""
+    hina "\"That's perverted!\"" id a04_cou2_03_a9267991
 
     show hina 1 sm school h:
         xoffset 0 yoffset 0
@@ -146,29 +146,29 @@ label a04_cou2_03:
     show hina 1 sm school k with dict_dissolve_25
 
     voice "HIN_1270"
-    hina "\"If you like that kinda book, does it mean you're a pervert, Rin? Do you want to do stuff like that?\""
+    hina "\"If you like that kinda book, does it mean you're a pervert, Rin? Do you want to do stuff like that?\"" id a04_cou2_03_c4142d54
 
     show rin 1 sm school f with dict_dissolve_25
 
     voice "RIN_1060"
-    rin "\"What if I do~?\""
+    rin "\"What if I do~?\"" id a04_cou2_03_7b63b23f
 
     show hina 1 sm school d with dict_dissolve_25
 
     voice "HIN_1271"
-    hina "\"Ugh... If you really want to, I'll try my best...\""
+    hina "\"Ugh... If you really want to, I'll try my best...\"" id a04_cou2_03_39f043ce
 
     "Hina said, clenching her fists."
 
     show rin 1 sm school c with dict_dissolve_25
 
     voice "RIN_1061"
-    rin "\"Ahahaha. It's not like that. I like the author's writing style. It's all austere and cool.\""
+    rin "\"Ahahaha. It's not like that. I like the author's writing style. It's all austere and cool.\"" id a04_cou2_03_1d104c5e
 
     show hina 1 sm school g with dict_dissolve_25
 
     voice "HIN_1272"
-    hina "\"O-Oh.\""
+    hina "\"O-Oh.\"" id a04_cou2_03_4619033b
 
     hide rin
     hide hina
@@ -183,12 +183,12 @@ label a04_cou2_03:
     with Dissolve(0.25)
 
     voice "HIN_1273"
-    hina "\"I liked it, but it was sad that they had to part, even though Hanayo and Youko both liked each other.\""
+    hina "\"I liked it, but it was sad that they had to part, even though Hanayo and Youko both liked each other.\"" id a04_cou2_03_86427fa9
 
     show hina 2 lg school f with dict_dissolve_25
 
     voice "HIN_1274"
-    hina "\"I don't get why they couldn't be together. Do you get it, Rin?\""
+    hina "\"I don't get why they couldn't be together. Do you get it, Rin?\"" id a04_cou2_03_bf15b063
 
     play sound se013b
 
@@ -197,36 +197,36 @@ label a04_cou2_03:
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_1062"
-    rin "\"Maybe Hanayo was scared. To give herself over to Youko.\""
+    rin "\"Maybe Hanayo was scared. To give herself over to Youko.\"" id a04_cou2_03_b55390e0
 
     show hina 1 lg school k with dict_dissolve_25
 
     voice "HIN_1275"
-    hina "\"Scared?\""
+    hina "\"Scared?\"" id a04_cou2_03_b4c432d3
 
     show rin 2 lg school d with dict_dissolve_25
 
     voice "RIN_1063"
-    rin "\"People who overthink things like her are scared of innocent types—\""
+    rin "\"People who overthink things like her are scared of innocent types—\"" id a04_cou2_03_e55c868e
 
     show hina 2 lg school h with dict_dissolve_25
 
     voice "HIN_1276"
-    hina "\"......\""
+    hina "\"......\"" id a04_cou2_03_23438a69
 
     "Rin noticed the forlorn look in Hina's eyes as they reflected her."
 
     show rin 1 lg school c with dict_dissolve_25
 
     voice "RIN_1064"
-    rin "\"C'mere.\""
+    rin "\"C'mere.\"" id a04_cou2_03_f3a9ab04
 
     "Rin beckoned her and Hina stood, sitting back down in between Rin's legs."
 
     show hina 2 lg school c with dict_dissolve_25
 
     voice "HIN_1277"
-    hina "\"Eheheh.\""
+    hina "\"Eheheh.\"" id a04_cou2_03_3906cb1b
 
     hide rin
     hide hina
@@ -241,7 +241,7 @@ label a04_cou2_03:
     $ side_image = "hina 2 side school f"
 
     voice "HIN_1278"
-    hina "\"Mh, ah...\""
+    hina "\"Mh, ah...\"" id a04_cou2_03_61e57955
 
     "Her eyes opened in surprise for a moment, but she soon closed them, spellbound."
 
@@ -250,7 +250,7 @@ label a04_cou2_03:
     $ side_image = "hina 2 side school h"
 
     voice "HIN_1279"
-    hina "\"Ah... mmh!\""
+    hina "\"Ah... mmh!\"" id a04_cou2_03_51646ce9
 
     "A hot sigh escaped her lips. Despite the lack of air, Rin snuck her tongue inside."
 
@@ -259,12 +259,12 @@ label a04_cou2_03:
     $ side_image = "rin 1 side school k"
 
     voice "RIN_1065"
-    rin "\"Mm... chp...\""
+    rin "\"Mm... chp...\"" id a04_cou2_03_9ca03dfe
 
     $ side_image = "hina 2 side school h"
 
     voice "HIN_1280"
-    hina "\"Mh... mmh... nnh.\""
+    hina "\"Mh... mmh... nnh.\"" id a04_cou2_03_d86f4e5d
 
     "It was their first kiss with tongue."
 

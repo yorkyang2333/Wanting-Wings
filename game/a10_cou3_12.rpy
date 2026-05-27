@@ -12,31 +12,31 @@ label a10_cou3_12:
     scene kimikara_22_a with Dissolve(2.0)
 
     voice "2FU_1287"
-    fumi "\"Oh, this picture is so cool!\""
+    fumi "\"Oh, this picture is so cool!\"" id a10_cou3_12_5ad9182a
 
     voice "2RI_1694"
-    rin "\"......\""
+    rin "\"......\"" id a10_cou3_12_fd1ddf45
 
     voice "2FU_1288RE"
-    fumi "\"Your face is small, and your legs are so long. You really do have a great figure, Rin.\""
+    fumi "\"Your face is small, and your legs are so long. You really do have a great figure, Rin.\"" id a10_cou3_12_a7404b48
 
     voice "2RI_1695"
-    rin "\"......\""
+    rin "\"......\"" id a10_cou3_12_6b925b3e
 
     voice "2FU_1289"
-    fumi "\"You don't want to look?\""
+    fumi "\"You don't want to look?\"" id a10_cou3_12_0e6469d6
 
     voice "2RI_1696"
-    rin "\"...I don't.\""
+    rin "\"...I don't.\"" id a10_cou3_12_143d1162
 
     voice "2FU_1290"
-    fumi "\"Oh, wow, this lipstick picture is great! Hey, I've never seen you with such a mysterious look on your face, Rin.\""
+    fumi "\"Oh, wow, this lipstick picture is great! Hey, I've never seen you with such a mysterious look on your face, Rin.\"" id a10_cou3_12_fb4c8a6d
 
     voice "2RI_1697"
-    rin "\"They just turned a light on me all of a sudden, so I'm surprised in that one...\""
+    rin "\"They just turned a light on me all of a sudden, so I'm surprised in that one...\"" id a10_cou3_12_4b3b2edc
 
     voice "2FU_1291"
-    fumi "\"Pfft.\""
+    fumi "\"Pfft.\"" id a10_cou3_12_744f1250
 
     "The magazine Fumi was excitedly reading was, naturally, the one containing Rin's debut as a model."
 
@@ -52,23 +52,23 @@ label a10_cou3_12:
     "As for Rin, she had started clinging to Fumi a little while ago, pouting."
 
     voice "2RI_1698"
-    rin "\"I'm not doing that again... It's super embarrassing trying to make expressions for the pictures.\""
+    rin "\"I'm not doing that again... It's super embarrassing trying to make expressions for the pictures.\"" id a10_cou3_12_32cb5d2b
 
     voice "2FU_1292"
-    fumi "\"You think so? The president had nothing but good things to say about you, though.\""
+    fumi "\"You think so? The president had nothing but good things to say about you, though.\"" id a10_cou3_12_ba79f438
 
     voice "2RI_1699"
-    rin "\"...Like what?\""
+    rin "\"...Like what?\"" id a10_cou3_12_946d5856
 
     voice "2FU_1293"
-    fumi "\"She said there are plenty of girls with nice faces and figures, but you're really good at showing listlessness and anxiety. She said you've got a genius talent for subtle nuance in your expressions.\""
+    fumi "\"She said there are plenty of girls with nice faces and figures, but you're really good at showing listlessness and anxiety. She said you've got a genius talent for subtle nuance in your expressions.\"" id a10_cou3_12_f6401ed2
     "...I don't think that's talent. I think that's just how she is."
 
     voice "2RI_1700"
-    rin "\"I don't care about that, but I'm your girlfriend, so I'll think about it if it would make you happy.\""
+    rin "\"I don't care about that, but I'm your girlfriend, so I'll think about it if it would make you happy.\"" id a10_cou3_12_5641dd10
 
     voice "2FU_1294"
-    fumi "\"I'm very happy having such a cute girlfriend♪\""
+    fumi "\"I'm very happy having such a cute girlfriend♪\"" id a10_cou3_12_54c7d31f
 
     scene kimikara_22_b with Dissolve(0.5)
 
@@ -77,10 +77,10 @@ label a10_cou3_12:
     "She fussed, complaining about how embarrassing it was, but when her girlfriend complimented her, she didn't seem too opposed to it."
 
     voice "2FU_1295"
-    fumi "\"She said the next shoot would be next week, and it'll be swimsuits.\""
+    fumi "\"She said the next shoot would be next week, and it'll be swimsuits.\"" id a10_cou3_12_2997b2d7
 
     voice "2RI_1701"
-    rin "\"Wait! Bikinis in the middle of winter?!\""
+    rin "\"Wait! Bikinis in the middle of winter?!\"" id a10_cou3_12_b506b58a
 
     window hide
 

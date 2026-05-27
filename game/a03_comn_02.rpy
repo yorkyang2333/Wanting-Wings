@@ -27,7 +27,7 @@ label a03_comn_02:
     pause 0.25
 
     voice "SYO_0080"
-    sachiko "\"Foomin, Foomin, you found an angel feather?!\""
+    sachiko "\"Foomin, Foomin, you found an angel feather?!\"" id a03_comn_02_7d797cc2
 
     show rin 1 sm school_scarf a:
         alpha 1.0 xcenter 928
@@ -42,7 +42,7 @@ label a03_comn_02:
         ShakeJump
 
     voice "FUM_0473"
-    fumi "\"Huh? Oh... yes.\""
+    fumi "\"Huh? Oh... yes.\"" id a03_comn_02_0a5b009c
 
     show fumi 1 sm school_scarf e:
         xoffset 0 yoffset 0
@@ -50,44 +50,44 @@ label a03_comn_02:
     show hina 1 sm school_scarf e with dict_dissolve_25
 
     voice "HIN_0637"
-    hina "\"How do you know that?\""
+    hina "\"How do you know that?\"" id a03_comn_02_833dcb0a
 
     show sachiko 1 sm outfit g with dict_dissolve_25
 
     voice "SYO_0081"
-    sachiko "\"Well, y'know, 'cause I'm the dorm manager.\""
+    sachiko "\"Well, y'know, 'cause I'm the dorm manager.\"" id a03_comn_02_28ccb5e6
 
     show rin 1 sm school_scarf h with dict_dissolve_25
 
     voice "RIN_0519"
-    rin "\"Guess we'll need to search for listening devices.\""
+    rin "\"Guess we'll need to search for listening devices.\"" id a03_comn_02_3da6c9cb
 
     show sachiko 1 sm outfit a with dict_dissolve_25
 
     voice "SYO_0082"
-    sachiko "\"Oh, whatever, just show me the feather already.\""
+    sachiko "\"Oh, whatever, just show me the feather already.\"" id a03_comn_02_942b5b76
 
     show hina 1 sm school_scarf j with dict_dissolve_25
 
     voice "HIN_0638"
-    hina "\"Don't you 'whatever' us!\""
+    hina "\"Don't you 'whatever' us!\"" id a03_comn_02_2d55b23a
 
     show fumi 1 sm school_scarf b with dict_dissolve_25
 
     voice "FUM_0474"
-    fumi "\"Oh, it's in our room.\""
+    fumi "\"Oh, it's in our room.\"" id a03_comn_02_c8849266
 
     show sachiko 1 sm outfit g with dict_dissolve_25
 
     voice "SYO_0083"
-    sachiko "\"I'm gonna go look, then!\""
+    sachiko "\"I'm gonna go look, then!\"" id a03_comn_02_c8157cd7
 
     show hina:
         "hina 1 sm school_scarf d" with Dissolve(0.25)
         ShakeSide
 
     voice "HIN_0639"
-    hina "\"What? You're coming to our room?\""
+    hina "\"What? You're coming to our room?\"" id a03_comn_02_8565d3e2
 
     show hina 1 sm school_scarf d:
         xoffset 0 yoffset 0
@@ -95,31 +95,31 @@ label a03_comn_02:
     show rin 1 sm school_scarf i with dict_dissolve_25
 
     voice "RIN_0520"
-    rin "\"Probably to pick up those listening devices.\""
+    rin "\"Probably to pick up those listening devices.\"" id a03_comn_02_556cb0c6
 
     "The two were clearly bothered by the idea."
 
     show sachiko 1 sm outfit a with dict_dissolve_25
 
     voice "SYO_0084"
-    sachiko "\"Let's go, Foomin!\""
+    sachiko "\"Let's go, Foomin!\"" id a03_comn_02_f8c8f20a
 
     show fumi 1 sm school_scarf a with dict_dissolve_25
 
     voice "FUM_0475"
-    fumi "\"Oh, okay.\""
+    fumi "\"Oh, okay.\"" id a03_comn_02_1fefcfbe
 
     "But Sachiko paid no mind. She walked off, arm around Fumi's shoulder."
 
     show sachiko 1 sm outfit g with dict_dissolve_25
 
     voice "SYO_0085"
-    sachiko "\"I don't think I've been in here since move-in~\""
+    sachiko "\"I don't think I've been in here since move-in~\"" id a03_comn_02_70155eed
 
     show hina 1 sm school_scarf h with dict_dissolve_25
 
     voice "HIN_0640"
-    hina "\"We didn't want you in here until move-out.\""
+    hina "\"We didn't want you in here until move-out.\"" id a03_comn_02_0db2a805
 
     scene black with bg_effect_02
 
@@ -142,7 +142,7 @@ label a03_comn_02:
         ShakeUji
 
     voice "SYO_0086"
-    sachiko "\"Ahh... It's the scent of young girls.\""
+    sachiko "\"Ahh... It's the scent of young girls.\"" id a03_comn_02_a155267d
 
     show sachiko:
         xoffset 0 yoffset 0
@@ -155,7 +155,7 @@ label a03_comn_02:
         ShakeJump
 
     voice "HIN_0641"
-    hina "\"Quit being gross!\""
+    hina "\"Quit being gross!\"" id a03_comn_02_6cd585f0
 
     show hina 1 sm school f:
         xoffset 0 yoffset 0
@@ -163,22 +163,22 @@ label a03_comn_02:
     show sachiko 1 sm outfit a with dict_dissolve_25
 
     voice "SYO_0087"
-    sachiko "\"Now, let's have a look at the scene of the crime.\""
+    sachiko "\"Now, let's have a look at the scene of the crime.\"" id a03_comn_02_91f63a6e
 
     show rin 1 sm school i with dict_dissolve_25
 
     voice "RIN_0521"
-    rin "\"What crime?\""
+    rin "\"What crime?\"" id a03_comn_02_1653e834
 
     show fumi 1 sm school e with dict_dissolve_25
 
     voice "FUM_0476"
-    fumi "\"Umm, the feather is...\""
+    fumi "\"Umm, the feather is...\"" id a03_comn_02_5daae929
 
     show sachiko 1 sm outfit b with dict_dissolve_25
 
     voice "SYO_0088"
-    sachiko "\"This you, Foomin?\""
+    sachiko "\"This you, Foomin?\"" id a03_comn_02_a2a07631
 
     play sound se637
 
@@ -195,7 +195,7 @@ label a03_comn_02:
         ShakeSide
 
     voice "FUM_0477"
-    fumi "\"Huh? Wait!\""
+    fumi "\"Huh? Wait!\"" id a03_comn_02_22bdf9c2
 
     show fumi 1 sm school j:
         xoffset 0 yoffset 0
@@ -206,12 +206,12 @@ label a03_comn_02:
     show sachiko 1 sm outfit h with dict_dissolve_25
 
     voice "SYO_0089"
-    sachiko "\"Whoa, that's big! What size is this? E? That's like seven sizes bigger than Hinacchi.\""
+    sachiko "\"Whoa, that's big! What size is this? E? That's like seven sizes bigger than Hinacchi.\"" id a03_comn_02_fcc8ed04
 
     show hina 1 sm school k with dict_dissolve_25
 
     voice "HIN_0642"
-    hina "\"E, D, C, B, A...\""
+    hina "\"E, D, C, B, A...\"" id a03_comn_02_31e2fee5
 
     "She's counting on her fingers..."
 
@@ -220,7 +220,7 @@ label a03_comn_02:
         ShakeJump
 
     voice "HIN_0643"
-    hina "\"What are my boobs, inverted?!\""
+    hina "\"What are my boobs, inverted?!\"" id a03_comn_02_c9cb332f
 
     show hina 1 sm school f:
         xoffset 0 yoffset 0
@@ -228,12 +228,12 @@ label a03_comn_02:
     show sachiko 1 sm outfit e with dict_dissolve_25
 
     voice "SYO_0090"
-    sachiko "\"They've got cute designs even for the big ones these days, huh?\""
+    sachiko "\"They've got cute designs even for the big ones these days, huh?\"" id a03_comn_02_c534dd3c
 
     show fumi 1 sm school g with dict_dissolve_25
 
     voice "FUM_0478"
-    fumi "\"P-Please don't study it like that!\""
+    fumi "\"P-Please don't study it like that!\"" id a03_comn_02_65ea5b8a
 
     play sound se118c
 
@@ -242,46 +242,46 @@ label a03_comn_02:
     show sachiko 1 sm outfit c with dict_dissolve_25
 
     voice "SYO_0091"
-    sachiko "\"What? I was gonna line 'em all up on the floor.\""
+    sachiko "\"What? I was gonna line 'em all up on the floor.\"" id a03_comn_02_61c18415
 
     show rin 1 sm school g with dict_dissolve_25
 
     voice "RIN_0522"
-    rin "\"What are you, an underwear thief?\""
+    rin "\"What are you, an underwear thief?\"" id a03_comn_02_a73fb555
 
     show sachiko 1 sm outfit b with dict_dissolve_25
 
     voice "SYO_0092"
-    sachiko "\"Which dresser's yours, Rin?\""
+    sachiko "\"Which dresser's yours, Rin?\"" id a03_comn_02_0317cfac
 
     show rin 1 sm school j with dict_dissolve_25
 
     voice "RIN_0523"
-    rin "\"Why would I tell you that?!\""
+    rin "\"Why would I tell you that?!\"" id a03_comn_02_b8a9af82
 
     show sachiko 1 sm outfit a with dict_dissolve_25
 
     voice "SYO_0093"
-    sachiko "\"Then—\""
+    sachiko "\"Then—\"" id a03_comn_02_495ba1a7
 
     show rin 1 sm school i
     show hina 1 sm school j
     with dict_dissolve_25
 
     voice "HIN_0644"
-    hina "\"I'm not telling you either.\""
+    hina "\"I'm not telling you either.\"" id a03_comn_02_e2df7b92
 
     show sachiko 1 sm outfit j with dict_dissolve_25
 
     voice "SYO_0094"
-    sachiko "\"Wait, Hinacchi, do you wear bras?\""
+    sachiko "\"Wait, Hinacchi, do you wear bras?\"" id a03_comn_02_b2ddbe92
 
     show hina:
         "hina 1 sm school f" with Dissolve(0.25)
         ShakeJump
 
     voice "HIN_0645"
-    hina "\"Of course I do!\""
+    hina "\"Of course I do!\"" id a03_comn_02_2c7d3747
 
     show hina 1 sm school f:
         xoffset 0 yoffset 0
@@ -289,23 +289,23 @@ label a03_comn_02:
     show sachiko 1 sm outfit c with dict_dissolve_25
 
     voice "SYO_0095"
-    sachiko "\"What kind?\""
+    sachiko "\"What kind?\"" id a03_comn_02_b780cfbe
 
     show hina 1 sm school h
     show sachiko 1 sm outfit e
     with dict_dissolve_25
 
     voice "HIN_0646"
-    hina "\"This k—\""
+    hina "\"This k—\"" id a03_comn_02_3dca66db
 
     show fumi 1 sm school j with dict_dissolve_25
 
     if hina_fumi_score != 999:
         voice "FUM_0479"
-        fumi "\"Natsume, Natsume!\""
+        fumi "\"Natsume, Natsume!\"" id a03_comn_02_abef01f5
     else:
         voice "FUM_0480"
-        fumi "\"Hina, Hina!\""
+        fumi "\"Hina, Hina!\"" id a03_comn_02_3c4a6309
 
     "Fumi hurriedly stopped Hina from pulling up her vest."
 
@@ -314,83 +314,83 @@ label a03_comn_02:
     show sachiko 1 sm outfit c with dict_dissolve_25
 
     voice "SYO_0096"
-    sachiko "\"So close.\""
+    sachiko "\"So close.\"" id a03_comn_02_c298dc9b
 
     "Sachiko snapped her fingers."
 
     show sachiko 1 sm outfit d with dict_dissolve_25
 
     voice "SYO_0097"
-    sachiko "\"Well, I got to see Foomin's bras and Hinacchi's belly button, so I guess I'll go home.\""
+    sachiko "\"Well, I got to see Foomin's bras and Hinacchi's belly button, so I guess I'll go home.\"" id a03_comn_02_10cc6780
 
     show hina 1 sm school l with dict_dissolve_25
 
     voice "HIN_0647"
-    hina "\"What happened to the feather?!\""
+    hina "\"What happened to the feather?!\"" id a03_comn_02_95378597
 
     show sachiko 1 sm outfit f with dict_dissolve_25
 
     voice "SYO_0098"
-    sachiko "\"Oh, I forgot~ Teehee.\""
+    sachiko "\"Oh, I forgot~ Teehee.\"" id a03_comn_02_764415d4
 
     "She gave herself a rap on the head and stuck her tongue out."
 
     show hina 1 sm school f with dict_dissolve_25
 
     voice "HIN_0648"
-    hina "\"Let's hit her, Rin!\""
+    hina "\"Let's hit her, Rin!\"" id a03_comn_02_c023e818
 
     show rin 1 sm school g with dict_dissolve_25
 
     voice "RIN_0524"
-    rin "\"I know how you feel, Hina, but calm down.\""
+    rin "\"I know how you feel, Hina, but calm down.\"" id a03_comn_02_89fd19cf
 
     show fumi 1 sm school e with dict_dissolve_25
 
     voice "FUM_0481"
-    fumi "\"This is it...\""
+    fumi "\"This is it...\"" id a03_comn_02_bfb2760a
 
     "Fumi handed Sachiko the feather from that morning."
 
     show sachiko 1 sm outfit i with dict_dissolve_25
 
     voice "SYO_0099"
-    sachiko "\"Hmm...\""
+    sachiko "\"Hmm...\"" id a03_comn_02_94075671
 
     "She held the feather up to the light and turned it, peering at it."
 
     show fumi 1 sm school h with dict_dissolve_25
 
     voice "FUM_0482"
-    fumi "\"...Do you know what it is?\""
+    fumi "\"...Do you know what it is?\"" id a03_comn_02_985db5c6
 
     show sachiko 1 sm outfit g with dict_dissolve_25
 
     voice "SYO_0100"
-    sachiko "\"Nope~ Teehee!\""
+    sachiko "\"Nope~ Teehee!\"" id a03_comn_02_49b84b25
 
     show hina 1 sm school f with dict_dissolve_25
 
     voice "HIN_0649"
-    hina "\"Rin!\""
+    hina "\"Rin!\"" id a03_comn_02_5d1b2838
 
     show rin 1 sm school a with dict_dissolve_25
 
     voice "RIN_0525"
-    rin "\"She gets three strikes. Just be patient.\""
+    rin "\"She gets three strikes. Just be patient.\"" id a03_comn_02_cbcfae23
 
     voice "FUM_0483"
-    fumi "\"I don't think it's a regular bird's feather.\""
+    fumi "\"I don't think it's a regular bird's feather.\"" id a03_comn_02_a4b77096
 
     show sachiko 1 sm outfit c with dict_dissolve_25
 
     voice "SYO_0101"
-    sachiko "\"Well, I'm not exactly a bird expert, so.\""
+    sachiko "\"Well, I'm not exactly a bird expert, so.\"" id a03_comn_02_d9eae01f
 
     show hina 1 sm school h with dict_dissolve_25
 
     voice "HIN_0650"
-    hina "\"Then what the heck did you come here for?\""
+    hina "\"Then what the heck did you come here for?\"" id a03_comn_02_279e4677
 
     hide rin
     hide fumi
@@ -414,38 +414,38 @@ label a03_comn_02:
     with Dissolve(0.25)
 
     voice "SYO_0102"
-    sachiko "\"Did you sleep with the window open last night?\""
+    sachiko "\"Did you sleep with the window open last night?\"" id a03_comn_02_2dfccf9b
 
     "Sachiko went into the living room and inspected the window frame."
 
     show rin 1 sm school h with dict_dissolve_25
 
     voice "RIN_0526"
-    rin "\"That's what I said, but it was closed, right?\""
+    rin "\"That's what I said, but it was closed, right?\"" id a03_comn_02_fc759d6d
 
     "Fumi nodded."
 
     show sachiko 1 sm outfit c with dict_dissolve_25
 
     voice "SYO_0103"
-    sachiko "\"Which means there was no way in or out of this room last night.\""
+    sachiko "\"Which means there was no way in or out of this room last night.\"" id a03_comn_02_0a7379b5
 
     show rin 1 sm school b with dict_dissolve_25
 
     voice "RIN_0527"
-    rin "\"Well, I guess so.\""
+    rin "\"Well, I guess so.\"" id a03_comn_02_3598aeeb
 
     show sachiko 1 sm outfit j with dict_dissolve_25
 
     voice "SYO_0104"
-    sachiko "\"If there are no signs of infiltration from outside, then that means... the culprit is among us! Bam!\""
+    sachiko "\"If there are no signs of infiltration from outside, then that means... the culprit is among us! Bam!\"" id a03_comn_02_8bd01df8
 
     "She added a sound effect."
 
     show sachiko 1 sm outfit e with dict_dissolve_25
 
     voice "SYO_0105"
-    sachiko "\"Okay, everybody, strip! I'm gonna check you for wings!\""
+    sachiko "\"Okay, everybody, strip! I'm gonna check you for wings!\"" id a03_comn_02_a88802f3
 
     show hina 1 sm school g
     show rin 1 sm school j
@@ -457,26 +457,26 @@ label a03_comn_02:
     show sachiko 1 sm outfit c with dict_dissolve_25
 
     voice "SYO_0106"
-    sachiko "\"Tch.\""
+    sachiko "\"Tch.\"" id a03_comn_02_ea6b2576
 
     show fumi 1 sm school e with dict_dissolve_25
 
     voice "FUM_0484"
-    fumi "\"...We're not doing it?\""
+    fumi "\"...We're not doing it?\"" id a03_comn_02_a4f14ca4
 
     show hina 1 sm school l with dict_dissolve_25
 
     if hina_fumi_score != 999:
         voice "HIN_0652"
-        hina "\"What are you playing along for, Asou?\""
+        hina "\"What are you playing along for, Asou?\"" id a03_comn_02_b01cb9a7
     else:
         voice "HIN_0653"
-        hina "\"What are you playing along for, Fumi?\""
+        hina "\"What are you playing along for, Fumi?\"" id a03_comn_02_9220e129
 
     show fumi 1 sm school b with dict_dissolve_25
 
     voice "FUM_0485"
-    fumi "\"Well, I thought one of you might be the angel.\""
+    fumi "\"Well, I thought one of you might be the angel.\"" id a03_comn_02_fa3460ec
 
     "Fumi looked between Rin and Hina."
 
@@ -492,7 +492,7 @@ label a03_comn_02:
     show sachiko 1 sm outfit j with dict_dissolve_25
 
     voice "SYO_0107"
-    sachiko "\"I really think you should strip.\""
+    sachiko "\"I really think you should strip.\"" id a03_comn_02_e320cc4a
 
     show hina 1 sm school f
     show rin 1 sm school j
@@ -527,14 +527,14 @@ label a03_comn_02:
     with Dissolve(0.25)
 
     voice "HIN_0656"
-    hina "\"If you're gonna smoke, get out!\""
+    hina "\"If you're gonna smoke, get out!\"" id a03_comn_02_c1f402c6
 
     show sachiko:
         "sachiko 1 sm outfit cigarette d" with Dissolve(0.25)
         ShakeTameiki
 
     voice "SYO_0108"
-    sachiko "\"Oh, sorry. Habit, y'know?\""
+    sachiko "\"Oh, sorry. Habit, y'know?\"" id a03_comn_02_774eaf36
 
     show sachiko 1 sm outfit cigarette d:
         xoffset 0 yoffset 0
@@ -542,22 +542,22 @@ label a03_comn_02:
     show rin 1 sm school h with dict_dissolve_25
 
     voice "RIN_0531"
-    rin "\"You know there's no smoking in this whole dorm, right?\""
+    rin "\"You know there's no smoking in this whole dorm, right?\"" id a03_comn_02_e7ca416b
 
     show sachiko 1 sm outfit cigarette c with dict_dissolve_25
 
     voice "SYO_0109"
-    sachiko "\"Wait, is that right? Is that a new rule, Foomin?\""
+    sachiko "\"Wait, is that right? Is that a new rule, Foomin?\"" id a03_comn_02_f41b1a41
 
     show fumi 1 sm school d with dict_dissolve_25
 
     voice "FUM_0486"
-    fumi "\"No, I believe it's always been the rule, since it's a student dorm.\""
+    fumi "\"No, I believe it's always been the rule, since it's a student dorm.\"" id a03_comn_02_d5cd9ee4
 
     show sachiko 1 sm outfit cigarette d with dict_dissolve_25
 
     voice "SYO_0110"
-    sachiko "\"Huh...\""
+    sachiko "\"Huh...\"" id a03_comn_02_d1349d34
 
     play sound se521
 
@@ -569,7 +569,7 @@ label a03_comn_02:
     $ side_image = "sachiko 1 side outfit cigarette d"
 
     voice "SYO_0111"
-    sachiko "\"Oh, can I just say one last thing?\""
+    sachiko "\"Oh, can I just say one last thing?\"" id a03_comn_02_720fb0ea
 
     "Sachiko turned around just after heading into the hallway."
 
@@ -578,14 +578,14 @@ label a03_comn_02:
     $ side_image = "sachiko 1 side outfit cigarette i"
 
     voice "SYO_0112"
-    sachiko "\"If you guys are gonna have a lingerie party after this, could you invite me? Y'know, just to watch.\""
+    sachiko "\"If you guys are gonna have a lingerie party after this, could you invite me? Y'know, just to watch.\"" id a03_comn_02_e41805cc
 
     show hina:
         "hina 1 sm school g" with Dissolve(0.25)
         ShakeJump
 
     voice "HIN_0657"
-    hina "\"We are not! Get lost already!!\""
+    hina "\"We are not! Get lost already!!\"" id a03_comn_02_8fbe07c8
 
     show hina 1 sm school g:
         xoffset 0 yoffset 0

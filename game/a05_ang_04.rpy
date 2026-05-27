@@ -77,29 +77,29 @@ label a05_ang_04:
     pause 0.375
 
     voice "2SA_0001"
-    sachiko "\"Hey.\""
+    sachiko "\"Hey.\"" id a05_ang_04_e420e576
 
     "I turned back at her voice and Sachiko was looking up, almost exactly at me."
 
     voice "2SA_0002"
-    sachiko "\"Why don't you come down?\""
+    sachiko "\"Why don't you come down?\"" id a05_ang_04_a2990d07
 
     "She beckoned me."
 
     "Come back down? Isn't she done for the day?"
 
     voice "2SA_0003"
-    sachiko "\"Ah, I don't mean come back down now. I mean come down to the surface.\""
+    sachiko "\"Ah, I don't mean come back down now. I mean come down to the surface.\"" id a05_ang_04_efd62f59
 
     "Huh?"
 
     voice "2SA_0004"
-    sachiko "\"Why don't you get rid of those wings? It's no fun up there, is it?\""
+    sachiko "\"Why don't you get rid of those wings? It's no fun up there, is it?\"" id a05_ang_04_604d3617
 
     "Does she... know I'm an angel?"
 
     voice "2SA_0005"
-    sachiko "\"It's fun down here.\""
+    sachiko "\"It's fun down here.\"" id a05_ang_04_c48be180
 
     "I was speechless. I'd realized that she was telling me to {i}become human{/i}."
 
@@ -110,7 +110,7 @@ label a05_ang_04:
     "All I could do was fly confused circles above Sachiko."
 
     voice "2SA_0006"
-    sachiko "\"Yeah, it's a hard decision to make. You're interested though, right?\""
+    sachiko "\"Yeah, it's a hard decision to make. You're interested though, right?\"" id a05_ang_04_bcf3a9e8
 
     "Sachiko nodded to herself as if she knew exactly what I was thinking."
 
@@ -127,12 +127,12 @@ label a05_ang_04:
     "Was she talking nonsense? Making it up? Making fun of me? It was ridiculous—"
 
     voice "SYO_0200"
-    sachiko "\"Go watch those girls for a month. You can decide after that.\""
+    sachiko "\"Go watch those girls for a month. You can decide after that.\"" id a05_ang_04_ff456c9c
 
     "Sachiko said, pointing down."
 
     voice "HIN_0024"
-    hina "\"Okay, let's go!\""
+    hina "\"Okay, let's go!\"" id a05_ang_04_d86503b0
 
     "I heard girls' voices. Familiar voices. It was the three who had come to the roof."
 
@@ -152,7 +152,7 @@ label a05_ang_04:
     pause 0.375
 
     voice "2SA_0008"
-    sachiko "\"I'll be waiting here a month from now, at night.\""
+    sachiko "\"I'll be waiting here a month from now, at night.\"" id a05_ang_04_85970d7f
 
     "Sachiko made plans I couldn't agree to, as always."
 
@@ -166,7 +166,7 @@ label a05_ang_04:
     pause 0.375
 
     voice "SYO_0201"
-    sachiko "\"I'll see you on Christmas!\""
+    sachiko "\"I'll see you on Christmas!\"" id a05_ang_04_d1415d0f
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

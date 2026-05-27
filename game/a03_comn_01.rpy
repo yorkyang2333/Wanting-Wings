@@ -20,7 +20,7 @@ label a03_comn_01:
     show fumi 3 sm light pyjama a with Dissolve(0.25)
 
     voice "FUM_0463"
-    fumi "\"Nnh...\""
+    fumi "\"Nnh...\"" id a03_comn_01_4599b7e7
 
     "Fumi's phone buzzed by her pillow and she opened her eyes."
 
@@ -39,7 +39,7 @@ label a03_comn_01:
         ShakeSide
 
     voice "FUM_0464"
-    fumi "\"Cold...\""
+    fumi "\"Cold...\"" id a03_comn_01_460d71fd
 
     show fumi:
         xoffset 0 yoffset 0
@@ -52,7 +52,7 @@ label a03_comn_01:
     show fumi 1 sm pyjama g with dict_dissolve_25
 
     voice "FUM_0465"
-    fumi "\"...?\""
+    fumi "\"...?\"" id a03_comn_01_2fbf8cd9
 
     show fumi:
         ShakeTameiki
@@ -64,7 +64,7 @@ label a03_comn_01:
     with dict_dissolve_25
 
     voice "FUM_0466"
-    fumi "\"...What's this?\""
+    fumi "\"...What's this?\"" id a03_comn_01_0284e0cf
 
     "It was..."
 
@@ -84,7 +84,7 @@ label a03_comn_01:
         ShakeYes
 
     voice "FUM_0467"
-    fumi "\"Whose feather could it be? Here's your lunch.\""
+    fumi "\"Whose feather could it be? Here's your lunch.\"" id a03_comn_01_782fb3e6
 
     show fumi:
         xoffset 0 yoffset 0
@@ -92,14 +92,14 @@ label a03_comn_01:
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_0513"
-    rin "\"Yep. 'Whose?' A bird's, right?\""
+    rin "\"Yep. 'Whose?' A bird's, right?\"" id a03_comn_01_f2b45038
 
     show fumi:
         "fumi 2 lg school c" with Dissolve(0.25)
         ShakeYes
 
     voice "FUM_0468"
-    fumi "\"And your commuter pass. Or an angel...\""
+    fumi "\"And your commuter pass. Or an angel...\"" id a03_comn_01_f22d0c24
 
     show fumi 2 lg school c:
         xoffset 0 yoffset 0
@@ -107,7 +107,7 @@ label a03_comn_01:
     show rin 1 lg school a with dict_dissolve_25
 
     voice "RIN_0514"
-    rin "\"Yep. Oh, right.\""
+    rin "\"Yep. Oh, right.\"" id a03_comn_01_13bc5769
 
     hide fumi with Dissolve(0.25)
 
@@ -115,7 +115,7 @@ label a03_comn_01:
     with Dissolve(0.25)
 
     voice "HIN_0633"
-    hina "\"I don't think I've seen many like that, though. It's definitely not a pigeon's or a crow's.\""
+    hina "\"I don't think I've seen many like that, though. It's definitely not a pigeon's or a crow's.\"" id a03_comn_01_3bfda49c
 
     show fumi 2 lg school b at pos_l2
     with Dissolve(0.25)
@@ -123,26 +123,26 @@ label a03_comn_01:
         ShakeYes
 
     voice "FUM_0469"
-    fumi "\"Your wallet. Right?\""
+    fumi "\"Your wallet. Right?\"" id a03_comn_01_759991d1
 
     show fumi:
         xoffset 0 yoffset 0
     with None
 
     voice "RIN_0515"
-    rin "\"Yep. It's not from yesterday's turkey?\""
+    rin "\"Yep. It's not from yesterday's turkey?\"" id a03_comn_01_b02c553f
 
     show hina 1 lg school f with dict_dissolve_25
 
     voice "HIN_0634"
-    hina "\"We didn't have turkey!\""
+    hina "\"We didn't have turkey!\"" id a03_comn_01_c47ebcc4
 
     show fumi:
         "fumi 2 lg school b" with Dissolve(0.25)
         ShakeYes
 
     voice "FUM_0470"
-    fumi "\"And your handkerchief. It's really big and white, right?\""
+    fumi "\"And your handkerchief. It's really big and white, right?\"" id a03_comn_01_2aeb4f2c
 
     show fumi 2 lg school b:
         xoffset 0 yoffset 0
@@ -150,29 +150,29 @@ label a03_comn_01:
     show rin 1 lg school e with dict_dissolve_25
 
     voice "RIN_0516"
-    rin "\"Thanks. What was it doing in the room, anyway? We didn't sleep with the window open last night, did we?\""
+    rin "\"Thanks. What was it doing in the room, anyway? We didn't sleep with the window open last night, did we?\"" id a03_comn_01_6ba953ac
 
     show fumi 2 lg school f with dict_dissolve_25
 
     voice "FUM_0471"
-    fumi "\"No, it was closed.\""
+    fumi "\"No, it was closed.\"" id a03_comn_01_12bc1950
 
     show hina 2 lg school e with dict_dissolve_25
 
     voice "HIN_0635"
-    hina "\"I don't mind talking about this, but we've gotta leave soon, or we'll end up running.\""
+    hina "\"I don't mind talking about this, but we've gotta leave soon, or we'll end up running.\"" id a03_comn_01_ced21d2f
 
     show fumi 2 lg school h with dict_dissolve_25
 
     voice "FUM_0472"
-    fumi "\"Oh. You're right.\""
+    fumi "\"Oh. You're right.\"" id a03_comn_01_cfd1c489
 
     show rin:
         "rin 1 lg school d" with Dissolve(0.25)
         ShakeYes
 
     voice "RIN_0517"
-    rin "\"I know. While you two are in class, I'll investigate this feather.\""
+    rin "\"I know. While you two are in class, I'll investigate this feather.\"" id a03_comn_01_fc8aa913
 
     show rin 1 lg school d:
         xoffset 0 yoffset 0
@@ -182,7 +182,7 @@ label a03_comn_01:
         ShakeJump
 
     voice "HIN_0636"
-    hina "\"You will not! Come on, let's go!\""
+    hina "\"You will not! Come on, let's go!\"" id a03_comn_01_a3a1e8e1
 
     show hina 1 lg school f:
         xoffset 0 yoffset 0
@@ -190,7 +190,7 @@ label a03_comn_01:
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_0518"
-    rin "\"Yeah, yeah.\""
+    rin "\"Yeah, yeah.\"" id a03_comn_01_2409675d
 
     hide rin
     hide fumi

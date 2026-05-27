@@ -23,7 +23,7 @@ label a10_cou2_02:
     $ side_image = "hina 2 side school e"
 
     voice "2HI_1377"
-    hina "\"I'm going to the bathroom.\""
+    hina "\"I'm going to the bathroom.\"" id a10_cou2_02_76d1c326
 
     "Hina told Fumi and stood."
 
@@ -34,7 +34,7 @@ label a10_cou2_02:
     with dict_dissolve_25
 
     voice "2RI_1314"
-    rin "\"......\""
+    rin "\"......\"" id a10_cou2_02_8aa340c4
 
     "Rin was staring absentmindedly out the window."
 
@@ -43,22 +43,22 @@ label a10_cou2_02:
     with dict_dissolve_25
 
     voice "2FU_1110"
-    fumi "\"Ogata.\""
+    fumi "\"Ogata.\"" id a10_cou2_02_4a1439a6
 
     show rin z4 2 lg school g with dict_dissolve_25
 
     voice "2RI_1315"
-    rin "\"Hm? Yeah?\""
+    rin "\"Hm? Yeah?\"" id a10_cou2_02_eb2b135e
 
     show fumi z4 1 lg school k with dict_dissolve_25
 
     voice "2FU_1111"
-    fumi "\"Something really did happen between you two last night, didn't it?\""
+    fumi "\"Something really did happen between you two last night, didn't it?\"" id a10_cou2_02_e5769667
 
     show rin z4 2 lg school e with dict_dissolve_25
 
     voice "2RI_1316"
-    rin "\"Geez, how many times have you asked me that now? I keep telling you you're worrying over nothing.\""
+    rin "\"Geez, how many times have you asked me that now? I keep telling you you're worrying over nothing.\"" id a10_cou2_02_d5957d63
 
     "Yes. Fumi had asked several times."
 
@@ -69,79 +69,79 @@ label a10_cou2_02:
     show rin z4 1 lg school f with dict_dissolve_25
 
     voice "2RI_1317"
-    rin "\"Do we really look that weird~?\""
+    rin "\"Do we really look that weird~?\"" id a10_cou2_02_11ae5c2d
 
     "Rin was laughing it off as usual."
 
     show fumi z4 1 lg school h with dict_dissolve_25
 
     voice "2FU_1112"
-    fumi "\"I'm sorry, but you do.\""
+    fumi "\"I'm sorry, but you do.\"" id a10_cou2_02_26a49e26
 
     "But Fumi wasn't buying it."
 
     show rin z4 2 lg school d with dict_dissolve_25
 
     voice "2RI_1318"
-    rin "\"I'm telling you, nothing happened...\""
+    rin "\"I'm telling you, nothing happened...\"" id a10_cou2_02_6ce6910c
 
     "She denied it again. Averting her eyes this time."
 
     show fumi z4 1 lg school k with dict_dissolve_25
 
     voice "2FU_1113"
-    fumi "\"......\""
+    fumi "\"......\"" id a10_cou2_02_4b6e09a7
 
     show rin z4 2 lg school e with dict_dissolve_25
 
     voice "2RI_1319"
-    rin "\"We just had a little tiny misunderstanding. But it's fine. We'll make up in no time.\""
+    rin "\"We just had a little tiny misunderstanding. But it's fine. We'll make up in no time.\"" id a10_cou2_02_10187801
 
     "Rin confessed, succumbing to Fumi's silent stare."
 
     show fumi z4 1 lg school h with dict_dissolve_25
 
     voice "2FU_1114B"
-    fumi "\"Do you have an idea of how to?\""
+    fumi "\"Do you have an idea of how to?\"" id a10_cou2_02_f1971e72
 
     show rin z4 1 lg school i with dict_dissolve_25
 
     voice "2RI_1320"
-    rin "\"Uhh, you know, a little fooling around and we'll be good as new. Hina's not complicated, you know?\""
+    rin "\"Uhh, you know, a little fooling around and we'll be good as new. Hina's not complicated, you know?\"" id a10_cou2_02_e3314110
 
     show fumi z4 2 lg school h with dict_dissolve_25
 
     voice "2FU_1115"
-    fumi "\"Ah...\""
+    fumi "\"Ah...\"" id a10_cou2_02_1df76782
 
     "Fumi caught on, as usual."
 
     show rin z4 2 lg school e with dict_dissolve_25
 
     voice "2RI_1321"
-    rin "\"So, sorry to spring this on you, but, you know, could you give us some time today?\""
+    rin "\"So, sorry to spring this on you, but, you know, could you give us some time today?\"" id a10_cou2_02_3b1143eb
 
     "Rin put her hands together, pleading."
 
     show fumi z4 2 lg school a with dict_dissolve_25
 
     voice "2FU_1116"
-    fumi "\"Alright. Miya—\""
+    fumi "\"Alright. Miya—\"" id a10_cou2_02_f361b67e
 
     $ side_image = "miyako 1 side school_a b"
 
     voice "2MI_1032"
-    miyako "\"Yes, I'd like to have some tea with you on the way home, Fumi.\""
+    miyako "\"Yes, I'd like to have some tea with you on the way home, Fumi.\"" id a10_cou2_02_2bb77541
 
     "With just a look from Fumi, Miyako instantly picked up on the implication."
 
     voice "2RI_1322"
-    rin "\"Thanks for doing this all the time, guys... I'm kinda embarrassed about it~\""
+    rin "\"Thanks for doing this all the time, guys... I'm kinda embarrassed about it~\"" id a10_cou2_02_97967429
 
     "Rin laughed, but it was a little strained."
 
     voice "2FU_1117"
-    fumi "\"......\""
+    fumi "\"......\"" id a10_cou2_02_789ec55d
 
     stop music fadeout 1.0
     stop sound fadeout 1.0

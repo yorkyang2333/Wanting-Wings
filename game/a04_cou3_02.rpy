@@ -16,20 +16,20 @@ label a04_cou3_02:
     with Dissolve(0.25)
 
     voice "RIN_1271"
-    rin "\"Chp... mmh... ah...\""
+    rin "\"Chp... mmh... ah...\"" id a04_cou3_02_37d113fc
 
     voice "FUM_1096"
-    fumi "\"Mmh... anh... nah... chp...\""
+    fumi "\"Mmh... anh... nah... chp...\"" id a04_cou3_02_74ef965e
 
     "Their saliva mixed noisily."
 
     "The sound was even more pronounced due to the emptiness of the classroom."
 
     voice "RIN_1272"
-    rin "\"Mhh... mm... hwah... ahh...\""
+    rin "\"Mhh... mm... hwah... ahh...\"" id a04_cou3_02_362727b9
 
     voice "FUM_1097"
-    fumi "\"Haah... mmh...\""
+    fumi "\"Haah... mmh...\"" id a04_cou3_02_979c742e
 
     "Their lips finally separated when they ran out of breath."
 
@@ -45,7 +45,7 @@ label a04_cou3_02:
         easein 0.25 xcenter 772
 
     voice "RIN_1273"
-    rin "\"Amh... that was close.\""
+    rin "\"Amh... that was close.\"" id a04_cou3_02_f5a28182
 
     show fumi 2 lg school h:
         xcenter 252
@@ -58,61 +58,61 @@ label a04_cou3_02:
     show fumi 2 lg school d with dict_dissolve_25
 
     voice "FUM_1098"
-    fumi "\"Haahh... what was?\""
+    fumi "\"Haahh... what was?\"" id a04_cou3_02_88b64efd
 
     "Fumi asked, also catching her breath."
 
     show rin 1 lg school c with dict_dissolve_25
 
     voice "RIN_1274"
-    rin "\"...Any more and I wouldn't be able to stop.\""
+    rin "\"...Any more and I wouldn't be able to stop.\"" id a04_cou3_02_ee879dd1
 
     show fumi 2 lg school g with dict_dissolve_25
 
     voice "FUM_1099"
-    fumi "\"I suppose you're right, then. There isn't a meeting or anything today.\""
+    fumi "\"I suppose you're right, then. There isn't a meeting or anything today.\"" id a04_cou3_02_8a29db69
 
     show rin 1 lg school g with dict_dissolve_25
 
     voice "RIN_1275"
-    rin "\"Yeah. If Hina saw this...\""
+    rin "\"Yeah. If Hina saw this...\"" id a04_cou3_02_fb99beb1
 
     "Rin shrugged anxiously."
 
     show fumi 1 lg school d with dict_dissolve_25
 
     voice "FUM_1100"
-    fumi "\"She surprised me last night.\""
+    fumi "\"She surprised me last night.\"" id a04_cou3_02_53483ef0
 
     show rin 1 lg school a with dict_dissolve_25
 
     voice "RIN_1276"
-    rin "\"Yeah. She can be sharp sometimes... Call it animal instinct, I guess.\""
+    rin "\"Yeah. She can be sharp sometimes... Call it animal instinct, I guess.\"" id a04_cou3_02_d84a9602
 
     show fumi 1 lg school h with dict_dissolve_25
 
     voice "FUM_1101"
-    fumi "\"I feel kind of bad, though.\""
+    fumi "\"I feel kind of bad, though.\"" id a04_cou3_02_8e478a13
 
     show rin 1 lg school b with dict_dissolve_25
 
     voice "RIN_1277"
-    rin "\"I do feel a little guilty about keeping it to ourselves, but I don't really have the courage to say anything right now...\""
+    rin "\"I do feel a little guilty about keeping it to ourselves, but I don't really have the courage to say anything right now...\"" id a04_cou3_02_93c42190
 
     show fumi 1 lg school d with dict_dissolve_25
 
     voice "FUM_1102"
-    fumi "\"She is a little strait-laced about these things...\""
+    fumi "\"She is a little strait-laced about these things...\"" id a04_cou3_02_db75a104
 
     show rin 1 lg school c with dict_dissolve_25
 
     voice "RIN_1278"
-    rin "\"Yeah. Well, if it comes to it, we'll just have to elope.\""
+    rin "\"Yeah. Well, if it comes to it, we'll just have to elope.\"" id a04_cou3_02_5cacb671
 
     show fumi 1 lg school k with dict_dissolve_25
 
     voice "FUM_1103"
-    fumi "\"Elope...\""
+    fumi "\"Elope...\"" id a04_cou3_02_decde26c
 
     "Fumi's face was sorrowful."
 
@@ -121,7 +121,7 @@ label a04_cou3_02:
         ShakeJump
 
     voice "RIN_1279"
-    rin "\"Oh, that was a joke. I was just joking.\""
+    rin "\"Oh, that was a joke. I was just joking.\"" id a04_cou3_02_20d72344
 
     show rin 1 lg school e:
         xoffset 0 yoffset 0
@@ -129,22 +129,22 @@ label a04_cou3_02:
     show fumi 2 lg school h with dict_dissolve_25
 
     voice "FUM_1104"
-    fumi "\"Our relationship is important to me, but so is the relationship between the three of us.\""
+    fumi "\"Our relationship is important to me, but so is the relationship between the three of us.\"" id a04_cou3_02_042f6905
 
     show rin 1 lg school h with dict_dissolve_25
 
     voice "RIN_1280"
-    rin "\"Hey, I agree.\""
+    rin "\"Hey, I agree.\"" id a04_cou3_02_40464626
 
     show rin 1 lg school c with dict_dissolve_25
 
     voice "RIN_1281"
-    rin "\"We'll just have to keep our trysts secret for now.\""
+    rin "\"We'll just have to keep our trysts secret for now.\"" id a04_cou3_02_e70cb431
 
     show fumi 1 lg school i with dict_dissolve_25
 
     voice "FUM_1105"
-    fumi "\"Right...\""
+    fumi "\"Right...\"" id a04_cou3_02_5032947c
 
     "The two both sighed and smiled."
 
@@ -153,7 +153,7 @@ label a04_cou3_02:
     with dict_dissolve_25
 
     voice "RIN_1282a"
-    rin "\"Asou...\""
+    rin "\"Asou...\"" id a04_cou3_02_777e4606
 
     "Rin cupped Fumi's face and was about to kiss her again when—"
 
@@ -172,7 +172,7 @@ label a04_cou3_02:
         easein 0.5 alpha 1.0 xcenter 512
 
     voice "HIN_1492"
-    hina "\"I'm back!\""
+    hina "\"I'm back!\"" id a04_cou3_02_802f2660
 
     show hina 1 lg school c:
         alpha 1.0 xcenter 512
@@ -186,7 +186,7 @@ label a04_cou3_02:
         ShakeSide
 
     voice "FUM_1106"
-    fumi "\"Awawa.\""
+    fumi "\"Awawa.\"" id a04_cou3_02_9f2e8b6c
 
     show fumi:
         xoffset 0 yoffset 0
@@ -196,7 +196,7 @@ label a04_cou3_02:
         ShakeTameiki
 
     voice "RIN_1283"
-    rin "\"Seriously... speak of the devil.\""
+    rin "\"Seriously... speak of the devil.\"" id a04_cou3_02_bc0e12d0
 
     show rin 1 lg school g:
         xoffset 0 yoffset 0
@@ -207,7 +207,7 @@ label a04_cou3_02:
     show hina 1 lg school e with dict_dissolve_25
 
     voice "HIN_1493"
-    hina "\"What, were you badmouthing me again?!\""
+    hina "\"What, were you badmouthing me again?!\"" id a04_cou3_02_4e587cc5
 
     show fumi 1 lg school d
     show rin 1 lg school i

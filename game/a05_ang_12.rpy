@@ -19,31 +19,31 @@ label a05_ang_12:
     scene ev02b_grayscale with bg_effect_08_1000
 
     voice "FUM_0605"
-    fumi "\"...The truth is, I didn't need the feather anymore.\""
+    fumi "\"...The truth is, I didn't need the feather anymore.\"" id a05_ang_12_4a84158a
 
     voice "FUM_0606"
-    fumi "\"Since you said you'd believe with me.\""
+    fumi "\"Since you said you'd believe with me.\"" id a05_ang_12_f94b21b5
 
     voice "FUM_0607"
-    fumi "\"I still believe in angels. But not the ones I can't see or touch... I believe because of what's in front of me.\""
+    fumi "\"I still believe in angels. But not the ones I can't see or touch... I believe because of what's in front of me.\"" id a05_ang_12_9e435c9b
 
     voice "FUM_0608"
-    fumi "\"I think this feather really must be yours, Hina. To me, you're—\""
+    fumi "\"I think this feather really must be yours, Hina. To me, you're—\"" id a05_ang_12_a9296afb
 
     voice "HIN_0799"
-    hina "\"Nnh...\""
+    hina "\"Nnh...\"" id a05_ang_12_a269c1be
 
     voice "FUM_0609"
-    fumi "\"...I'll go change your towel.\""
+    fumi "\"...I'll go change your towel.\"" id a05_ang_12_5c666c5b
 
     voice "FUM_0610"
-    fumi "\"......\""
+    fumi "\"......\"" id a05_ang_12_2b750312
 
     voice "FUM_0612"
-    fumi "\"...She's burning up.\""
+    fumi "\"...She's burning up.\"" id a05_ang_12_75e4f180
 
     voice "HIN_0801"
-    hina "\"...You'll catch my cold...\""
+    hina "\"...You'll catch my cold...\"" id a05_ang_12_c9c7454e
 
     play sound se_bati
 
@@ -60,19 +60,19 @@ label a05_ang_12:
     show rin 2 lg pyjama glasses a grayscale with Dissolve(0.25)
 
     voice "RIN_0741"
-    rin "\"...Hina, do you...\""
+    rin "\"...Hina, do you...\"" id a05_ang_12_ead5b749
 
     show rin 1 lg pyjama glasses h grayscale with dict_dissolve_25
 
     voice "RIN_0742"
-    rin "\"Like me?\""
+    rin "\"Like me?\"" id a05_ang_12_12a6ae99
 
     play sound se115a
 
     $ side_image = "side/hina_2_side_pyjama_headphones_j_grayscale.webp"
 
     voice "HIN_0920"
-    hina "\"I do!!\""
+    hina "\"I do!!\"" id a05_ang_12_500eab55
 
     show rin:
         "rin 1 lg pyjama glasses j grayscale" with Dissolve(0.25)
@@ -80,7 +80,7 @@ label a05_ang_12:
     $ persistent.layer_shaken = False
 
     voice "RIN_0743"
-    rin "\"Wah?!\""
+    rin "\"Wah?!\"" id a05_ang_12_cfb1c8aa
 
     show rin 1 lg pyjama glasses j grayscale:
         xoffset 0 yoffset 0
@@ -101,39 +101,39 @@ label a05_ang_12:
     with Dissolve(0.25)
 
     voice "RIN_0837"
-    rin "\"Do you actually want to keep going from where we stopped yesterday?\""
+    rin "\"Do you actually want to keep going from where we stopped yesterday?\"" id a05_ang_12_198f7a70
 
     voice "FUM_0744"
-    fumi "\"......\""
+    fumi "\"......\"" id a05_ang_12_03fea6db
 
     show rin:
         "rin 1 lg pyjama glasses j grayscale" with Dissolve(0.25)
         ShakeSide
 
     voice "RIN_0838"
-    rin "\"I-If you don't... you can tell me. I know I can get carried away...\""
+    rin "\"I-If you don't... you can tell me. I know I can get carried away...\"" id a05_ang_12_28076461
 
     show rin 1 lg pyjama glasses j grayscale:
         xoffset 0 yoffset 0
     with None
 
     voice "FUM_0745"
-    fumi "\"I do... want to keep going.\""
+    fumi "\"I do... want to keep going.\"" id a05_ang_12_3606504d
 
     show rin 1 lg pyjama glasses c grayscale with dict_dissolve_25
 
     voice "RIN_0839"
-    rin "\"...Okay.\""
+    rin "\"...Okay.\"" id a05_ang_12_4f5ebf50
 
     show fumi 2 lg pyjama b grayscale with dict_dissolve_25
 
     voice "FUM_0746"
-    fumi "\"If we get the chance...\""
+    fumi "\"If we get the chance...\"" id a05_ang_12_4c34a538
 
     show rin 1 lg pyjama glasses b grayscale with dict_dissolve_25
 
     voice "RIN_0840"
-    rin "\"Right... if we get the chance.\""
+    rin "\"Right... if we get the chance.\"" id a05_ang_12_8e747eab
 
     play sound se_bati
 
@@ -191,13 +191,13 @@ label a05_ang_12:
     pause 1.625
 
     voice "2SA_0038"
-    sachiko "\"We're not the type of angel with a little bow and arrow, unfortunately. We have no power to begin or end a romance.\""
+    sachiko "\"We're not the type of angel with a little bow and arrow, unfortunately. We have no power to begin or end a romance.\"" id a05_ang_12_ba6fcfbd
 
     voice "SYO_0221"
-    sachiko "\"It's all chance. Change the world? Observers can't do that. It's rude to human will to even think it.\""
+    sachiko "\"It's all chance. Change the world? Observers can't do that. It's rude to human will to even think it.\"" id a05_ang_12_c8a28960
 
     voice "SYO_0222"
-    sachiko "\"No matter what box you open, the cats inside are living happily.\""
+    sachiko "\"No matter what box you open, the cats inside are living happily.\"" id a05_ang_12_6224472b
 
     scene bg08aa_grayscale with Dissolve(0.375)
     pause 1.625

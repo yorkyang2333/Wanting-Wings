@@ -10,12 +10,12 @@ label a04_cou1_06:
     with Dissolve(0.25)
 
     voice "HIN_1159"
-    hina "\"Oh, I'm gonna jump, so hold it down, okay?\""
+    hina "\"Oh, I'm gonna jump, so hold it down, okay?\"" id a04_cou1_06_4e894c57
 
     show fumi 1 school c with dict_dissolve_25
 
     voice "FUM_0981"
-    fumi "\"Okay!\""
+    fumi "\"Okay!\"" id a04_cou1_06_3312ec1f
 
     show hina 1 school f with Dissolve(0.25)
     show hina:
@@ -24,7 +24,7 @@ label a04_cou1_06:
         ShakeJump2
 
     voice "HIN_1160"
-    hina "\"Hup, up, there!\""
+    hina "\"Hup, up, there!\"" id a04_cou1_06_e7dcbadf
 
     show hina:
         xoffset 0 yoffset 0
@@ -38,17 +38,17 @@ label a04_cou1_06:
     show hina 2 lg school f with dict_dissolve_25
 
     voice "HIN_1161"
-    hina "\"That's it, right?\""
+    hina "\"That's it, right?\"" id a04_cou1_06_5cb6b433
 
     show fumi 1 lg school b with dict_dissolve_25
 
     voice "FUM_0982"
-    fumi "\"Yep. Good work.\""
+    fumi "\"Yep. Good work.\"" id a04_cou1_06_eb739a80
 
     show fumi 2 lg school b with dict_dissolve_25
 
     voice "FUM_0983a"
-    fumi "\"If only Ogata were here, too.\""
+    fumi "\"If only Ogata were here, too.\"" id a04_cou1_06_2671f60a
 
     "Since she's tall."
 
@@ -59,7 +59,7 @@ label a04_cou1_06:
 
 
     voice "HIN_1162"
-    hina "\"Yeah, but then we couldn't be alone.\""
+    hina "\"Yeah, but then we couldn't be alone.\"" id a04_cou1_06_26441139
 
     show hina 2 lg school g:
         xcenter 662
@@ -70,7 +70,7 @@ label a04_cou1_06:
         easein 0.5 xcenter 362
 
     voice "FUM_0984"
-    fumi "\"Heheh, I suppose that's true.\""
+    fumi "\"Heheh, I suppose that's true.\"" id a04_cou1_06_3cacae8f
 
     show fumi 2 lg school i:
         xcenter 362
@@ -109,7 +109,7 @@ label rp_scene04_end:
         $ side_image = "hina 1 side znd l"
 
     voice "HIN_1193"
-    hina "\"Wah! You're so cute, Fumi!\""
+    hina "\"Wah! You're so cute, Fumi!\"" id rp_scene04_end_f38393a8
 
     "Hina exclaimed, seeing Fumi wrapped up in the curtain."
 
@@ -117,7 +117,7 @@ label rp_scene04_end:
         $ side_image = "hina 1 side znd c"
 
     voice "HIN_1194"
-    hina "\"It's like a princess dress!\""
+    hina "\"It's like a princess dress!\"" id rp_scene04_end_b85b9406
 
     "Now that she mentioned it, it did sort of look like a mermaid-style dress."
 
@@ -125,13 +125,13 @@ label rp_scene04_end:
         $ side_image = "fumi 2 side curtain g"
 
     voice "FUM_1015"
-    fumi "\"I just wrapped the curtain around myself.\" "
+    fumi "\"I just wrapped the curtain around myself.\" " id rp_scene04_end_52bd69f2
 
     if persistent.dpatch:
         $ side_image = "hina 1 side znd b"
 
     voice "HIN_1195"
-    hina "\"Okay, I'm gonna do it too.\""
+    hina "\"Okay, I'm gonna do it too.\"" id rp_scene04_end_7603d30d
 
     "Hina wrapped a curtain around herself as well, but..."
 
@@ -139,7 +139,7 @@ label rp_scene04_end:
         $ side_image = "hina 1 side znd k"
 
     voice "HIN_1196"
-    hina "\"Huh? That's weird... This goes like this...?\""
+    hina "\"Huh? That's weird... This goes like this...?\"" id rp_scene04_end_85a5946d
 
     "It wasn't going as well as it had with Fumi."
 
@@ -147,7 +147,7 @@ label rp_scene04_end:
         $ side_image = "hina 2 side curtain f"
 
     voice "HIN_1197"
-    hina "\"This way?\""
+    hina "\"This way?\"" id rp_scene04_end_072e5f86
 
     "When she turned around to Fumi, it wasn't a dress she was wearing, but—"
 
@@ -155,7 +155,7 @@ label rp_scene04_end:
         $ side_image = "hina 2 side curtain h"
 
     voice "HIN_1198"
-    hina "\"This... isn't a dress, is it? It's like...\""
+    hina "\"This... isn't a dress, is it? It's like...\"" id rp_scene04_end_44256b9e
 
     "She looked like a Halloween ghost."
 
@@ -163,7 +163,7 @@ label rp_scene04_end:
         $ side_image = "fumi 2 side curtain b"
 
     voice "FUM_1016"
-    fumi "\"You must be my prince, Hina.\""
+    fumi "\"You must be my prince, Hina.\"" id rp_scene04_end_5b5f9908
 
     "Hmm, that's another way to look at it, I suppose."
 
@@ -171,31 +171,31 @@ label rp_scene04_end:
         $ side_image = "hina 2 side curtain f"
 
     voice "HIN_1199"
-    hina "\"Prince?\""
+    hina "\"Prince?\"" id rp_scene04_end_2ea9abac
 
     if persistent.dpatch:
         $ side_image = "fumi 2 side curtain c"
 
     voice "FUM_1017"
-    fumi "\"Yes. It looks like a cape. It's very cool.\""
+    fumi "\"Yes. It looks like a cape. It's very cool.\"" id rp_scene04_end_1d4c6e59
 
     if persistent.dpatch:
         $ side_image = "hina 2 side curtain b"
 
     voice "HIN_1200"
-    hina "\"Even though I'm a girl?\""
+    hina "\"Even though I'm a girl?\"" id rp_scene04_end_7d6b8738
 
     if persistent.dpatch:
         $ side_image = "fumi 2 side curtain d"
 
     voice "FUM_1018"
-    fumi "\"Ah...\""
+    fumi "\"Ah...\"" id rp_scene04_end_acc4de44
 
     if persistent.dpatch:
         $ side_image = "hina 2 side curtain g"
 
     voice "HIN_1201"
-    hina "\"That's okay. I'll let you be the princess, Fumi.\""
+    hina "\"That's okay. I'll let you be the princess, Fumi.\"" id rp_scene04_end_6ef42057
 
     "Hina smiled toothily."
 
@@ -203,7 +203,7 @@ label rp_scene04_end:
         $ side_image = "hina 2 side curtain c"
 
     voice "HIN_1202"
-    hina "\"If I can be with the princess forever, then I'll be a prince.\""
+    hina "\"If I can be with the princess forever, then I'll be a prince.\"" id rp_scene04_end_9c50cf40
 
     "She said, reaching a hand out to Fumi."
 
@@ -211,7 +211,7 @@ label rp_scene04_end:
         $ side_image = "fumi 2 side curtain h"
 
     voice "FUM_1019"
-    fumi "\"Hina...\""
+    fumi "\"Hina...\"" id rp_scene04_end_7580f081
 
     "They gazed at each other for a short while, and Fumi took her hand reverently."
 
@@ -219,7 +219,7 @@ label rp_scene04_end:
         $ side_image = "fumi 2 side curtain c"
 
     voice "FUM_1020"
-    fumi "\"We can keep dreaming for a little longer, can't we?\""
+    fumi "\"We can keep dreaming for a little longer, can't we?\"" id rp_scene04_end_b94fd230
 
     "Hina nodded and pulled Fumi upright."
 
@@ -227,13 +227,13 @@ label rp_scene04_end:
         $ side_image = "hina 2 side curtain c"
 
     voice "HIN_1203"
-    hina "\"Together...\""
+    hina "\"Together...\"" id rp_scene04_end_0431d26f
 
     if persistent.dpatch:
         $ side_image = "fumi 2 side curtain i"
 
     voice "FUM_1021"
-    fumi "\"...Forever.\""
+    fumi "\"...Forever.\"" id rp_scene04_end_3d544a7e
 
     "They smiled in the glittering light of the afternoon. In this moment, they were a picture-perfect prince and princess."
 

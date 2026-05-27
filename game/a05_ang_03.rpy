@@ -28,26 +28,26 @@ label a05_ang_03:
     show sachiko 1 grayscale lg outfit c with Dissolve(0.25)
 
     voice "SYO_0187"
-    sachiko "\"It really is the middle of nowhere out here. Mountains in every direction...\""
+    sachiko "\"It really is the middle of nowhere out here. Mountains in every direction...\"" id a05_ang_03_d0f840e1
 
     "There was someone else up on the roof, too. One woman, facing a canvas on an easel."
 
     show sachiko 1 grayscale lg outfit b with dict_dissolve_25
 
     voice "SYO_0188"
-    sachiko "\"A cute girl right around here on the canvas would really bring this whole picture together...\""
+    sachiko "\"A cute girl right around here on the canvas would really bring this whole picture together...\"" id a05_ang_03_5444cbd2
 
     "She was muttering to herself all the while as she moved her brush."
 
     show sachiko 1 grayscale lg outfit c with dict_dissolve_25
 
     voice "SYO_0189"
-    sachiko "\"No... If anything, I'd prefer to make the girl the subject... have the scenery in the background... Or just get rid of the scenery altogether... just give the whole space to the girl...\""
+    sachiko "\"No... If anything, I'd prefer to make the girl the subject... have the scenery in the background... Or just get rid of the scenery altogether... just give the whole space to the girl...\"" id a05_ang_03_8a35928c
 
     show sachiko 1 grayscale lg outfit j with dict_dissolve_25
 
     voice "SYO_0190"
-    sachiko "\"I want to draw a cute girl in the nuuude!!\""
+    sachiko "\"I want to draw a cute girl in the nuuude!!\"" id a05_ang_03_327d6f16
 
     "...She seems to be a bit of a unique person."
 
@@ -86,7 +86,7 @@ label a05_ang_03:
     show sachiko 1 grayscale lg outfit i with dict_dissolve_25
 
     voice "SYO_0191"
-    sachiko "\"I can't see you, but you're there, aren't you? I've been {i}sensing{/i} you all this time.\""
+    sachiko "\"I can't see you, but you're there, aren't you? I've been {i}sensing{/i} you all this time.\"" id a05_ang_03_4ea1b006
 
     "Huh?"
 
@@ -97,7 +97,7 @@ label a05_ang_03:
     show sachiko 1 grayscale lg outfit g with dict_dissolve_25
 
     voice "SYO_0192"
-    sachiko "\"What do you think? Pretty good, right?\""
+    sachiko "\"What do you think? Pretty good, right?\"" id a05_ang_03_0734cebc
 
     "She boasted to me."
 
@@ -106,12 +106,12 @@ label a05_ang_03:
     show sachiko 1 grayscale lg outfit a with dict_dissolve_25
 
     voice "SYO_0193"
-    sachiko "\"The mountains are just bursting with color this time of year.\""
+    sachiko "\"The mountains are just bursting with color this time of year.\"" id a05_ang_03_039733b3
 
     "Autumn colors... I do know of the phenomenon."
 
     voice "SYO_0194"
-    sachiko "\"Color is great. Look at all this paint I have.\""
+    sachiko "\"Color is great. Look at all this paint I have.\"" id a05_ang_03_947e61f3
 
     "She picked up her box of paints and held it out in my direction."
 
@@ -120,7 +120,7 @@ label a05_ang_03:
     "I peered at the various tubes of paint in the box. But, without color as I was, they were nothing but a dull gradient of black to grey to white."
 
     voice "SYO_0195"
-    sachiko "\"How many shades of green do you think there are? Emerald, parrot, viridian, turquoise, lime, jade, evergreen, viridian...\""
+    sachiko "\"How many shades of green do you think there are? Emerald, parrot, viridian, turquoise, lime, jade, evergreen, viridian...\"" id a05_ang_03_f75e3947
 
     "She said viridian twice."
 
@@ -131,7 +131,7 @@ label a05_ang_03:
     show sachiko 1 grayscale lg outfit g with dict_dissolve_25
 
     voice "SYO_0196"
-    sachiko "\"I'll teach you to paint if you join me.\""
+    sachiko "\"I'll teach you to paint if you join me.\"" id a05_ang_03_ac366626
 
     "{i}Join{/i} her?"
 
@@ -162,37 +162,37 @@ label a05_ang_03:
     play music bgm02
 
     voice "HIN_1545"
-    hina "\"Who the heck are you talking to, Sachiko?\""
+    hina "\"Who the heck are you talking to, Sachiko?\"" id a05_ang_03_a24d0fba
 
     show sachiko 1 grayscale sm outfit f with dict_dissolve_25
 
     voice "SYO_0197"
-    sachiko "\"Why, the universe, of course.\""
+    sachiko "\"Why, the universe, of course.\"" id a05_ang_03_6290af76
 
     show rin 1 sm school g grayscale with dict_dissolve_25
 
     voice "RIN_1483"
-    rin "\"Geez. You scare me sometimes.\""
+    rin "\"Geez. You scare me sometimes.\"" id a05_ang_03_5d136815
 
     show sachiko 1 grayscale sm outfit e with dict_dissolve_25
 
     voice "SYO_0198"
-    sachiko "\"Anyway, did you think about that modeling job? I'll pay. And I'll throw in an extra 8,000 if you do it nude!\""
+    sachiko "\"Anyway, did you think about that modeling job? I'll pay. And I'll throw in an extra 8,000 if you do it nude!\"" id a05_ang_03_955f1941
 
     show fumi 1 sm school d grayscale with dict_dissolve_25
 
     voice "FUM_1305"
-    fumi "\"I don't know about that...\""
+    fumi "\"I don't know about that...\"" id a05_ang_03_0ed9cc90
 
     show sachiko 1 grayscale sm outfit j with dict_dissolve_25
 
     voice "SYO_0199"
-    sachiko "\"And I won't even touch you, either!\""
+    sachiko "\"And I won't even touch you, either!\"" id a05_ang_03_0e25ad16
 
     show hina 1 sm school f grayscale with dict_dissolve_25
 
     voice "HIN_1546"
-    hina "\"Yeah, obviously!\""
+    hina "\"Yeah, obviously!\"" id a05_ang_03_7869052b
 
     "........."
 

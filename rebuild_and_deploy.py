@@ -6,7 +6,7 @@ import subprocess
 import zipfile
 
 # 基础目录配置
-PROJECT_DIR = "/Applications/Wanting.Wings.v2.0"
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 SDK_DIR = "/Applications/renpy-8.5.2-sdk"
 LAUNCHER_SH = os.path.join(SDK_DIR, "renpy.sh")
 DIST_DIR = os.path.join(PROJECT_DIR, "dist")
@@ -88,8 +88,7 @@ def build_desktop_packages():
     run_cmd([LAUNCHER_SH, os.path.join(SDK_DIR, "launcher"), "distribute", PROJECT_DIR])
     print("-> distribute finished. Now collecting built packages from default output directory...")
     
-    # 自动把默认生成在 /Applications/WantingWings-2.0-dists 里的所有文件移动到 dist/ 目录下
-    default_dist_dir = "/Applications/WantingWings-2.0-dists"
+    default_dist_dir = os.path.join(os.path.dirname(PROJECT_DIR), "WantingWings-2.0-dists")
     if os.path.exists(default_dist_dir):
         for f in os.listdir(default_dist_dir):
             src_file = os.path.join(default_dist_dir, f)
@@ -105,7 +104,7 @@ def build_desktop_packages():
         except Exception:
             pass
     else:
-        print("[WARNING] Could not find default dist output directory: /Applications/WantingWings-2.0-dists")
+        print(f"[WARNING] Could not find default dist output directory: {default_dist_dir}")
         
     print("-> All Desktop packages (including Linux Patched) successfully collected in local dist/ folder!")
 
@@ -140,7 +139,7 @@ def extract_rpa_for_android():
 def isolate_loose_assets(backup=True):
     # 这是最硬核的一步，临时移动散碎文件夹以优化 Android 打包
     loose_dirs = ["images", "audio", "gui", "voice"]
-    backup_root = os.path.join(os.path.dirname(PROJECT_DIR), "Wanting.Wings.v2.0_assets_backup")
+    backup_root = os.path.join(os.path.dirname(PROJECT_DIR), f"{os.path.basename(PROJECT_DIR)}_assets_backup")
     
     if backup:
         print("\n=== [6a] Isolating 14,000+ loose assets to avoid Android IO penalty ===")
@@ -200,7 +199,7 @@ def build_android_apks():
         if f.endswith("_d.rpy") or f.endswith("_d.rpyc") or "dpatch" in f:
             dpatch_files.append(f)
             
-    dpatch_backup_dir = os.path.join(os.path.dirname(PROJECT_DIR), "Wanting.Wings.v2.0_dpatch_backup")
+    dpatch_backup_dir = os.path.join(os.path.dirname(PROJECT_DIR), f"{os.path.basename(PROJECT_DIR)}_dpatch_backup")
     os.makedirs(dpatch_backup_dir, exist_ok=True)
     
     for df in dpatch_files:
@@ -223,7 +222,7 @@ def build_android_apks():
     if not found_apk:
         raise FileNotFoundError("Could not find the standard APK built!")
         
-    standard_apk_name = os.path.join(build_dest, "com.wantingwings.game-2.0-release.apk")
+    standard_apk_name = os.path.join(build_dest, "WantingWings-2.0-android.apk")
     if os.path.exists(standard_apk_name):
         os.remove(standard_apk_name)
     shutil.move(found_apk, standard_apk_name)

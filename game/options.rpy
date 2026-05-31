@@ -2,8 +2,11 @@ define config.name = _("Wanting Wings")
 define gui.show_name = True
 define config.version = "2.0"
 define build.name = "WantingWings"
+define build.executable_name = "Wanting Wings"
 define build.mac_info = {
-    "CFBundleIdentifier": "com.yorkyang2333.wantingwings"
+    "CFBundleIdentifier": "com.yorkyang2333.wantingwings",
+    "CFBundleName": "Wanting Wings",
+    "CFBundleDisplayName": "Wanting Wings"
 }
 
 define config.has_sound = True
@@ -97,7 +100,7 @@ init python:
     build.package('pc-patched','zip',file_lists=['dpatch','all','renpy','windows','linux'])
     build.package('mac-patched','app-zip',file_lists=['dpatch','all','renpy','mac'])
     build.package('linux-patched','tar.bz2',file_lists=['dpatch','all','renpy','linux'])
-    build.package('android-patched','directory',file_lists=['dpatch','android','all'])
+    build.package('android-patched','directory',file_lists=['assets_dpatch', 'script_dpatch', 'dpatch', 'android', 'all'])
 
 
 
@@ -130,10 +133,15 @@ init python:
     build.archive('images')
     build.archive('gui')
     build.archive('audio')
-    build.archive('script')
     build.archive('assets_dpatch','dpatch')
     build.archive('script_dpatch','dpatch')
 
+    # Classify generated RPA archives so they follow package rules if placed back in game/
+    build.classify('game/images.rpa', 'all')
+    build.classify('game/gui.rpa', 'all')
+    build.classify('game/audio.rpa', 'all')
+    build.classify('game/assets_dpatch.rpa', 'dpatch')
+    build.classify('game/script_dpatch.rpa', 'dpatch')
 
     build.classify('game/images/rin/rin_3**znd**.webp','images')
 
@@ -165,10 +173,7 @@ init python:
     build.classify('**/*.ttf','images')
     build.classify('**/*.webp','images')
     build.classify('**/*.opus','audio')
-    build.classify('**/*_ren.py','script')
     build.classify('**/*.py',None) 
-    build.classify('**/*.rpyc','script')
-    build.classify('**/*.rpym','script')
 
     build.documentation('*.html')
     build.documentation('*.rtf')

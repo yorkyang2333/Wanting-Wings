@@ -109,73 +109,17 @@ def build_desktop_packages():
     print("-> All Desktop packages (including Linux Patched) successfully collected in local dist/ folder!")
 
 
-def extract_rpa_for_android():
-    print("\n=== [5] Extracting compiled RPA archives for Android optimization ===")
-    pc_zip_path = os.path.join(DIST_DIR, "WantingWings-2.0-pc-patched.zip")
-    if not os.path.exists(pc_zip_path):
-        raise FileNotFoundError(f"Could not find pc-patched.zip at {pc_zip_path} to extract RPA assets!")
-
-    temp_extract_dir = os.path.join(DIST_DIR, "_temp_extract")
-    os.makedirs(temp_extract_dir, exist_ok=True)
-    
-    with zipfile.ZipFile(pc_zip_path, 'r') as zip_ref:
-        for file_info in zip_ref.infolist():
-            if file_info.filename.endswith(".rpa"):
-                # 获取文件名并解压
-                basename = os.path.basename(file_info.filename)
-                if "script" in basename:
-                    print(f"-> Skipping script archive to avoid duplicate script load conflict: {basename}")
-                    continue
-                target_path = os.path.join(GAME_DIR, basename)
-                
-                # 解压并拷贝到 game/ 目录下
-                print(f"-> Extracting {basename} to game/")
-                with zip_ref.open(file_info.filename) as source, open(target_path, 'wb') as target:
-                    shutil.copyfileobj(source, target)
-                    
-    shutil.rmtree(temp_extract_dir)
-    print("-> All RPA files successfully mounted to local game/ folder!")
-
-def isolate_loose_assets(backup=True):
-    # 这是最硬核的一步，临时移动散碎文件夹以优化 Android 打包
-    loose_dirs = ["images", "audio", "gui", "voice"]
-    backup_root = os.path.join(os.path.dirname(PROJECT_DIR), f"{os.path.basename(PROJECT_DIR)}_assets_backup")
-    
-    if backup:
-        print("\n=== [6a] Isolating 14,000+ loose assets to avoid Android IO penalty ===")
-        os.makedirs(backup_root, exist_ok=True)
-        for d in loose_dirs:
-            src = os.path.join(GAME_DIR, d)
-            dst = os.path.join(backup_root, d)
-            if os.path.exists(src):
-                print(f"-> Moving loose {d}/ to backup directory")
-                shutil.move(src, dst)
-        print("-> Loose files successfully isolated. Development directory is now ultra-clean!")
-    else:
-        print("\n=== [6b] Restoring loose assets back to development directory ===")
-        for d in loose_dirs:
-            src = os.path.join(backup_root, d)
-            dst = os.path.join(GAME_DIR, d)
-            if os.path.exists(src):
-                print(f"-> Moving back {d}/ to game/")
-                if os.path.exists(dst):
-                    shutil.rmtree(dst)
-                shutil.move(src, dst)
-        if os.path.exists(backup_root):
-            shutil.rmtree(backup_root)
-        print("-> Development directory fully restored!")
 
 def build_android_apks():
     print("\n=== [7] Building Dual Android APKs (Patched & Standard) ===")
     
-    # 临时备份 dist 目录下的 APK 以免被覆盖
     build_dest = os.path.join(PROJECT_DIR, "dist")
+    apk_pattern = "com.yorkyang2333.wantingwings"
     
     # (1) 构建 安卓补丁完整版 APK (WantingWings-2.0-android-patched.apk)
     print("\n>>> Building Android PATCHED APK (with all dpatch files)...")
-    run_cmd([LAUNCHER_SH, os.path.join(SDK_DIR, "launcher"), "android_build", PROJECT_DIR, "--destination", build_dest])
+    run_cmd([LAUNCHER_SH, os.path.join(SDK_DIR, "launcher"), "android_build", PROJECT_DIR, "--destination", build_dest, "--package", "android-patched"])
     
-    apk_pattern = "com.yorkyang2333.wantingwings"
     found_apk = None
     for f in os.listdir(build_dest):
         if f.startswith(apk_pattern) and f.endswith(".apk"):
@@ -191,27 +135,9 @@ def build_android_apks():
     shutil.move(found_apk, patched_apk_name)
     print(f"-> SUCCESSFULLY built Patched APK: {patched_apk_name}")
 
-    # (2) 构建 安卓标准版 APK (com.yorkyang2333.wantingwings-2.0-release.apk)
-    print("\n>>> Preparing environment for Android STANDARD APK...")
-    # 动态查找并临时移除所有 dpatch 和 _d.rpy/rpyc 文件以构建标准版
-    dpatch_files = []
-    for f in os.listdir(GAME_DIR):
-        if f.endswith("_d.rpy") or f.endswith("_d.rpyc") or "dpatch" in f:
-            dpatch_files.append(f)
-            
-    dpatch_backup_dir = os.path.join(os.path.dirname(PROJECT_DIR), f"{os.path.basename(PROJECT_DIR)}_dpatch_backup")
-    os.makedirs(dpatch_backup_dir, exist_ok=True)
-    
-    for df in dpatch_files:
-        src = os.path.join(GAME_DIR, df)
-        dst = os.path.join(dpatch_backup_dir, df)
-        if os.path.exists(src):
-            print(f"-> Moving {df} out of game/")
-            shutil.move(src, dst)
-            
-    # 启动构建标准版 APK
+    # (2) 构建 安卓标准版 APK
     print("\n>>> Building Android STANDARD APK (without dpatch)...")
-    run_cmd([LAUNCHER_SH, os.path.join(SDK_DIR, "launcher"), "android_build", PROJECT_DIR, "--destination", build_dest])
+    run_cmd([LAUNCHER_SH, os.path.join(SDK_DIR, "launcher"), "android_build", PROJECT_DIR, "--destination", build_dest, "--package", "android"])
     
     found_apk = None
     for f in os.listdir(build_dest):
@@ -228,24 +154,7 @@ def build_android_apks():
     shutil.move(found_apk, standard_apk_name)
     print(f"-> SUCCESSFULLY built Standard APK: {standard_apk_name}")
 
-    # 恢复 dpatch 文件
-    print("\n>>> Restoring dpatch files to local folder...")
-    for df in dpatch_files:
-        src = os.path.join(dpatch_backup_dir, df)
-        dst = os.path.join(GAME_DIR, df)
-        if os.path.exists(src):
-            shutil.move(src, dst)
-    shutil.rmtree(dpatch_backup_dir)
 
-def cleanup_temporary_rpa():
-    print("\n=== [8] Cleaning up temporary RPA files in development directory ===")
-    rpa_files = ["assets_dpatch.rpa", "audio.rpa", "gui.rpa", "images.rpa", "script.rpa", "script_dpatch.rpa"]
-    for rf in rpa_files:
-        path = os.path.join(GAME_DIR, rf)
-        if os.path.exists(path):
-            print(f"-> Deleting temporary {rf}")
-            os.remove(path)
-    print("-> Temporary RPA files clean-up completed.")
 
 def redeploy_github_release():
     print("\n=== [9] Uploading 11 premium assets to GitHub Release v2.0 ===")
@@ -291,9 +200,6 @@ def main():
     print("=========================================================")
     
     try:
-        # Step 0: 清理上次残留的临时 .rpa 文件，确保干净的开发环境
-        cleanup_temporary_rpa()
-        
         # Step 1: 生成全套自定义图标
         generate_icons()
         
@@ -303,23 +209,11 @@ def main():
         # Step 3: 分发打包桌面端 (这会自动把散装文件编译进 dist/ 里的 RPA 压缩包中)
         build_desktop_packages()
         
-        # Step 4: 临时把打好的完美官方 RPA 大文件取回，为 Android 极限优化做准备
-        extract_rpa_for_android()
+        # Step 4: 自动连环打包：补丁版 APK 和 标准版 APK
+        # 依靠 options.rpy 的官方 classification 规则，无需任何文件移动黑科技
+        build_android_apks()
         
-        # Step 5: 隔离 14,000+ 个碎文件，避免安卓打包产生 IO 卡顿致命伤
-        isolate_loose_assets(backup=True)
-        
-        # Step 6: 自动连环打包：补丁版 APK 和 标准版 APK
-        try:
-            build_android_apks()
-        finally:
-            # 无论 APK 打包是成功还是中途出错报错，都必须强制将碎文件还原回去，确保开发目录的完整！
-            isolate_loose_assets(backup=False)
-            
-        # Step 7: 清理临时的 .rpa 归档，恢复 Git 净洁免 LFS 开发状态
-        cleanup_temporary_rpa()
-        
-        # Step 8: 一键上架发布 GitHub v2.0，极速覆盖部署 11 大核心资产
+        # Step 5: 一键上架发布 GitHub v2.0，极速覆盖部署 11 大核心资产
         redeploy_github_release()
         
         print("\n=========================================================")

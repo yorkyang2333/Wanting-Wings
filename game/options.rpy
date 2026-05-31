@@ -2,6 +2,9 @@ define config.name = _("Wanting Wings")
 define gui.show_name = True
 define config.version = "2.0"
 define build.name = "WantingWings"
+define build.mac_info = {
+    "CFBundleIdentifier": "com.yorkyang2333.wantingwings"
+}
 
 define config.has_sound = True
 define config.has_music = True

@@ -7,7 +7,7 @@ import zipfile
 
 # 基础目录配置
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-SDK_DIR = "/Applications/renpy-8.5.2-sdk"
+SDK_DIR = "/Applications/renpy-8.5.3-sdk"
 LAUNCHER_SH = os.path.join(SDK_DIR, "renpy.sh")
 DIST_DIR = os.path.join(PROJECT_DIR, "dist")
 GAME_DIR = os.path.join(PROJECT_DIR, "game")
@@ -175,7 +175,7 @@ def build_android_apks():
     print("\n>>> Building Android PATCHED APK (with all dpatch files)...")
     run_cmd([LAUNCHER_SH, os.path.join(SDK_DIR, "launcher"), "android_build", PROJECT_DIR, "--destination", build_dest])
     
-    apk_pattern = "com.wantingwings.game"
+    apk_pattern = "com.yorkyang2333.wantingwings"
     found_apk = None
     for f in os.listdir(build_dest):
         if f.startswith(apk_pattern) and f.endswith(".apk"):
@@ -191,7 +191,7 @@ def build_android_apks():
     shutil.move(found_apk, patched_apk_name)
     print(f"-> SUCCESSFULLY built Patched APK: {patched_apk_name}")
 
-    # (2) 构建 安卓标准版 APK (com.wantingwings.game-2.0-release.apk)
+    # (2) 构建 安卓标准版 APK (com.yorkyang2333.wantingwings-2.0-release.apk)
     print("\n>>> Preparing environment for Android STANDARD APK...")
     # 动态查找并临时移除所有 dpatch 和 _d.rpy/rpyc 文件以构建标准版
     dpatch_files = []

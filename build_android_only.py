@@ -5,7 +5,7 @@ import shutil
 import subprocess
 
 PROJECT_DIR = "/Applications/Wanting.Wings.v2.0"
-SDK_DIR = "/Applications/renpy-8.5.2-sdk"
+SDK_DIR = "/Applications/renpy-8.5.3-sdk"
 LAUNCHER_SH = os.path.join(SDK_DIR, "renpy.sh")
 DIST_DIR = os.path.join(PROJECT_DIR, "dist")
 GAME_DIR = os.path.join(PROJECT_DIR, "game")
@@ -83,7 +83,7 @@ def build_android_apk(label, exclude_dpatch=False, package="android"):
 
 
 def find_built_apk(label):
-    pattern = "com.wantingwings.game"
+    pattern = "com.yorkyang2333.wantingwings"
     for f in os.listdir(DIST_DIR):
         if f.startswith(pattern) and f.endswith(".apk"):
             src = os.path.join(DIST_DIR, f)

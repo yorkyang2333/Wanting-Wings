@@ -10,7 +10,7 @@
     "name": "Wanting Wings",
     "numeric_version": 200,
     "orientation": "sensorLandscape",
-    "package": "com.wantingwings.game",
+    "package": "com.yorkyang2333.wantingwings",
     "permissions": [
         "VIBRATE",
         "INTERNET"

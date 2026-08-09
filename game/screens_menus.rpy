@@ -518,7 +518,25 @@ screen preferences():
         style "bar"
         value FieldValue(persistent,"window_opacity",1.0)
 
-    add "gui/[persistent.game]/version.webp"
+    text _("[config.name] [config.version]"):
+        style "version_info"
+        xpos 9
+        ypos 674
+        color ("#bee9bdcc" if persistent.game == "kimihane" else "#ffffffb3")
+
+    text _("Built in Ren'Py [renpy.version_only]."):
+        style "version_info"
+        xpos 9
+        ypos 697
+        color ("#bee9bdcc" if persistent.game == "kimihane" else "#ffffffb3")
+
+style version_info:
+    font "Tuffy-Regular.ttf"
+    size 18
+
+translate simplified_chinese style version_info:
+    font "2@SourceHanSans-Medium.ttc"
+    size 16
 
 screen preferences2():
     tag menu

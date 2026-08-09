@@ -3,11 +3,9 @@ define gui.show_name = True
 define config.version = "2.0"
 define build.name = "WantingWings"
 define build.executable_name = "Wanting Wings"
-define build.mac_info = {
-    "CFBundleIdentifier": "com.yorkyang2333.wantingwings",
-    "CFBundleName": "Wanting Wings",
-    "CFBundleDisplayName": "Wanting Wings"
-}
+define build.mac_info_plist["CFBundleIdentifier"] = "com.yorkyang2333.wantingwings"
+define build.mac_info_plist["CFBundleName"] = "Wanting Wings"
+define build.mac_info_plist["CFBundleDisplayName"] = "Wanting Wings"
 
 define config.has_sound = True
 define config.has_music = True

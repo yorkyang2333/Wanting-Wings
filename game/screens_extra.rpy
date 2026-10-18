@@ -505,7 +505,8 @@ screen kimihane_extra():
         bar:
             pos (325,644)
             style "bar"
-            value AudioPositionValue()
+            xmaximum 385
+            value AudioPositionValue(adjustable=True)
 
 screen kimikara_extra():
     tag menu
@@ -684,7 +685,7 @@ screen kimikara_extra():
             pos (325,644)
             style "bar"
             xmaximum 385
-            value AudioPositionValue()
+            value AudioPositionValue(adjustable=True)
 
 
 screen extra_layout(game):

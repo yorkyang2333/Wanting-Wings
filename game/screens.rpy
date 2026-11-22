@@ -208,7 +208,7 @@ screen history():
         mousewheel True
         yinitial 1.0
         has vbox
-        for i in _history_list:
+        for history_index, i in enumerate(_history_list):
             hbox:
                 if i.voice.filename:
                     imagebutton:
@@ -220,6 +220,7 @@ screen history():
                     null width 41 height 41
 
                 vbox:
+                    xsize 718
 
                     if i.show_args.get("name",i.who):
                         text i.show_args.get("name",i.who):
@@ -228,6 +229,7 @@ screen history():
                         text i.what:
                             style "say_dialogue"
                             xoffset 10
+                            xsize 704
                             first_indent i.what_args.get("first_indent",style.say_dialogue.first_indent)
                             rest_indent i.what_args.get("rest_indent",style.say_dialogue.rest_indent)
                             substitute False
@@ -235,10 +237,20 @@ screen history():
                         text i.what:
                             style "say_thought"
                             xoffset 10
+                            xsize 704
                             substitute False
 
 
                     null height 50
+
+                $ jump_icon = "gui/%s/history_jump_" % persistent.game
+                imagebutton:
+                    id ("history_jump_%d" % history_index)
+                    idle (jump_icon + "idle.webp")
+                    hover (jump_icon + "hover.webp")
+                    insensitive Transform(jump_icon + "idle.webp", alpha=0.45, matrixcolor=SaturationMatrix(0.0))
+                    alt _("Jump back")
+                    action Confirm(gui.HISTORY_JUMP, RollbackToIdentifier(getattr(i, "rollback_identifier", None)))
 
     add "gui/[persistent.game]/history_bar.webp" xpos 919 ypos 99
 

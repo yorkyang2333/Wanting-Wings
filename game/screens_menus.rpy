@@ -713,6 +713,8 @@ init python:
 
 
 
+define gui.HISTORY_JUMP = _("Jump back to this line?")
+
 screen confirm(message, yes_action, no_action):
 
 
@@ -744,10 +746,25 @@ screen confirm(message, yes_action, no_action):
         add "gui/confirm_quit.webp"
     elif message == gui.END_REPLAY:
         add "gui/confirm_extra.webp"
+    elif message == gui.HISTORY_JUMP:
+        text "[message!t]":
+            style "confirm_history_message"
+            xcenter 512
+            ycenter 334
+        key "hide_windows" action no_action
     elif message == gui.UNKNOWN_TOKEN:
         add "gui/[persistent.game]/confirm2.webp"
         add "gui/confirm_unknown_token.webp"
     elif message == gui.TRUST_TOKEN:
         add "gui/[persistent.game]/confirm2.webp"
         add "gui/confirm_trust_token.webp"
+
+style confirm_history_message is default:
+    font "Tuffy-Regular.ttf"
+    size 28
+    color "#ffffff"
+
+translate simplified_chinese style confirm_history_message:
+    font "2@SourceHanSans-Medium.ttc"
+
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
